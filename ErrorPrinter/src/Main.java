@@ -60,6 +60,7 @@ public class Main {
      * @param i basic value to stop a - theoretically - endless recursion.
      */
     public static void recursion(int i){
+        i++;
         if(i < 1000){
             recursion(i);
         }
