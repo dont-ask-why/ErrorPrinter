@@ -13,5 +13,5 @@ If the printer is not available a window is opened so you can choose a printer y
 This is neither a program you should use without understanding the code, nor is it fully implemented code. This is just a fun side project of myself.
 
 ### Fellow Contributors
-https://github.com/verobuckina
-https://github.com/danpotsdam
+[Veronica](https://github.com/verobuckina) and
+[Till](https://github.com/danpotsdam)
