@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ChooseRunConfiguration">
+      <i c="1" l="1615320610191" />
+    </e>
+    <e n="Coverage">
+      <i c="1" l="1615320462099" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1" l="1615318608463" />
+    </e>
+    <e n="Run">
+      <i c="3" l="1615320470588" />
+    </e>
+    <e n="ShowSettings">
+      <i c="8" l="1615323958939" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1615318592759" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="1" l="1615320411257" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1615320466626" />
+    </e>
+  </component>
+</application>

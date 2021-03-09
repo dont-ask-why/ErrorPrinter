@@ -1,0 +1,20 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="203.7148" until-build="203.*"/>
+  <id>de.DuckAndPlatypus.ErrorPrinterPlugin</id>
+  <name>Real Error Printer</name>
+  <vendor>Duck'n'Platypus</vendor>
+  <description>This is 40 something length description of our project.</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable instance="ErrorPrinterSettingsConfigurable" displayName="Real Error Printer"/>
+  </extensions>
+  <actions>
+    <action id="ErrorPrintAction" class="ErrorPrintAction" text="ErrorPrintAction">
+      <add-to-group group-id="Runner.View.Toolbar" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>
