@@ -9,8 +9,20 @@
     <e n="EditorBackSpace">
       <i c="2" l="1615922173924" />
     </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1615929423977" />
+    </e>
+    <e n="EditorEnter">
+      <i c="1" l="1615929416456" />
+    </e>
+    <e n="EditorRight">
+      <i c="4" l="1615929428328" />
+    </e>
+    <e n="NewClass">
+      <i c="1" l="1615929411776" />
+    </e>
     <e n="Run">
-      <i c="3" l="1615320470588" />
+      <i c="5" l="1615929480371" />
     </e>
     <e n="ShowSettings">
       <i c="28" l="1615927727794" />
@@ -19,7 +31,7 @@
       <i c="2" l="1615922161116" />
     </e>
     <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
-      <i c="1" l="1615320411257" />
+      <i c="2" l="1615929432390" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
       <i c="1" l="1615320466626" />

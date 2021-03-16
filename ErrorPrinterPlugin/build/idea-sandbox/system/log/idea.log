@@ -12511,3 +12511,429 @@ Max     duration: 50ms (it was 'Sync Project with Gradle Files action update (cl
 2021-03-16 21:49:30,071 [  48912]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 31; ProcessIOExecutorService threads: 6 
 2021-03-16 21:49:30,072 [  48913]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2021-03-16 21:49:30,074 [  48915]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:04:39,432 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-03-16 22:04:39,440 [      8]   INFO - llij.ide.gdpr.EndUserAgreement - privacy: /home/verobuckina/.local/share/JetBrains/PrivacyPolicy/Cached 
+2021-03-16 22:04:39,461 [     29]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-203.7148.57, 26 Jan 2021 03:24) 
+2021-03-16 22:04:39,461 [     29]   INFO -        #com.intellij.idea.Main - OS: Linux (5.8.0-45-generic, amd64) 
+2021-03-16 22:04:39,467 [     35]   INFO -        #com.intellij.idea.Main - JRE: 11.0.9.1+11-b1145.77 (JetBrains s.r.o.) 
+2021-03-16 22:04:39,468 [     36]   INFO -        #com.intellij.idea.Main - JVM: 11.0.9.1+11-b1145.77 (OpenJDK 64-Bit Server VM) 
+2021-03-16 22:04:39,468 [     36]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins -Didea.required.plugins.id=de.DuckAndPlatypus.ErrorPrinterPlugin -Didea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea 
+2021-03-16 22:04:39,468 [     36]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-03-16 22:04:39,468 [     36]   INFO -        #com.intellij.idea.Main - boot library path: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_9_1-linux-x64-b1145.77/jbr/lib 
+2021-03-16 22:04:39,485 [     53]   INFO -        #com.intellij.idea.Main - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config
+  idea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system
+  idea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins
+  idea.log.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/log 
+2021-03-16 22:04:39,532 [    100]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 47 ms 
+2021-03-16 22:04:39,761 [    329]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-groovy.xml 
+2021-03-16 22:04:39,761 [    329]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-detection-groovy.xml 
+2021-03-16 22:04:39,797 [    365]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Java, id=com.intellij.java, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java, version=203.7148.57) misses optional descriptor profiler-java.xml 
+2021-03-16 22:04:39,838 [    406]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (203.7148.57), Dependency Management Api for External Build Tools (203.7148.57), com.intellij.platform.images (203.7148.57), JetBrains maven model api classes (203.7148.57), JetBrains Repository Search (203.7148.57), Subversion (203.7148.57), XPathView + XSLT (203.7148.57), XSLT Debugger (203.7148.57), Smali Support (203.7148.57), Machine Learning Code Completion (203.7148.57), Configuration Script (203.7148.57), Copyright (203.7148.57), macOS Light Theme (203.7148.57), Windows 10 Light Theme (203.7148.57), Properties (203.7148.57), Gradle (203.7148.57), Gradle Dependency Updater Implementation (203.7148.57), Resource Bundle Editor (203.7148.57), Mercurial (203.7148.57), WebP Support (203.7148.57), EditorConfig (203.7148.57), Emoji Picker (203.7148.57), Terminal (203.7148.57), Git (203.7148.57), ChangeReminder (203.7148.57), Shell Script (203.7148.57), TextMate Bundles (203.7148.57), YAML (203.7148.57), Settings Repository (203.7148.57), IDE Features Trainer (203.7148.57), Java (203.7148.57), Ant (203.7148.57), Bytecode Viewer (203.7148.57), JUnit (203.7148.57), Lombok (203.7148.57), Java Internationalization (203.7148.57), UI Designer (203.7148.57), Java IDE Customization (203.7148.57), Java Stream Debugger (203.7148.57), Eclipse Interoperability (203.7148.57), Java Bytecode Decompiler (203.7148.57), JavaFX (203.7148.57), Task Management (203.7148.57), GitHub (203.7148.57), Next File Prediction (203.7148.57), IntelliLang (203.7148.57), TestNG (203.7148.57), Code Coverage for Java (203.7148.57), Groovy (203.7148.57), Maven (203.7148.57), Gradle-Java (203.7148.57), Plugin DevKit (203.7148.57), Gradle-Maven (203.7148.57), Gradle DSL API (203.7148.57), Kotlin (203-1.4.10-release-IJ7148.5), Gradle DSL Implementation For Kotlin (203.7148.57), Android (10.4.0.203.7148.57), Markdown (203.7148.57), Grazie (203.7148.57) 
+2021-03-16 22:04:39,839 [    407]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Real Error Printer (1.0-SNAPSHOT) 
+2021-03-16 22:04:40,060 [    628]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 24; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@6e5b14b3[Running, parallelism = 23, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@330aa984 
+2021-03-16 22:04:40,128 [    696]   INFO - ntellij.idea.ApplicationLoader - WM detected: GNOME Shell 
+2021-03-16 22:04:40,448 [   1016]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-03-16 22:04:40,501 [   1069]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=492; buffer=10; max=492 
+2021-03-16 22:04:40,530 [   1098]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes 
+2021-03-16 22:04:40,538 [   1106]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-03-16 22:04:40,591 [   1159]   INFO - tellij.util.io.storage.Storage - Space waste in /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat is 4427252 bytes. Compacting now. 
+2021-03-16 22:04:40,593 [   1161]   INFO - tellij.util.io.storage.Storage - Compact failed: /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat.storageData.backup 
+2021-03-16 22:04:40,593 [   1161]   INFO - tellij.util.io.storage.Storage - Done compacting in 2msec. 
+2021-03-16 22:04:40,594 [   1162]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-03-16 22:04:40,604 [   1172]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2021-03-16 22:04:40,666 [   1234]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-03-16 22:04:40,741 [   1309]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/bin/linux/fsnotifier64 
+2021-03-16 22:04:40,752 [   1320]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-03-16 22:04:40,813 [   1381]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, copy.reference.popup, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer, terminal.shell.command.handling, property.value.inplace.editing 
+2021-03-16 22:04:40,843 [   1411]   INFO - BridgeProjectLifecycleListener - Using workspace model to open project 
+2021-03-16 22:04:40,989 [   1557]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-03-16 22:04:41,074 [   1642]   INFO - on.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[ApplicationImpl pooled thread 23,4,Idea Thread Group] 
+2021-03-16 22:04:41,147 [   1715]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-03-16 22:04:41,413 [   1981]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x6800050 
+2021-03-16 22:04:41,458 [   2026]   INFO - leBasedIndexDataInitialization - Initialization done: 861 
+2021-03-16 22:04:41,552 [   2120]   INFO - exImpl$StubIndexInitialization - Initialization done: 93 
+2021-03-16 22:04:42,262 [   2830]   INFO - ntellij.idea.ApplicationLoader - canDisableInputMethod spent 6 ms, found keyboard layouts: [(de, xkb), ], result==false 
+2021-03-16 22:04:42,266 [   2834]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2021-03-16 22:04:42,411 [   2979]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 0) 
+2021-03-16 22:04:42,459 [   3027]   INFO - CompilerWorkspaceConfiguration - Available processors: 24 
+2021-03-16 22:04:43,180 [   3748]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:04:43,228 [   3796]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:04:43,228 [   3796]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:04:43,228 [   3796]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:04:43,373 [   3941]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@7316ad4d 
+2021-03-16 22:04:43,583 [   4151]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:04:43,673 [   4241]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:04:43,674 [   4242]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:04:43,674 [   4242]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:04:43,674 [   4242]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:04:43,674 [   4242]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:04:43,887 [   4455]   INFO - ProjectRootPostStartUpActivity - /home/verobuckina/Desktop/Test/.idea case-sensitivity: expected=true actual=true 
+2021-03-16 22:04:43,920 [   4488]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-03-16 22:04:43,929 [   4497]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1675ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2021-03-16 22:04:43,941 [   4509]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3114 ms 
+2021-03-16 22:04:44,026 [   4594]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:04:44,063 [   4631]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:04:44,063 [   4631]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:04:44,063 [   4631]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:04:44,329 [   4897]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 163 ms 
+2021-03-16 22:04:44,496 [   5064]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:04:44,496 [   5064]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:04:44,496 [   5064]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:04:44,496 [   5064]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:04:44,496 [   5064]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:04:44,615 [   5183]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1032ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:04:44,623 [   5191]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to index 
+2021-03-16 22:04:44,626 [   5194]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@673adb6 
+2021-03-16 22:04:44,627 [   5195]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@395f29f4 
+2021-03-16 22:04:44,630 [   5198]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:04:44,634 [   5202]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:04:44,822 [   5390]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@2e9d90e6 
+2021-03-16 22:04:44,855 [   5423]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:04:44,856 [   5424]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:05:11,838 [  32406]   INFO - .impl.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms 
+2021-03-16 22:05:11,839 [  32407]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:05:11,851 [  32419]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-03-16 22:05:11,991 [  32559]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-03-16 22:05:11,995 [  32563]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-03-16 22:05:11,996 [  32564]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-03-16 22:05:11,997 [  32565]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-03-16 22:05:11,997 [  32565]   INFO - stubs.SerializationManagerImpl - Start shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:05:11,998 [  32566]   INFO - stubs.SerializationManagerImpl - Finished shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:05:12,057 [  32625]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-03-16 22:05:12,080 [  32648]   INFO - plication.impl.ApplicationImpl - Write action Statistics:
+Event number:     14
+Total time spent: 347ms
+Average duration: 24ms
+Median  duration: 11ms
+Max     duration: 92ms (it was 'write action (class com.intellij.openapi.vfs.newvfs.RefreshSessionImpl$$Lambda$1270/0x0000000100f6c040)') 
+2021-03-16 22:05:12,081 [  32649]   INFO - plication.impl.ApplicationImpl - AnAction.update() Statistics:
+Event number:     972
+Total time spent: 225ms
+Average duration: 0ms
+Median  duration: 0ms
+Max     duration: 62ms (it was 'Groovy Shell... action update (class org.jetbrains.plugins.groovy.shell.GroovyShellAction)') 
+2021-03-16 22:05:12,081 [  32649]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 32; ProcessIOExecutorService threads: 6 
+2021-03-16 22:05:12,082 [  32650]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-03-16 22:05:12,083 [  32651]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:16:35,860 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-03-16 22:16:35,867 [      7]   INFO - llij.ide.gdpr.EndUserAgreement - privacy: /home/verobuckina/.local/share/JetBrains/PrivacyPolicy/Cached 
+2021-03-16 22:16:35,882 [     22]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-203.7148.57, 26 Jan 2021 03:24) 
+2021-03-16 22:16:35,883 [     23]   INFO -        #com.intellij.idea.Main - OS: Linux (5.8.0-45-generic, amd64) 
+2021-03-16 22:16:35,889 [     29]   INFO -        #com.intellij.idea.Main - JRE: 11.0.9.1+11-b1145.77 (JetBrains s.r.o.) 
+2021-03-16 22:16:35,890 [     30]   INFO -        #com.intellij.idea.Main - JVM: 11.0.9.1+11-b1145.77 (OpenJDK 64-Bit Server VM) 
+2021-03-16 22:16:35,890 [     30]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins -Didea.required.plugins.id=de.DuckAndPlatypus.ErrorPrinterPlugin -Didea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea 
+2021-03-16 22:16:35,891 [     31]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-03-16 22:16:35,891 [     31]   INFO -        #com.intellij.idea.Main - boot library path: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_9_1-linux-x64-b1145.77/jbr/lib 
+2021-03-16 22:16:35,905 [     45]   INFO -        #com.intellij.idea.Main - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config
+  idea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system
+  idea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins
+  idea.log.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/log 
+2021-03-16 22:16:35,935 [     75]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 29 ms 
+2021-03-16 22:16:36,178 [    318]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-groovy.xml 
+2021-03-16 22:16:36,179 [    319]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-detection-groovy.xml 
+2021-03-16 22:16:36,219 [    359]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Java, id=com.intellij.java, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java, version=203.7148.57) misses optional descriptor profiler-java.xml 
+2021-03-16 22:16:36,267 [    407]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (203.7148.57), Dependency Management Api for External Build Tools (203.7148.57), com.intellij.platform.images (203.7148.57), JetBrains maven model api classes (203.7148.57), JetBrains Repository Search (203.7148.57), Subversion (203.7148.57), XPathView + XSLT (203.7148.57), XSLT Debugger (203.7148.57), Smali Support (203.7148.57), Machine Learning Code Completion (203.7148.57), Configuration Script (203.7148.57), Copyright (203.7148.57), macOS Light Theme (203.7148.57), Windows 10 Light Theme (203.7148.57), Properties (203.7148.57), Gradle (203.7148.57), Gradle Dependency Updater Implementation (203.7148.57), Resource Bundle Editor (203.7148.57), Mercurial (203.7148.57), WebP Support (203.7148.57), EditorConfig (203.7148.57), Emoji Picker (203.7148.57), Terminal (203.7148.57), Git (203.7148.57), ChangeReminder (203.7148.57), Shell Script (203.7148.57), TextMate Bundles (203.7148.57), YAML (203.7148.57), Settings Repository (203.7148.57), IDE Features Trainer (203.7148.57), Java (203.7148.57), Ant (203.7148.57), Bytecode Viewer (203.7148.57), JUnit (203.7148.57), Lombok (203.7148.57), Java Internationalization (203.7148.57), UI Designer (203.7148.57), Java IDE Customization (203.7148.57), Java Stream Debugger (203.7148.57), Eclipse Interoperability (203.7148.57), Java Bytecode Decompiler (203.7148.57), JavaFX (203.7148.57), Task Management (203.7148.57), GitHub (203.7148.57), Next File Prediction (203.7148.57), IntelliLang (203.7148.57), TestNG (203.7148.57), Code Coverage for Java (203.7148.57), Groovy (203.7148.57), Maven (203.7148.57), Gradle-Java (203.7148.57), Plugin DevKit (203.7148.57), Gradle-Maven (203.7148.57), Gradle DSL API (203.7148.57), Kotlin (203-1.4.10-release-IJ7148.5), Gradle DSL Implementation For Kotlin (203.7148.57), Android (10.4.0.203.7148.57), Markdown (203.7148.57), Grazie (203.7148.57) 
+2021-03-16 22:16:36,267 [    407]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Real Error Printer (1.0-SNAPSHOT) 
+2021-03-16 22:16:36,389 [    529]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 24; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@62241272[Running, parallelism = 23, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5ba19e0b 
+2021-03-16 22:16:36,433 [    573]   INFO - ntellij.idea.ApplicationLoader - WM detected: GNOME Shell 
+2021-03-16 22:16:36,750 [    890]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-03-16 22:16:36,793 [    933]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=492; buffer=10; max=492 
+2021-03-16 22:16:36,820 [    960]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes 
+2021-03-16 22:16:36,842 [    982]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-03-16 22:16:36,890 [   1030]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-03-16 22:16:36,892 [   1032]   INFO - tellij.util.io.storage.Storage - Space waste in /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat is 4427252 bytes. Compacting now. 
+2021-03-16 22:16:36,893 [   1033]   INFO - tellij.util.io.storage.Storage - Compact failed: /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat.storageData.backup 
+2021-03-16 22:16:36,894 [   1034]   INFO - tellij.util.io.storage.Storage - Done compacting in 2msec. 
+2021-03-16 22:16:36,910 [   1050]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2021-03-16 22:16:36,966 [   1106]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-03-16 22:16:37,049 [   1189]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/bin/linux/fsnotifier64 
+2021-03-16 22:16:37,072 [   1212]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-03-16 22:16:37,135 [   1275]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, copy.reference.popup, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer, terminal.shell.command.handling, property.value.inplace.editing 
+2021-03-16 22:16:37,165 [   1305]   INFO - BridgeProjectLifecycleListener - Using workspace model to open project 
+2021-03-16 22:16:37,335 [   1475]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-03-16 22:16:37,414 [   1554]   INFO - on.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[ApplicationImpl pooled thread 26,4,Idea Thread Group] 
+2021-03-16 22:16:37,456 [   1596]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-03-16 22:16:37,543 [   1683]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x6800050 
+2021-03-16 22:16:37,773 [   1913]   INFO - leBasedIndexDataInitialization - Initialization done: 861 
+2021-03-16 22:16:37,878 [   2018]   INFO - exImpl$StubIndexInitialization - Initialization done: 104 
+2021-03-16 22:16:38,594 [   2734]   INFO - ntellij.idea.ApplicationLoader - canDisableInputMethod spent 6 ms, found keyboard layouts: [(de, xkb), ], result==false 
+2021-03-16 22:16:38,594 [   2734]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2021-03-16 22:16:38,746 [   2886]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 8 millis (read time: 1) 
+2021-03-16 22:16:38,791 [   2931]   INFO - CompilerWorkspaceConfiguration - Available processors: 24 
+2021-03-16 22:16:39,522 [   3662]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:16:39,563 [   3703]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:16:39,564 [   3704]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:16:39,564 [   3704]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:16:39,592 [   3732]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@3da444c6 
+2021-03-16 22:16:40,045 [   4185]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:16:40,046 [   4186]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:16:40,046 [   4186]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:16:40,046 [   4186]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:16:40,046 [   4186]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:16:40,099 [   4239]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:16:40,287 [   4427]   INFO - ProjectRootPostStartUpActivity - /home/verobuckina/Desktop/Test/.idea case-sensitivity: expected=true actual=true 
+2021-03-16 22:16:40,292 [   4432]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-03-16 22:16:40,305 [   4445]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1718ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2021-03-16 22:16:40,329 [   4469]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3181 ms 
+2021-03-16 22:16:40,402 [   4542]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:16:40,444 [   4584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:16:40,444 [   4584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:16:40,444 [   4584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:16:40,875 [   5015]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:16:40,875 [   5015]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:16:40,875 [   5015]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:16:40,875 [   5015]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:16:40,875 [   5015]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:16:41,095 [   5235]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 995ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:16:41,101 [   5241]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to index 
+2021-03-16 22:16:41,104 [   5244]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@6d60c3d1 
+2021-03-16 22:16:41,105 [   5245]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@40c44e13 
+2021-03-16 22:16:41,107 [   5247]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:16:41,114 [   5254]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:16:41,260 [   5400]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@4f1d4687 
+2021-03-16 22:16:41,263 [   5403]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:16:41,264 [   5404]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:17:12,975 [  37115]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test)RunManager took 23 ms 
+2021-03-16 22:17:13,038 [  37178]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-03-16 22:17:13,071 [  37211]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /home/verobuckina/Desktop/Test 
+2021-03-16 22:17:14,179 [  38319]   INFO - penapi.project.DumbServiceImpl - cancel com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@38c30519 
+2021-03-16 22:17:14,180 [  38320]   INFO - pl.ProjectRootManagerComponent - project roots have changed (trace_hash = -1422844608) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:305)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:205)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:459)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:146)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:143)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.lambda$levelDown$0(ProjectRootManagerImpl.java:89)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:102)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.levelDown(ProjectRootManagerImpl.java:89)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent$AppListener.writeActionFinished(ProjectRootManagerComponent.java:363)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intellij.util.EventDispatcher.dispatchVoidMethod(EventDispatcher.java:123)
+	at com.intellij.util.EventDispatcher.lambda$createMulticaster$1(EventDispatcher.java:86)
+	at com.sun.proxy.$Proxy51.writeActionFinished(Unknown Source)
+	at com.intellij.openapi.application.impl.ApplicationImpl.fireWriteActionFinished(ApplicationImpl.java:1381)
+	at com.intellij.openapi.application.impl.ApplicationImpl.endWrite(ApplicationImpl.java:1224)
+	at com.intellij.openapi.application.impl.ApplicationImpl$WriteAccessToken.finish(ApplicationImpl.java:1259)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:105)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.fireEvents(RefreshSessionImpl.java:197)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.lambda$runAsyncListeners$6(RefreshQueueImpl.java:125)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$safeTransferToEdt$6(NonBlockingReadActionImpl.java:577)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:216)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:24)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:199)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:324)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:85)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:134)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:190)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:976)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:843)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:454)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:773)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:453)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:501)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-03-16 22:17:14,186 [  38326]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@7677867 
+2021-03-16 22:17:14,189 [  38329]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:14,201 [  38341]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1132 ms: 0 min 1sec 
+2021-03-16 22:17:14,369 [  38509]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:17:14,410 [  38550]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:17:14,410 [  38550]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:17:14,410 [  38550]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:17:14,411 [  38551]   INFO -                         STDOUT - Run. 
+2021-03-16 22:17:14,415 [  38555]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 226ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:14,416 [  38556]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to index 
+2021-03-16 22:17:14,531 [  38671]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:17:14,531 [  38671]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:17:14,827 [  38967]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:17:14,828 [  38968]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:17:14,828 [  38968]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:17:14,828 [  38968]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:17:14,828 [  38968]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:17:19,238 [  43378]   INFO - .impl.FileTypeDetectionService - 1 auto-detected files. Detection took 25 ms 
+2021-03-16 22:17:19,240 [  43380]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:17:19,253 [  43393]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-03-16 22:17:19,311 [  43451]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-03-16 22:17:19,805 [  43945]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-03-16 22:17:20,061 [  44201]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-03-16 22:17:20,061 [  44201]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-03-16 22:17:20,077 [  44217]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-03-16 22:17:20,078 [  44218]   INFO - stubs.SerializationManagerImpl - Start shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:17:20,078 [  44218]   INFO - stubs.SerializationManagerImpl - Finished shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:17:20,323 [  44463]   INFO - plication.impl.ApplicationImpl - Write action Statistics:
+Event number:     100
+Total time spent: 1043ms
+Average duration: 10ms
+Median  duration: 2ms
+Max     duration: 174ms (it was 'write action (class com.intellij.openapi.command.WriteCommandAction$$Lambda$2560/0x0000000101bce040)') 
+2021-03-16 22:17:20,325 [  44465]   INFO - plication.impl.ApplicationImpl - AnAction.update() Statistics:
+Event number:     3947
+Total time spent: 684ms
+Average duration: 0ms
+Median  duration: 0ms
+Max     duration: 313ms (it was 'Run context configuration action update (class com.intellij.execution.actions.RunContextAction)') 
+2021-03-16 22:17:20,326 [  44466]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 32; ProcessIOExecutorService threads: 9 
+2021-03-16 22:17:20,327 [  44467]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-03-16 22:17:20,329 [  44469]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:17:47,575 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-03-16 22:17:47,582 [      7]   INFO - llij.ide.gdpr.EndUserAgreement - privacy: /home/verobuckina/.local/share/JetBrains/PrivacyPolicy/Cached 
+2021-03-16 22:17:47,603 [     28]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-203.7148.57, 26 Jan 2021 03:24) 
+2021-03-16 22:17:47,604 [     29]   INFO -        #com.intellij.idea.Main - OS: Linux (5.8.0-45-generic, amd64) 
+2021-03-16 22:17:47,609 [     34]   INFO -        #com.intellij.idea.Main - JRE: 11.0.9.1+11-b1145.77 (JetBrains s.r.o.) 
+2021-03-16 22:17:47,609 [     34]   INFO -        #com.intellij.idea.Main - JVM: 11.0.9.1+11-b1145.77 (OpenJDK 64-Bit Server VM) 
+2021-03-16 22:17:47,609 [     34]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins -Didea.required.plugins.id=de.DuckAndPlatypus.ErrorPrinterPlugin -Didea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea 
+2021-03-16 22:17:47,610 [     35]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-03-16 22:17:47,610 [     35]   INFO -        #com.intellij.idea.Main - boot library path: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_9_1-linux-x64-b1145.77/jbr/lib 
+2021-03-16 22:17:47,624 [     49]   INFO -        #com.intellij.idea.Main - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config
+  idea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system
+  idea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins
+  idea.log.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/log 
+2021-03-16 22:17:47,674 [     99]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 50 ms 
+2021-03-16 22:17:47,921 [    346]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-groovy.xml 
+2021-03-16 22:17:47,921 [    346]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/Groovy, version=203.7148.57) misses optional descriptor duplicates-detection-groovy.xml 
+2021-03-16 22:17:47,942 [    367]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Java, id=com.intellij.java, path=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java, version=203.7148.57) misses optional descriptor profiler-java.xml 
+2021-03-16 22:17:47,993 [    418]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (203.7148.57), Dependency Management Api for External Build Tools (203.7148.57), com.intellij.platform.images (203.7148.57), JetBrains maven model api classes (203.7148.57), JetBrains Repository Search (203.7148.57), Subversion (203.7148.57), XPathView + XSLT (203.7148.57), XSLT Debugger (203.7148.57), Smali Support (203.7148.57), Machine Learning Code Completion (203.7148.57), Configuration Script (203.7148.57), Copyright (203.7148.57), macOS Light Theme (203.7148.57), Windows 10 Light Theme (203.7148.57), Properties (203.7148.57), Gradle (203.7148.57), Gradle Dependency Updater Implementation (203.7148.57), Resource Bundle Editor (203.7148.57), Mercurial (203.7148.57), WebP Support (203.7148.57), EditorConfig (203.7148.57), Emoji Picker (203.7148.57), Terminal (203.7148.57), Git (203.7148.57), ChangeReminder (203.7148.57), Shell Script (203.7148.57), TextMate Bundles (203.7148.57), YAML (203.7148.57), Settings Repository (203.7148.57), IDE Features Trainer (203.7148.57), Java (203.7148.57), Ant (203.7148.57), Bytecode Viewer (203.7148.57), JUnit (203.7148.57), Lombok (203.7148.57), Java Internationalization (203.7148.57), UI Designer (203.7148.57), Java IDE Customization (203.7148.57), Java Stream Debugger (203.7148.57), Eclipse Interoperability (203.7148.57), Java Bytecode Decompiler (203.7148.57), JavaFX (203.7148.57), Task Management (203.7148.57), GitHub (203.7148.57), Next File Prediction (203.7148.57), IntelliLang (203.7148.57), TestNG (203.7148.57), Code Coverage for Java (203.7148.57), Groovy (203.7148.57), Maven (203.7148.57), Gradle-Java (203.7148.57), Plugin DevKit (203.7148.57), Gradle-Maven (203.7148.57), Gradle DSL API (203.7148.57), Kotlin (203-1.4.10-release-IJ7148.5), Gradle DSL Implementation For Kotlin (203.7148.57), Android (10.4.0.203.7148.57), Markdown (203.7148.57), Grazie (203.7148.57) 
+2021-03-16 22:17:47,993 [    418]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Real Error Printer (1.0-SNAPSHOT) 
+2021-03-16 22:17:48,141 [    566]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 24; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@537009e5[Running, parallelism = 23, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7855241a 
+2021-03-16 22:17:48,172 [    597]   INFO - ntellij.idea.ApplicationLoader - WM detected: GNOME Shell 
+2021-03-16 22:17:48,481 [    906]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-03-16 22:17:48,529 [    954]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=492; buffer=10; max=492 
+2021-03-16 22:17:48,553 [    978]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes 
+2021-03-16 22:17:48,592 [   1017]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-03-16 22:17:48,624 [   1049]   INFO - tellij.util.io.storage.Storage - Space waste in /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat is 4427809 bytes. Compacting now. 
+2021-03-16 22:17:48,624 [   1049]   INFO - tellij.util.io.storage.Storage - Compact failed: /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/caches/attrib.dat.storageData.backup 
+2021-03-16 22:17:48,624 [   1049]   INFO - tellij.util.io.storage.Storage - Done compacting in 0msec. 
+2021-03-16 22:17:48,630 [   1055]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-03-16 22:17:48,641 [   1066]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2021-03-16 22:17:48,716 [   1141]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-03-16 22:17:48,784 [   1209]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/bin/linux/fsnotifier64 
+2021-03-16 22:17:48,797 [   1222]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-03-16 22:17:48,857 [   1282]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, copy.reference.popup, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer, terminal.shell.command.handling, property.value.inplace.editing 
+2021-03-16 22:17:48,902 [   1327]   INFO - BridgeProjectLifecycleListener - Using workspace model to open project 
+2021-03-16 22:17:49,054 [   1479]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-03-16 22:17:49,149 [   1574]   INFO - on.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[ApplicationImpl pooled thread 6,4,Idea Thread Group] 
+2021-03-16 22:17:49,191 [   1616]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-03-16 22:17:49,439 [   1864]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x680004c 
+2021-03-16 22:17:49,549 [   1974]   INFO - leBasedIndexDataInitialization - Initialization done: 914 
+2021-03-16 22:17:49,653 [   2078]   INFO - exImpl$StubIndexInitialization - Initialization done: 103 
+2021-03-16 22:17:51,166 [   3591]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2021-03-16 22:17:51,168 [   3593]   INFO - ntellij.idea.ApplicationLoader - canDisableInputMethod spent 5 ms, found keyboard layouts: [(de, xkb), ], result==false 
+2021-03-16 22:17:51,275 [   3700]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 1) 
+2021-03-16 22:17:51,328 [   3753]   INFO - CompilerWorkspaceConfiguration - Available processors: 24 
+2021-03-16 22:17:52,004 [   4429]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:17:52,040 [   4465]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:17:52,041 [   4466]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:17:52,041 [   4466]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:17:52,101 [   4526]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@2cb3f8aa 
+2021-03-16 22:17:52,357 [   4782]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 7ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:52,506 [   4931]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:17:52,506 [   4931]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:17:52,507 [   4932]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:17:52,507 [   4932]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:17:52,507 [   4932]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:17:52,743 [   5168]   INFO - ProjectRootPostStartUpActivity - /home/verobuckina/Desktop/Test/.idea case-sensitivity: expected=true actual=true 
+2021-03-16 22:17:52,747 [   5172]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-03-16 22:17:52,752 [   5177]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1594ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:52,782 [   5207]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3910 ms 
+2021-03-16 22:17:52,868 [   5293]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:17:52,912 [   5337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:17:52,912 [   5337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:17:52,912 [   5337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:17:53,339 [   5764]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:17:53,339 [   5764]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:17:53,339 [   5764]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:17:53,339 [   5764]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:17:53,339 [   5764]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:17:53,484 [   5909]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1127ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:53,489 [   5914]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to index 
+2021-03-16 22:17:53,498 [   5923]   INFO - indexing.UnindexedFilesUpdater - Using 4 threads for indexing 
+2021-03-16 22:17:53,513 [   5938]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for TodoIndex. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for IdIndex. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for Trigram.Index. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for bytecodeAnalysis. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.null.method.argument. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.fun.expression. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,517 [   5942]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.binary.plus.expression. requests: 0, hits: 0, misses: 0 
+2021-03-16 22:17:53,518 [   5943]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@f205d10 
+2021-03-16 22:17:53,520 [   5945]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@47cdf37d 
+2021-03-16 22:17:53,522 [   5947]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:17:53,528 [   5953]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:17:53,684 [   6109]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@5677e924 
+2021-03-16 22:17:53,710 [   6135]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-03-16 22:17:53,711 [   6136]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=Test, containerState=COMPONENT_CREATED, componentStore=/home/verobuckina/Desktop/Test) 
+2021-03-16 22:17:54,269 [   6694]   INFO -                         STDERR - Exception "java.lang.ClassNotFoundException: com/intellij/codeInsight/editorActions/ReferenceData"while constructing DataFlavor for: application/x-java-jvm-local-objectref; class=com.intellij.codeInsight.editorActions.ReferenceData 
+2021-03-16 22:17:54,271 [   6696]   INFO -                         STDERR - Exception "java.lang.ClassNotFoundException: com/intellij/codeInsight/editorActions/ReferenceData"while constructing DataFlavor for: application/x-java-jvm-local-objectref; class=com.intellij.codeInsight.editorActions.ReferenceData 
+2021-03-16 22:17:55,139 [   7564]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-03-16 22:17:55,172 [   7597]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /home/verobuckina/Desktop/Test 
+2021-03-16 22:17:55,759 [   8184]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 625 ms: 0 min 0sec 
+2021-03-16 22:17:55,962 [   8387]   INFO -                         STDOUT - Run. 
+2021-03-16 22:17:55,971 [   8396]   INFO -                         STDOUT - Stop. 
+2021-03-16 22:17:55,978 [   8403]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:17:56,015 [   8440]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:17:56,015 [   8440]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:17:56,015 [   8440]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:17:56,467 [   8892]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:17:56,467 [   8892]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:17:56,467 [   8892]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:17:56,468 [   8893]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:17:56,468 [   8893]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:18:00,487 [  12912]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-03-16 22:18:00,489 [  12914]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /home/verobuckina/Desktop/Test 
+2021-03-16 22:18:00,547 [  12972]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 65 ms: 0 min 0sec 
+2021-03-16 22:18:00,604 [  13029]   INFO -                         STDOUT - Run. 
+2021-03-16 22:18:00,624 [  13049]   INFO -                         STDOUT - Stop. 
+2021-03-16 22:18:00,770 [  13195]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar 
+2021-03-16 22:18:00,806 [  13231]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2021-03-16 22:18:00,806 [  13231]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2021-03-16 22:18:00,806 [  13231]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2021-03-16 22:18:01,174 [  13599]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-03-16 22:18:01,174 [  13599]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-03-16 22:18:01,174 [  13599]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-03-16 22:18:01,174 [  13599]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-03-16 22:18:01,174 [  13599]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-03-16 22:18:04,324 [  16749]   INFO - .impl.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms 
+2021-03-16 22:18:04,325 [  16750]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-03-16 22:18:04,336 [  16761]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-03-16 22:18:04,509 [  16934]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-03-16 22:18:04,516 [  16941]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-03-16 22:18:04,516 [  16941]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-03-16 22:18:04,532 [  16957]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-03-16 22:18:04,533 [  16958]   INFO - stubs.SerializationManagerImpl - Start shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:18:04,533 [  16958]   INFO - stubs.SerializationManagerImpl - Finished shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-03-16 22:18:04,550 [  16975]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-03-16 22:18:04,691 [  17116]   INFO - plication.impl.ApplicationImpl - Write action Statistics:
+Event number:     15
+Total time spent: 763ms
+Average duration: 50ms
+Median  duration: 13ms
+Max     duration: 316ms (it was 'write action (class com.intellij.openapi.vfs.newvfs.RefreshSessionImpl$$Lambda$1158/0x0000000100e0d040)') 
+2021-03-16 22:18:04,693 [  17118]   INFO - plication.impl.ApplicationImpl - AnAction.update() Statistics:
+Event number:     2202
+Total time spent: 138ms
+Average duration: 0ms
+Median  duration: 0ms
+Max     duration: 22ms (it was 'Switch Task... action update (class com.intellij.tasks.actions.SwitchTaskAction)') 
+2021-03-16 22:18:04,693 [  17118]   INFO - plication.impl.ApplicationImpl - Global instance threads created counter = 31; ProcessIOExecutorService threads: 9 
+2021-03-16 22:18:04,695 [  17120]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-03-16 22:18:04,697 [  17122]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

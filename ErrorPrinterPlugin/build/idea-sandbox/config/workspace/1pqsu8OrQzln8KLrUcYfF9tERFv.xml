@@ -1,4 +1,26 @@
 <project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Test.java" />
+    </changedPaths>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -9,14 +31,29 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="ToolWindowManager">
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34858388" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -25,7 +62,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32949308" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Problems View" order="5" />
       <window_info anchor="bottom" id="Build" order="6" />
@@ -33,13 +70,43 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Layout Validation" order="6" />
     </layout>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1615929483894">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@1920.0.2560.1440" timestamp="1615929483894" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center" timestamp="1615929483893">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1377" height="258" key="GridCell.Tab.0.center/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@1920.0.2560.1440" timestamp="1615929483893" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left" timestamp="1615929483893">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1377" height="258" key="GridCell.Tab.0.left/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@1920.0.2560.1440" timestamp="1615929483893" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right" timestamp="1615929483893">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1377" height="258" key="GridCell.Tab.0.right/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@1920.0.2560.1440" timestamp="1615929483893" />
     <state x="2765" y="354" width="900" height="744" key="SettingsEditor" timestamp="1615927749908">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="634" y="535" width="900" height="744" key="SettingsEditor/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@0.240.1920.1200" timestamp="1615927209343" />
     <state x="2765" y="354" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080@1920.0.2560.1440" timestamp="1615927749908" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

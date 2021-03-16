@@ -20,4 +20,10 @@
       <add-to-group group-id="Runner.View.Toolbar" anchor="first"/>
     </action>
   </actions>
+  <project-components>
+    <component>
+      <implementation-class>CodeInsights</implementation-class>
+      <loadForDefaultProject>false</loadForDefaultProject>
+    </component>
+  </project-components>
 </idea-plugin>
