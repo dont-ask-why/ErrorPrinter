@@ -22,14 +22,28 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
 
     @Override
     public boolean isModified() {
-//        ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
-//        boolean modified = settingsComponent.getPrinterName().equals();
-//        return true;
-        return false;
+        ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
+        boolean modified = !settingsComponent.getPrinterName().equals(settings.getPrinterName()) ||
+                (settingsComponent.isPrinterEnabled() != settings.isPrintEnabled());
+        return modified;
     }
 
     @Override
     public void apply() throws ConfigurationException {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
+        settings.setPrinterName(settingsComponent.getPrinterName());
+        settings.setPrintEnabled(settingsComponent.isPrinterEnabled());
+    }
+
+    @Override
+    public void reset(){
+        ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
+        settingsComponent.setPrinterName(settings.getPrinterName());
+        settingsComponent.setEnabled(settings.isPrintEnabled());
+    }
+
+    @Override
+    public void disposeUIResources(){
+        settingsComponent = null;
     }
 }

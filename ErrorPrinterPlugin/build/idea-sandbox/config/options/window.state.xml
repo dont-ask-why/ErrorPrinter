@@ -6,7 +6,7 @@
     <size key="GridCell.Tab.0.bottom.1920.0.2560.1440" width="1377" height="258" />
   </component>
   <component name="WindowManager">
-    <frame x="2576" y="219" width="1400" height="1000" />
+    <frame x="2492" y="113" width="1400" height="1000" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -21,9 +21,9 @@
       <screen x="0" y="240" width="1920" height="1200" />
     </state>
     <state x="738" y="506" width="424" height="520" key="FileChooserDialogImpl/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080" timestamp="1615318606636" />
-    <state x="554" y="361" width="802" height="803" key="new project wizard" timestamp="1615318616518">
-      <screen x="0" y="240" width="1920" height="1200" />
+    <state x="2755" y="401" width="802" height="803" key="new project wizard" timestamp="1615922174931">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="554" y="361" width="802" height="803" key="new project wizard/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080" timestamp="1615318616518" />
+    <state x="2755" y="401" width="802" height="803" key="new project wizard/1920.0.2560.1440/0.240.1920.1200/4480.240.1920.1200/2266.1440.1920.1080" timestamp="1615922174931" />
   </component>
 </application>

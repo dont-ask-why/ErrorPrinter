@@ -1,11 +1,12 @@
 ErrorPrintAction.java
  ErrorPrintAction
-PrintUtility.java
- PrintUtility
 ErrorPrinterSettingsState.java
  ErrorPrinterSettingsState
 ErrorPrinterSettingsConfigurable.java
  ErrorPrinterSettingsConfigurable
+PrintUtility.java
+ PrintUtility
 ErrorPrinterSettingsComponent.java
  ErrorPrinterSettingsComponent
  ErrorPrinterSettingsComponent$1
+ ErrorPrinterSettingsComponent$2

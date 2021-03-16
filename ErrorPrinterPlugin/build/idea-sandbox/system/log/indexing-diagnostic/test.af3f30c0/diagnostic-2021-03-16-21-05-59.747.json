@@ -1,10 +1,10 @@
 {
   "appInfo" : {
     "build" : "203.7148.57",
-    "buildDate" : "Tue, 26 Jan 2021 03:24:34 +0100",
+    "buildDate" : "Tue, 26 Jan 2021 03:24:54 +0100",
     "productCode" : "IC",
-    "generated" : "Tue, 9 Mar 2021 21:06:54 +0100",
-    "os" : "Linux 5.8.0-44-generic",
+    "generated" : "Tue, 16 Mar 2021 21:05:59 +0100",
+    "os" : "Linux 5.8.0-45-generic",
     "runtime" : "JetBrains s.r.o. 11.0.9.1 11.0.9.1+11-b1145.77"
   },
   "runtimeInfo" : {
@@ -17,13 +17,13 @@
   "projectIndexingHistory" : {
     "projectName" : "Test",
     "numberOfFileProviders" : 8,
-    "totalNumberOfFiles" : 32901,
-    "totalNumberOfUpToDateFiles" : 32901,
+    "totalNumberOfFiles" : 32900,
+    "totalNumberOfUpToDateFiles" : 32900,
     "times" : {
-      "totalUpdatingTime" : "264 ms",
-      "pushPropertiesTime" : "2 ms",
-      "updatingStart" : "Tue, 9 Mar 2021 21:06:53 +0100",
-      "updatingEnd" : "Tue, 9 Mar 2021 21:06:54 +0100",
+      "totalUpdatingTime" : "1 s 232 ms",
+      "pushPropertiesTime" : "46 ms",
+      "updatingStart" : "Tue, 16 Mar 2021 21:05:58 +0100",
+      "updatingEnd" : "Tue, 16 Mar 2021 21:05:59 +0100",
       "wasInterrupted" : false
     },
     "numberOfIndexingThreads" : 0,

@@ -269,3 +269,563 @@
 2021-03-09 22:05:54,555 [    414]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
 2021-03-09 22:05:54,644 [    503]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 509 ms
 2021-03-09 22:06:33,301 [  39160]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 20:21:41,795 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:21:41,799 [      4]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:21:41,940 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 113 ms
+2021-03-16 20:21:42,059 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:21:42,201 [    406]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 142 ms
+2021-03-16 20:21:42,202 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:21:42,266 [    471]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:21:42,271 [    476]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:21:42,847 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:21:42,847 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:21:43,000 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 123 ms
+2021-03-16 20:21:43,031 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 26 ms
+2021-03-16 20:21:43,065 [    218]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:21:43,174 [    327]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 108 ms
+2021-03-16 20:21:43,174 [    327]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:21:43,232 [    385]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:21:43,237 [    390]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:21:43,347 [    500]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 508 ms
+2021-03-16 20:26:52,339 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:26:52,339 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:26:52,492 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 122 ms
+2021-03-16 20:26:52,587 [    248]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:26:52,704 [    365]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 117 ms
+2021-03-16 20:26:52,705 [    366]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:26:52,760 [    421]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:26:52,765 [    426]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:26:53,179 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:26:53,180 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:26:53,326 [    147]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 122 ms
+2021-03-16 20:26:53,355 [    176]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 25 ms
+2021-03-16 20:26:53,392 [    213]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:26:53,521 [    342]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 128 ms
+2021-03-16 20:26:53,521 [    342]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:26:53,570 [    391]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:26:53,575 [    396]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:26:53,659 [    480]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 487 ms
+2021-03-16 20:30:23,737 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:30:23,737 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:30:23,892 [    155]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 130 ms
+2021-03-16 20:30:24,001 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:30:24,114 [    377]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 112 ms
+2021-03-16 20:30:24,114 [    377]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:30:24,166 [    429]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:30:24,171 [    434]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:30:24,606 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:30:24,606 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:30:24,751 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 117 ms
+2021-03-16 20:30:24,780 [    174]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-03-16 20:30:24,823 [    217]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:30:24,958 [    352]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2021-03-16 20:30:24,958 [    352]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:30:25,015 [    409]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:30:25,021 [    415]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:30:25,119 [    513]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 522 ms
+2021-03-16 20:39:24,482 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:39:24,483 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:39:24,625 [    143]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 114 ms
+2021-03-16 20:39:24,735 [    253]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:39:24,861 [    379]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-03-16 20:39:24,862 [    380]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:39:24,914 [    432]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:39:24,920 [    438]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:39:25,362 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:39:25,362 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:39:25,522 [    160]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 128 ms
+2021-03-16 20:39:25,548 [    186]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 21 ms
+2021-03-16 20:39:25,588 [    226]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:39:25,724 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 136 ms
+2021-03-16 20:39:25,724 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:39:25,785 [    423]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:39:25,790 [    428]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:39:25,891 [    529]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 538 ms
+2021-03-16 20:42:51,832 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:42:51,832 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:42:51,970 [    138]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 112 ms
+2021-03-16 20:42:52,084 [    252]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:42:52,221 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 136 ms
+2021-03-16 20:42:52,221 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:42:52,275 [    443]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:42:52,280 [    448]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:42:52,679 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:42:52,679 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:42:52,830 [    151]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 122 ms
+2021-03-16 20:42:52,855 [    176]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 19 ms
+2021-03-16 20:42:52,901 [    222]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:42:53,041 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 140 ms
+2021-03-16 20:42:53,041 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:42:53,091 [    412]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:42:53,097 [    418]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:42:53,193 [    514]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 521 ms
+2021-03-16 20:50:42,140 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:50:42,140 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:50:42,287 [    147]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 123 ms
+2021-03-16 20:50:42,394 [    254]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:50:42,523 [    383]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2021-03-16 20:50:42,524 [    384]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:50:42,575 [    435]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:50:42,580 [    440]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:50:43,039 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:50:43,039 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:50:43,198 [    159]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 131 ms
+2021-03-16 20:50:43,226 [    187]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-03-16 20:50:43,268 [    229]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:50:43,392 [    353]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 124 ms
+2021-03-16 20:50:43,393 [    354]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:50:43,455 [    416]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:50:43,460 [    421]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:50:43,565 [    526]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 532 ms
+2021-03-16 20:51:01,257 [  18218]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 20:52:53,592 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:52:53,592 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:52:53,738 [    146]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 117 ms
+2021-03-16 20:52:53,853 [    261]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:52:53,973 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 120 ms
+2021-03-16 20:52:53,973 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:52:54,040 [    448]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:52:54,045 [    453]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:52:54,464 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:52:54,465 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:52:54,623 [    159]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 124 ms
+2021-03-16 20:52:54,654 [    190]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 26 ms
+2021-03-16 20:52:54,693 [    229]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:52:54,821 [    357]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 128 ms
+2021-03-16 20:52:54,821 [    357]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:52:54,884 [    420]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:52:54,888 [    424]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:52:54,971 [    507]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 515 ms
+2021-03-16 20:53:04,997 [  10533]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 20:56:46,543 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:56:46,543 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:56:46,691 [    148]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 122 ms
+2021-03-16 20:56:46,789 [    246]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:56:46,912 [    369]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 122 ms
+2021-03-16 20:56:46,912 [    369]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:56:46,968 [    425]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:56:46,973 [    430]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:56:47,391 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:56:47,392 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:56:47,548 [    157]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 126 ms
+2021-03-16 20:56:47,574 [    183]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 20 ms
+2021-03-16 20:56:47,611 [    220]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:56:47,736 [    345]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-03-16 20:56:47,736 [    345]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:56:47,785 [    394]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:56:47,789 [    398]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:56:47,886 [    495]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 501 ms
+2021-03-16 20:57:00,590 [  13199]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 20:59:18,705 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:59:18,705 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:59:18,846 [    141]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 113 ms
+2021-03-16 20:59:18,949 [    244]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:59:19,087 [    382]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 137 ms
+2021-03-16 20:59:19,087 [    382]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:59:19,156 [    451]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:59:19,163 [    458]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:59:19,589 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 20:59:19,590 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 20:59:19,771 [    182]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 147 ms
+2021-03-16 20:59:19,797 [    208]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-03-16 20:59:19,836 [    247]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 20:59:19,954 [    365]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 118 ms
+2021-03-16 20:59:19,954 [    365]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 20:59:20,007 [    418]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 20:59:20,012 [    423]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 20:59:20,107 [    518]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 526 ms
+2021-03-16 20:59:37,972 [  18383]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:00:48,569 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:00:48,569 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:00:48,714 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 116 ms
+2021-03-16 21:00:48,817 [    248]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:00:48,930 [    361]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 113 ms
+2021-03-16 21:00:48,930 [    361]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:00:48,979 [    410]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:00:48,983 [    414]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:00:49,398 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:00:49,398 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:00:49,559 [    161]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 128 ms
+2021-03-16 21:00:49,582 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 18 ms
+2021-03-16 21:00:49,626 [    228]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:00:49,751 [    353]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-03-16 21:00:49,752 [    354]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:00:49,815 [    417]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:00:49,821 [    423]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:00:49,912 [    514]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 523 ms
+2021-03-16 21:01:03,556 [  14158]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:02:43,656 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:02:43,656 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:02:43,807 [    151]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2021-03-16 21:02:43,916 [    260]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:02:44,035 [    379]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 119 ms
+2021-03-16 21:02:44,035 [    379]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:02:44,088 [    432]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:02:44,094 [    438]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:02:44,511 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:02:44,511 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:02:44,670 [    159]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 131 ms
+2021-03-16 21:02:44,700 [    189]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 24 ms
+2021-03-16 21:02:44,738 [    227]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:02:44,859 [    348]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 121 ms
+2021-03-16 21:02:44,859 [    348]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:02:44,931 [    420]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:02:44,938 [    427]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:02:45,029 [    518]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 526 ms
+2021-03-16 21:03:01,476 [  16965]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:05:58,338 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:05:58,338 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:05:58,475 [    137]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 110 ms
+2021-03-16 21:05:58,587 [    249]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:05:58,705 [    367]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 118 ms
+2021-03-16 21:05:58,705 [    367]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:05:58,762 [    424]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:05:58,768 [    430]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:05:59,189 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:05:59,190 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:05:59,344 [    155]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 126 ms
+2021-03-16 21:05:59,373 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 26 ms
+2021-03-16 21:05:59,414 [    225]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:05:59,538 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 123 ms
+2021-03-16 21:05:59,538 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:05:59,590 [    401]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:05:59,594 [    405]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:05:59,678 [    489]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 496 ms
+2021-03-16 21:06:13,778 [  14589]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:08:13,144 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:08:13,144 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:08:13,294 [    151]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 124 ms
+2021-03-16 21:08:13,389 [    246]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:08:13,504 [    361]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 115 ms
+2021-03-16 21:08:13,505 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:08:13,555 [    412]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:08:13,560 [    417]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:08:13,964 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:08:13,964 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:08:14,118 [    154]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2021-03-16 21:08:14,143 [    179]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-03-16 21:08:14,182 [    218]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:08:14,314 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 131 ms
+2021-03-16 21:08:14,314 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:08:14,367 [    403]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:08:14,372 [    408]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:08:14,458 [    494]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 500 ms
+2021-03-16 21:08:39,729 [  25765]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:09:03,576 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:09:03,576 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:09:03,724 [    148]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 121 ms
+2021-03-16 21:09:03,831 [    255]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:09:03,971 [    395]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 140 ms
+2021-03-16 21:09:03,971 [    395]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:09:04,032 [    456]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:09:04,038 [    462]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:09:04,458 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:09:04,458 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:09:04,614 [    156]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 130 ms
+2021-03-16 21:09:04,639 [    181]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 20 ms
+2021-03-16 21:09:04,674 [    216]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:09:04,805 [    347]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 130 ms
+2021-03-16 21:09:04,805 [    347]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:09:04,856 [    398]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:09:04,861 [    403]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:09:04,952 [    494]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 501 ms
+2021-03-16 21:09:12,802 [   8344]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:10:26,437 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:10:26,438 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:10:26,585 [    148]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 122 ms
+2021-03-16 21:10:26,693 [    256]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:10:26,820 [    383]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 126 ms
+2021-03-16 21:10:26,820 [    383]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:10:26,869 [    432]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:10:26,874 [    437]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:10:27,282 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:10:27,283 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:10:27,455 [    173]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 141 ms
+2021-03-16 21:10:27,476 [    194]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 18 ms
+2021-03-16 21:10:27,514 [    232]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:10:27,622 [    340]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 108 ms
+2021-03-16 21:10:27,623 [    341]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:10:27,687 [    405]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:10:27,693 [    411]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:10:27,783 [    501]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 508 ms
+2021-03-16 21:10:37,699 [  10417]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:10:49,440 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:10:49,440 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:10:49,585 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 120 ms
+2021-03-16 21:10:49,697 [    257]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:10:49,831 [    391]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 133 ms
+2021-03-16 21:10:49,831 [    391]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:10:49,890 [    450]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:10:49,894 [    454]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:10:50,321 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:10:50,321 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:10:50,466 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 116 ms
+2021-03-16 21:10:50,494 [    173]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 23 ms
+2021-03-16 21:10:50,530 [    209]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:10:50,656 [    335]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-03-16 21:10:50,656 [    335]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:10:50,711 [    390]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:10:50,715 [    394]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:10:50,811 [    490]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 497 ms
+2021-03-16 21:11:04,912 [  14591]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:12:17,149 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:12:17,149 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:12:17,299 [    150]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 121 ms
+2021-03-16 21:12:17,409 [    260]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:12:17,535 [    386]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 126 ms
+2021-03-16 21:12:17,535 [    386]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:12:17,593 [    444]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:12:17,599 [    450]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:12:18,034 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:12:18,034 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:12:18,186 [    152]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 116 ms
+2021-03-16 21:12:18,216 [    182]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 24 ms
+2021-03-16 21:12:18,256 [    222]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:12:18,384 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 127 ms
+2021-03-16 21:12:18,384 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:12:18,450 [    416]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:12:18,457 [    423]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:12:18,552 [    518]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 527 ms
+2021-03-16 21:13:54,336 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:13:54,336 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:13:54,485 [    149]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 123 ms
+2021-03-16 21:13:54,590 [    254]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:13:54,711 [    375]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 120 ms
+2021-03-16 21:13:54,711 [    375]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:13:54,769 [    433]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:13:54,774 [    438]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:13:55,196 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:13:55,196 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:13:55,338 [    142]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 114 ms
+2021-03-16 21:13:55,372 [    176]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 28 ms
+2021-03-16 21:13:55,412 [    216]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:13:55,546 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2021-03-16 21:13:55,547 [    351]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:13:55,613 [    417]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:13:55,618 [    422]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:13:55,719 [    523]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 529 ms
+2021-03-16 21:14:44,577 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:14:44,577 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:14:44,735 [    159]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 123 ms
+2021-03-16 21:14:44,848 [    272]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:14:44,982 [    406]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2021-03-16 21:14:44,983 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:14:45,040 [    464]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:14:45,045 [    469]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:14:45,478 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:14:45,479 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:14:45,641 [    163]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 131 ms
+2021-03-16 21:14:45,669 [    191]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 24 ms
+2021-03-16 21:14:45,709 [    231]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:14:45,854 [    376]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 145 ms
+2021-03-16 21:14:45,854 [    376]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:14:45,905 [    427]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:14:45,913 [    435]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:14:46,008 [    530]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 539 ms
+2021-03-16 21:14:55,417 [   9939]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:17:11,675 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:17:11,676 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:17:11,813 [    138]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 113 ms
+2021-03-16 21:17:11,918 [    243]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:17:12,040 [    365]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 122 ms
+2021-03-16 21:17:12,040 [    365]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:17:12,093 [    418]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:17:12,098 [    423]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:17:12,444 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:17:12,444 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:17:12,588 [    144]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 115 ms
+2021-03-16 21:17:12,617 [    173]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 23 ms
+2021-03-16 21:17:12,648 [    204]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:17:12,753 [    309]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 105 ms
+2021-03-16 21:17:12,753 [    309]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:17:12,800 [    356]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:17:12,804 [    360]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:17:12,879 [    435]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 441 ms
+2021-03-16 21:17:14,141 [   1697]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:17:34,733 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:17:34,733 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:17:34,888 [    155]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 127 ms
+2021-03-16 21:17:35,002 [    269]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:17:35,119 [    386]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 116 ms
+2021-03-16 21:17:35,119 [    386]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:17:35,171 [    438]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:17:35,176 [    443]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:17:35,602 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:17:35,602 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:17:35,753 [    151]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 126 ms
+2021-03-16 21:17:35,780 [    178]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 21 ms
+2021-03-16 21:17:35,818 [    216]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:17:35,969 [    367]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 150 ms
+2021-03-16 21:17:35,970 [    368]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:17:36,026 [    424]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:17:36,031 [    429]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:17:36,128 [    526]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 532 ms
+2021-03-16 21:19:51,901 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:19:51,901 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:19:52,054 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 130 ms
+2021-03-16 21:19:52,160 [    259]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:19:52,299 [    398]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 138 ms
+2021-03-16 21:19:52,299 [    398]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:19:52,353 [    452]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:19:52,358 [    457]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:19:52,759 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:19:52,759 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:19:52,917 [    158]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 130 ms
+2021-03-16 21:19:52,946 [    187]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 25 ms
+2021-03-16 21:19:52,987 [    228]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:19:53,105 [    346]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 118 ms
+2021-03-16 21:19:53,106 [    347]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:19:53,156 [    397]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:19:53,162 [    403]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:19:53,246 [    487]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 495 ms
+2021-03-16 21:21:34,545 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:21:34,545 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:21:34,689 [    144]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 116 ms
+2021-03-16 21:21:34,778 [    233]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:21:34,894 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 116 ms
+2021-03-16 21:21:34,895 [    350]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:21:34,953 [    408]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:21:34,959 [    414]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:21:35,381 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:21:35,382 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:21:35,559 [    178]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 137 ms
+2021-03-16 21:21:35,586 [    205]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-03-16 21:21:35,636 [    255]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:21:35,763 [    382]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 127 ms
+2021-03-16 21:21:35,763 [    382]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:21:35,828 [    447]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:21:35,833 [    452]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:21:35,920 [    539]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 547 ms
+2021-03-16 21:23:16,398 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:23:16,399 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:23:16,579 [    181]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 147 ms
+2021-03-16 21:23:16,691 [    293]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:23:16,803 [    405]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 111 ms
+2021-03-16 21:23:16,803 [    405]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:23:16,856 [    458]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:23:16,861 [    463]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:23:17,259 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:23:17,259 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:23:17,407 [    148]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 117 ms
+2021-03-16 21:23:17,431 [    172]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 20 ms
+2021-03-16 21:23:17,475 [    216]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:23:17,618 [    359]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 143 ms
+2021-03-16 21:23:17,619 [    360]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:23:17,685 [    426]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:23:17,690 [    431]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:23:17,793 [    534]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 540 ms
+2021-03-16 21:25:11,306 [ 114047]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:30:15,009 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:30:15,009 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:30:15,164 [    155]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 131 ms
+2021-03-16 21:30:15,267 [    258]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:30:15,381 [    372]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 113 ms
+2021-03-16 21:30:15,381 [    372]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:30:15,435 [    426]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:30:15,440 [    431]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:30:15,843 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:30:15,843 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:30:15,998 [    155]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2021-03-16 21:30:16,027 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 23 ms
+2021-03-16 21:30:16,068 [    225]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:30:16,186 [    343]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 117 ms
+2021-03-16 21:30:16,186 [    343]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:30:16,242 [    399]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:30:16,247 [    404]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:30:16,327 [    484]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 490 ms
+2021-03-16 21:30:52,604 [  36761]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:32:26,196 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:32:26,197 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:32:26,353 [    157]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 126 ms
+2021-03-16 21:32:26,486 [    290]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:32:26,618 [    422]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 131 ms
+2021-03-16 21:32:26,618 [    422]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:32:26,666 [    470]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:32:26,671 [    475]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:32:27,080 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:32:27,081 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:32:27,227 [    147]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 119 ms
+2021-03-16 21:32:27,256 [    176]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 23 ms
+2021-03-16 21:32:27,295 [    215]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:32:27,417 [    337]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 121 ms
+2021-03-16 21:32:27,417 [    337]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:32:27,470 [    390]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:32:27,474 [    394]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:32:27,571 [    491]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 501 ms
+2021-03-16 21:33:17,000 [  49920]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:34:39,474 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:34:39,474 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:34:39,618 [    144]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 118 ms
+2021-03-16 21:34:39,726 [    252]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:34:39,855 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2021-03-16 21:34:39,856 [    382]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:34:39,909 [    435]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:34:39,915 [    441]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:34:40,321 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:34:40,322 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:34:40,474 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2021-03-16 21:34:40,505 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 25 ms
+2021-03-16 21:34:40,543 [    222]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:34:40,670 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 127 ms
+2021-03-16 21:34:40,670 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:34:40,734 [    413]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:34:40,740 [    419]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:34:40,826 [    505]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 511 ms
+2021-03-16 21:36:18,939 [  98618]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:38:35,493 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:38:35,494 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:38:35,646 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 124 ms
+2021-03-16 21:38:35,756 [    263]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:38:35,873 [    380]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 117 ms
+2021-03-16 21:38:35,873 [    380]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:38:35,923 [    430]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:38:35,927 [    434]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:38:36,370 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:38:36,370 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:38:36,520 [    150]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 121 ms
+2021-03-16 21:38:36,552 [    182]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 25 ms
+2021-03-16 21:38:36,593 [    223]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:38:36,723 [    353]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2021-03-16 21:38:36,723 [    353]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:38:36,788 [    418]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:38:36,795 [    425]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:38:36,893 [    523]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 531 ms
+2021-03-16 21:44:56,872 [ 380502]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:47:13,499 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:47:13,499 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:47:13,645 [    146]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 117 ms
+2021-03-16 21:47:13,754 [    255]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:47:13,879 [    380]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-03-16 21:47:13,879 [    380]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:47:13,937 [    438]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:47:13,942 [    443]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:47:14,318 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:47:14,318 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:47:14,463 [    145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 120 ms
+2021-03-16 21:47:14,491 [    173]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 23 ms
+2021-03-16 21:47:14,533 [    215]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:47:14,650 [    332]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 116 ms
+2021-03-16 21:47:14,650 [    332]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:47:14,702 [    384]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:47:14,706 [    388]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:47:14,788 [    470]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 476 ms
+2021-03-16 21:48:03,190 [  48872]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-03-16 21:48:45,006 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:48:45,007 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:48:45,168 [    162]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 133 ms
+2021-03-16 21:48:45,277 [    271]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:48:45,401 [    395]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 124 ms
+2021-03-16 21:48:45,401 [    395]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:48:45,455 [    449]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:48:45,461 [    455]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:48:45,865 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-03-16 21:48:45,865 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3.2/13938c2ba003ffe980f450345eea516cd9c2375f/ideaIC-2020.3.2/plugins/java/lib/jps-launcher.jar
+2021-03-16 21:48:46,018 [    153]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 127 ms
+2021-03-16 21:48:46,049 [    184]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 25 ms
+2021-03-16 21:48:46,087 [    222]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/Test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-03-16 21:48:46,234 [    369]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 146 ms
+2021-03-16 21:48:46,234 [    369]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-03-16 21:48:46,294 [    429]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=680
+2021-03-16 21:48:46,299 [    434]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes
+2021-03-16 21:48:46,395 [    530]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 538 ms
+2021-03-16 21:49:29,615 [  43750]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.

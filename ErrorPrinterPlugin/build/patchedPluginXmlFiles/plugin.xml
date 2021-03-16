@@ -12,6 +12,9 @@
   <extensions defaultExtensionNs="com.intellij">
     <applicationConfigurable instance="ErrorPrinterSettingsConfigurable" displayName="Real Error Printer"/>
   </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="ErrorPrinterSettingsState"/>
+  </extensions>
   <actions>
     <action id="ErrorPrintAction" class="ErrorPrintAction" text="ErrorPrintAction">
       <add-to-group group-id="Runner.View.Toolbar" anchor="first"/>
