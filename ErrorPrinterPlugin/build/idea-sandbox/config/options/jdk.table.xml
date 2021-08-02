@@ -3,8 +3,8 @@
     <jdk version="2">
       <name value="11" />
       <type value="JavaSDK" />
-      <version value="version 11.0.10" />
-      <homePath value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <version value="java version &quot;11.0.12&quot;" />
+      <homePath value="$USER_HOME$/.jdks/corretto-11.0.12" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -13,84 +13,158 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.compiler" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.datatransfer" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.instrument" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.logging" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.management" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.management.rmi" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.naming" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.net.http" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.prefs" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.rmi" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.scripting" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.se" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.security.jgss" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.security.sasl" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.smartcardio" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.sql" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.sql.rowset" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.transaction.xa" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.xml" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.xml.crypto" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.accessibility" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.aot" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.attach" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.charsets" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.compiler" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.crypto.ec" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.dynalink" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.editpad" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.hotspot.agent" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.httpserver" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.ed" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.jvmstat" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.le" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.opt" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.vm.compiler" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.internal.vm.compiler.management" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jartool" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.javadoc" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jcmd" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jconsole" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jdeps" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jdi" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jdwp.agent" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jfr" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jlink" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jshell" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jsobject" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.jstatd" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.localedata" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.management" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.management.agent" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.management.jfr" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.naming.dns" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.naming.ldap" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.naming.rmi" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.net" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.pack" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.rmic" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.scripting.nashorn" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.scripting.nashorn.shell" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.sctp" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.security.auth" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.security.jgss" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.unsupported" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.unsupported.desktop" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.xml.dom" type="simple" />
-            <root url="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.zipfs" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.base" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.compiler" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.datatransfer" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.desktop" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.instrument" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.logging" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.management" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.management.rmi" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.naming" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.net.http" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.prefs" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.rmi" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.scripting" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.se" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.security.sasl" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.smartcardio" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.sql" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.sql.rowset" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.transaction.xa" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.xml" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/java.xml.crypto" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.accessibility" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.aot" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.attach" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.charsets" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.compiler" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.crypto.mscapi" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.dynalink" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.editpad" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.httpserver" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.ed" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.le" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.opt" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jartool" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.javadoc" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jcmd" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jconsole" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jdeps" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jdi" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jfr" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jlink" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jshell" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jsobject" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.jstatd" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.localedata" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.management" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.management.agent" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.management.jfr" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.naming.dns" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.naming.ldap" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.net" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.pack" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.rmic" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.sctp" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.security.auth" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.unsupported" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.xml.dom" type="simple" />
+            <root url="jrt://C:/Users/bucki/.jdks/corretto-11.0.12!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.se" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.aot" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.pack" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.rmic" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.base" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.management" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.naming.ldap" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.crypto.mscapi" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.scripting.nashorn" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+          </root>
         </sourcePath>
       </roots>
       <additional />

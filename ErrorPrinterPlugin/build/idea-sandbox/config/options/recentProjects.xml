@@ -4,13 +4,25 @@
       <map>
         <entry key="$USER_HOME$/Desktop/Test">
           <value>
-            <RecentProjectMetaInfo frameTitle="Test – Test.java" opened="true" projectWorkspaceId="1pqsu8OrQzln8KLrUcYfF9tERFv">
+            <RecentProjectMetaInfo frameTitle="Test – Test.java" projectWorkspaceId="1pqsu8OrQzln8KLrUcYfF9tERFv">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-203.7148.57" />
               <option name="buildTimestamp" value="1611627894053" />
               <frame x="2526" y="288" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1615922175823" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="E:/Projects/ErrorPrinter/TestFile">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1wBCTjBiT6dNJRF89RPggBCUIbB">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627847026" />
+              <frame x="-1696" y="320" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1627923139225" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

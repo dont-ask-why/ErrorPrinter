@@ -1,4 +1,8 @@
 <application>
+  <component name="org.intellij.ErrorPrinterSettingsState">
+    <option name="printEnabled" value="true" />
+    <option name="printerName" value="Microsoft Print to PDF" />
+  </component>
   <component name="org.intellij.sdk.settings.ErrorPrinterSettingsState">
     <option name="printEnabled" value="true" />
     <option name="printerName" value="CLX-3180-Series" />

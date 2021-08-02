@@ -6,6 +6,8 @@ import com.intellij.openapi.components.AbstractProjectComponent;
 import com.intellij.openapi.project.Project;
 import com.sun.istack.NotNull;
 
+import java.io.PrintStream;
+
 public class CodeInsights extends AbstractProjectComponent {
     public CodeInsights(@NotNull Project project) {
         super(project);

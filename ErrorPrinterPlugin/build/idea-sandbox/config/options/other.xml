@@ -1,4 +1,16 @@
 <application>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Amazon Corretto 11.0.12" />
+        <option name="installDir" value="C:\Users\bucki\.jdks\corretto-11.0.12" />
+        <option name="javaHomeDir" value="C:\Users\bucki\.jdks\corretto-11.0.12" />
+        <option name="sha256" value="1b9703355042cf6f6e7e288f448ba512d4ad3cc69a1e4355424f6e51988590df" />
+        <option name="url" value="https://corretto.aws/downloads/resources/11.0.12.7.1/amazon-corretto-11.0.12.7.1-windows-x64-jdk.zip" />
+        <option name="versionText" value="11.0.12" />
+      </installed-jdk>
+    </option>
+  </component>
   <component name="ProjectPluginTrackerManager">
     <option name="trackers">
       <map>
@@ -12,26 +24,32 @@
             <ProjectPluginTrackerState />
           </value>
         </entry>
+        <entry key="1wBCTjBiT6dNJRF89RPggBCUIbB">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="PropertiesComponent">
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
     <property name="defaultJdkConfigured" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop" />
+    <property name="file.chooser.recent.files" value="E:/Projects/ErrorPrinter/TestFile&#10;E:/Projects/ErrorPrinter&#10;C:/Users/bucki/Desktop" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="ide.updates.previous.build.number" value="IC-203.7148.57" />
     <property name="installed.kotlin.plugin.version" value="203-1.4.10-release-IJ7148.5" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="lastSeenTip" value="neue-QuickJavaDoc.html" />
-    <property name="lastTimeTipsWereShown" value="1615922180982" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="lastSeenTip" value="neue-NavigateBetweenErrors.html" />
+    <property name="lastTimeTipsWereShown" value="1627922610526" />
+    <property name="last_opened_file_path" value="E:/Projects/ErrorPrinter/TestFile" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1615924239959" />
+    <property name="packagesearch.status.updated.ts" value="1627922604751" />
     <property name="project.wizard.group" value="JAVA_MODULE" />
-    <property name="seenTips" value="Kotlin_Java_convert.html,neue-SmartTypeCasting.html,neue-AnnotationsAndDiffs.html,neue-QuickJavaDoc.html" />
+    <property name="seenTips" value="neue-QuickJavaDoc.html,Kotlin_Java_convert.html,neue-SmartTypeCasting.html,neue-AnnotationsAndDiffs.html,neue-NavigateBetweenErrors.html" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
   </component>
 </application>
