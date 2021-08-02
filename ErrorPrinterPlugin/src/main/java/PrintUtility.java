@@ -2,6 +2,8 @@ import java.awt.print.PrinterJob;
 import javax.print.PrintService;
 import java.util.List;
 import java.util.ArrayList;
+import javax.swing.*;
+import java.awt.*;
 
 public final class PrintUtility {
 
@@ -47,6 +49,27 @@ public final class PrintUtility {
         }
 
         return list;
+    }
+
+    /**
+     * Prints the defined content to the defined printer.
+     *
+     * @param content of the printed page
+     * @param printerName of the printer where the content should be printed
+     */
+    public static void printString(String content, String printerName){
+        PrintService printService = findPrintService(printerName);
+
+        JTextPane jtp = new JTextPane();
+        jtp.setBackground(Color.white);
+        jtp.setText(content);
+
+        try {
+            jtp.print(null, null, false, printService, null, false);
+        } catch (java.awt.print.PrinterException ex) {
+            // do nothing
+        }
+
     }
 
     /**
