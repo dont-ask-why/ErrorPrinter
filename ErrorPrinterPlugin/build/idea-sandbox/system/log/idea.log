@@ -25191,3 +25191,184 @@ java.lang.Throwable: toolbar creation trace
 2021-08-18 20:09:16,336 [ 308736]   INFO - stubs.SerializationManagerImpl - Finished shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
 2021-08-18 20:09:16,635 [ 309035]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2021-08-18 20:09:16,637 [ 309037]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-18 21:36:07,142 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-18 21:36:07,171 [     29]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 09:08) 
+2021-08-18 21:36:07,197 [     55]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-31-generic, amd64) 
+2021-08-18 21:36:07,203 [     61]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-18 21:36:07,204 [     62]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-18 21:36:07,204 [     62]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins -Didea.required.plugins.id=de.DuckAndPlatypus.ErrorPrinterPlugin -Didea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea 
+2021-08-18 21:36:07,204 [     62]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-18 21:36:07,205 [     63]   INFO -        #com.intellij.idea.Main - boot library path: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/extracted/jbr/lib 
+2021-08-18 21:36:07,221 [     79]   INFO -        #com.intellij.idea.Main - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config
+  idea.system.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system
+  idea.plugins.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/plugins
+  idea.log.path=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/log 
+2021-08-18 21:36:07,227 [     85]   INFO -        #com.intellij.idea.Main - CPU cores: 24; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@f001622[Running, parallelism = 23, size = 8, active = 4, running = 4, steals = 3, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6d4f78b1 
+2021-08-18 21:36:07,251 [    109]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2021-08-18 21:36:07,315 [    173]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-18 21:36:07,317 [    175]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-18 21:36:07,512 [    370]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-18 21:36:07,512 [    370]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Real Error Printer (0.2-SNAPSHOT) 
+2021-08-18 21:36:07,683 [    541]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-18 21:36:08,249 [   1107]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-18 21:36:08,299 [   1157]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-18 21:36:08,307 [   1165]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-18 21:36:08,343 [   1201]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/verobuckina/.m2/repository, KOTLIN_BUNDLED=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-18 21:36:08,366 [   1224]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-18 21:36:08,373 [   1231]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-18 21:36:08,381 [   1239]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-18 21:36:08,561 [   1419]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-18 21:36:08,624 [   1482]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-18 21:36:08,624 [   1482]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-18 21:36:08,626 [   1484]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-18 21:36:08,694 [   1552]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-18 21:36:08,772 [   1630]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-18 21:36:08,782 [   1640]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-18 21:36:08,802 [   1660]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-18 21:36:08,832 [   1690]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@7d74e586). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-18 21:36:08,868 [   1726]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x620002e 
+2021-08-18 21:36:09,010 [   1868]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/media/verobuckina/Shared-Volume/Projects/ErrorPrinter] 
+2021-08-18 21:36:09,026 [   1884]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-18 21:36:09,031 [   1889]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened: 1 chunk(s), 46.18 MB, chunks: [11.0.11-corretto-11.0.11-854267df6c5e7786d22bac7861602dedd619641958a0038f42632fbf9130092a-68a5a4f53222] 
+2021-08-18 21:36:09,064 [   1922]   INFO - el.ide.impl.WorkspaceModelImpl - Load workspace model from cache in 344 ms 
+2021-08-18 21:36:09,220 [   2078]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-18 21:36:09,229 [   2087]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-18 21:36:09,499 [   2357]   INFO - ar.ExperimentalToolbarSettings - Loading old state, main toolbar: false navBar true 
+2021-08-18 21:36:09,914 [   2772]  DEBUG - BackendServerFileEditorManager - Opening host editor for /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile/src/Test.java 
+2021-08-18 21:36:09,936 [   2794]   INFO - leBasedIndexDataInitialization - Index data initialization done: 1409 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-18 21:36:10,157 [   3015]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 221 ms. Initialized stub indexes: {jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, jvm.static.member.name, gr.anonymous.class, gr.class.fqn, gr.field.name, gr.method.name, properties.index, dom.elementClass, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, dom.namespaceKey, gr.annot.method.name, java.class.extlist, java.annotations, java.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, java.class.shortname, gr.script.class, gr.annot.members, java.module.name, java.method.parameter.types, gr.class.super, java.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex}. 
+2021-08-18 21:36:10,844 [   3702]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-18 21:36:11,267 [   4125]   INFO - erver.followMe.FollowMeManager - Register new user 0:'verobuckina' with ClientId=ClientId(value=Host) 
+2021-08-18 21:36:11,472 [   4330]   INFO - ion.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 605 ms. Thread[JobScheduler FJ pool 15/23,4,main] 
+2021-08-18 21:36:11,543 [   4401]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-18 21:36:11,546 [   4404]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[TestFile] 
+2021-08-18 21:36:11,554 [   4412]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-18 21:36:11,600 [   4458]   INFO - indexing.UnindexedFilesUpdater - Started indexing of TestFile. Reason: On project open 
+2021-08-18 21:36:11,600 [   4458]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2021-08-18 21:36:11,611 [   4469]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for TestFile took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-18 21:36:11,615 [   4473]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 1) 
+2021-08-18 21:36:11,616 [   4474]   INFO -  #git4idea.commands.GitHandler - git version 2.30.2 
+2021-08-18 21:36:11,627 [   4485]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git: 2.30.2.0 (UNIX) 
+2021-08-18 21:36:11,648 [   4506]   INFO - indexing.UnindexedFilesUpdater - Scanning of TestFile uses 23 scanning threads 
+2021-08-18 21:36:11,915 [   4773]   INFO - plication.impl.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class de.plushnikov.intellij.plugin.lombokconfig.LombokConfigChangeListener, message=before, time=188ms 
+2021-08-18 21:36:12,053 [   4911]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-08-18 21:36:12,127 [   4985]   INFO - oad.SharedIndexDownloadService - There is no need to download shared indexes for JdkSharedIndexSuggestion(SharedIndexId(kind=jdk, url=https://index-cdn.jetbrains.com/v2/jdk, indexId=4e15e05f897ba705b71a1f7f400a0a96dc13fbcbdb71691b8f25c011eab58431#Amazon Corretto version 11.0.10), lazy). Similar compatible shared indexes are available locally. 
+2021-08-18 21:36:12,157 [   5015]   INFO - ProjectRootPostStartUpActivity - /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile/.idea case-sensitivity: expected=true actual=true 
+2021-08-18 21:36:12,164 [   5022]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-18 21:36:12,171 [   5029]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1336ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-18 21:36:12,572 [   5430]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3963 ms 
+2021-08-18 21:36:13,466 [   6324]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-08-18 21:36:13,481 [   6339]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for TestFile. Number of scanned files: 49788; Number of files for indexing: 222 took 1867ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2021-08-18 21:36:13,491 [   6349]   INFO - indexing.UnindexedFilesUpdater - Use 4 indexing threads for indexing of TestFile 
+2021-08-18 21:36:13,736 [   6594]   INFO - System.impl.PopupMenuPreloader - Popup menu preloaded for `EditorPopup` in 463 ms 
+2021-08-18 21:36:14,226 [   7084]   INFO - indexing.UnindexedFilesUpdater - Finished for TestFile. Unindexed files update took 741ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-18 21:36:14,227 [   7085]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-18 21:36:14,229 [   7087]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@33b7310c 
+2021-08-18 21:36:14,230 [   7088]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@6f7fd1c0 
+2021-08-18 21:36:14,231 [   7089]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@4730dafb 
+2021-08-18 21:36:14,233 [   7091]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-18 21:36:14,238 [   7096]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=TestFile, containerState=COMPONENT_CREATED, componentStore=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile) 
+2021-08-18 21:36:14,536 [   7394]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-18 21:36:14,589 [   7447]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@a3c3ef8 
+2021-08-18 21:36:14,620 [   7478]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-18 21:36:14,622 [   7480]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=TestFile, containerState=COMPONENT_CREATED, componentStore=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile) 
+2021-08-18 21:36:14,772 [   7630]   WARN - nSystem.impl.ActionToolbarImpl - Please do not use ActionPlaces.UNKNOWN or the empty place. Any string unique enough to deduce the toolbar location will do. 
+java.lang.Throwable: toolbar creation trace
+	at com.intellij.openapi.actionSystem.impl.ActionToolbarImpl.<init>(ActionToolbarImpl.java:112)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:432)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:426)
+	at com.android.tools.idea.common.error.IssuePanel.createToolbar(IssuePanel.java:244)
+	at com.android.tools.idea.common.error.IssuePanel.createTitlePanel(IssuePanel.java:255)
+	at com.android.tools.idea.common.error.IssuePanel.<init>(IssuePanel.java:124)
+	at com.android.tools.idea.common.surface.DesignSurface.<init>(DesignSurface.java:328)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface.<init>(NlDesignSurface.java:398)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface$Builder.build(NlDesignSurface.java:327)
+	at com.android.tools.idea.uibuilder.visual.VisualizationForm.<init>(VisualizationForm.java:151)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.createPreviewForm(VisualizationManager.java:118)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.initToolWindow(VisualizationManager.java:125)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager$2.run(VisualizationManager.java:268)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:333)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:323)
+	at com.intellij.util.ui.update.MergingUpdateQueue.lambda$flush$1(MergingUpdateQueue.java:273)
+	at com.intellij.util.ui.EdtInvocationManager.invokeAndWaitIfNeeded(EdtInvocationManager.java:148)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2199)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:284)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:242)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:240)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:391)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:377)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:220)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:886)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:755)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:442)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:441)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:487)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-08-18 21:36:16,445 [   9303]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2021-08-18 21:36:16,874 [   9732]   INFO - CompilerWorkspaceConfiguration - Available processors: 24 
+2021-08-18 21:36:17,288 [  10146]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/verobuckina/.cache/JetBrains' 
+2021-08-18 21:36:17,289 [  10147]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-18 21:36:17,289 [  10147]   INFO - m.codeWithMe.CodeWithMeCleanup - found 1 Code With Me client config folders to check 
+2021-08-18 21:36:17,291 [  10149]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [203] major versions 
+2021-08-18 21:36:17,292 [  10150]   INFO - m.codeWithMe.CodeWithMeCleanup - keep config folder with version 203.7148.57, it is the most up-to-date config folder with 203 major version, path is '/home/verobuckina/.config/JetBrains/IntelliJClient203.7148.57' 
+2021-08-18 21:36:17,299 [  10157]   INFO - m.codeWithMe.CodeWithMeCleanup - keep Java runtime jbr_jcef-11_0_9-b1145.21-ide because it is the most recent runtime downloaded, path is '/home/verobuckina/.cache/JetBrains/CodeWithMeClientDist/jbr_jcef-11_0_9-b1145.21-ide' 
+2021-08-18 21:36:17,302 [  10160]   INFO - m.codeWithMe.CodeWithMeCleanup - keep Java runtime jbr_jcef-11_0_10-b1341.35-ide because it is the second most recent runtime downloaded, path is '/home/verobuckina/.cache/JetBrains/CodeWithMeClientDist/jbr_jcef-11_0_10-b1341.35-ide' 
+2021-08-18 21:36:19,338 [  12196]   INFO - ta.index.VcsLogPersistentIndex - Indexing 2 commits in ErrorPrinter 
+2021-08-18 21:36:19,665 [  12523]   INFO - ta.index.VcsLogPersistentIndex - 324ms for indexing 2 new commits out of 2 in ErrorPrinter 
+2021-08-18 21:36:19,690 [  12548]   INFO - ta.index.VcsLogPersistentIndex - Indexing 2 commits in ErrorPrinter 
+2021-08-18 21:36:19,690 [  12548]   INFO - ta.index.VcsLogPersistentIndex - 1ms for indexing 0 new commits out of 2 in ErrorPrinter 
+2021-08-18 21:36:24,003 [  16861]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:25,163 [  18021]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:26,145 [  19003]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:27,435 [  20293]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:28,353 [  21211]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:29,303 [  22161]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:31,748 [  24606]   INFO -                         STDOUT - CLX-3180-Series 
+2021-08-18 21:36:37,237 [  30095]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@26e98c9e 
+2021-08-18 21:36:37,238 [  30096]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-18 21:36:37,239 [  30097]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=TestFile, containerState=COMPONENT_CREATED, componentStore=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile) 
+2021-08-18 21:36:43,001 [  35859]   INFO - ication.options.PathMacrosImpl - Saved path macros: {MAVEN_REPOSITORY=/home/verobuckina/.m2/repository, KOTLIN_BUNDLED=/home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-18 21:36:43,345 [  36203]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId 
+2021-08-18 21:36:43,373 [  36231]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=TestFile, containerState=COMPONENT_CREATED, componentStore=/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile)XDebuggerManager took 11 ms 
+2021-08-18 21:36:43,851 [  36709]   INFO - erver.followMe.FollowMeManager - Unregister user 0:'verobuckina' with ClientId=ClientId(value=Host) 
+2021-08-18 21:36:43,875 [  36733]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost has been reset 
+2021-08-18 21:36:43,877 [  36735]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost disposed 
+2021-08-18 21:36:43,890 [  36748]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-18 21:36:43,899 [  36757]   INFO - .impl.FileTypeDetectionService - 12 auto-detected files. Detection took 29 ms 
+2021-08-18 21:36:43,899 [  36757]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-18 21:36:44,344 [  37202]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-18 21:36:44,363 [  37221]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-08-18 21:36:44,388 [  37246]   WARN - pl.local.NativeFileWatcherImpl - File watcher is still alive, doing a force quit. 
+2021-08-18 21:36:44,674 [  37532]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-18 21:36:44,674 [  37532]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-18 21:36:44,688 [  37546]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-18 21:36:44,688 [  37546]   INFO - stubs.SerializationManagerImpl - Start shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-08-18 21:36:44,689 [  37547]   INFO - stubs.SerializationManagerImpl - Finished shutting down /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/system/index/rep.names 
+2021-08-18 21:36:45,028 [  37886]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-18 21:36:45,029 [  37887]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

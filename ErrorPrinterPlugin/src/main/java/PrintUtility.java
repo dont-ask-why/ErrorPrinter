@@ -1,9 +1,9 @@
-import java.awt.print.PrinterJob;
 import javax.print.PrintService;
-import java.util.List;
-import java.util.ArrayList;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.print.PrinterJob;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class PrintUtility {
 
@@ -46,6 +46,24 @@ public final class PrintUtility {
 
         for (int i = 0; i < services.length; i++) {
             list.add(services[i].getName());
+        }
+
+        return list;
+    }
+
+    /**
+     * Retrieves an Array of Printer Service Names.
+     *
+     * @return String array with all printer names
+     */
+    public static String[] getPrinterServiceNameArray() {
+
+        // get list of all print services
+        PrintService[] services = PrinterJob.lookupPrintServices();
+        String[] list = new String[services.length];
+
+        for (int i = 0; i < services.length; i++) {
+            list[i] = services[i].getName();
         }
 
         return list;

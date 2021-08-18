@@ -1,5 +1,7 @@
 ErrorPrintAction.java
  ErrorPrintAction
+ErrorPrinterSettingsState.java
+ ErrorPrinterSettingsState
 PrintUtility.java
  PrintUtility
 ErrorPrinterSettingsConfigurable.java
@@ -10,7 +12,3 @@ CodeInsights.java
  CodeInsights$1$1
 ErrorPrinterSettingsComponent.java
  ErrorPrinterSettingsComponent
- ErrorPrinterSettingsComponent$1
- ErrorPrinterSettingsComponent$2
-ErrorPrinterSettingsState.java
- ErrorPrinterSettingsState

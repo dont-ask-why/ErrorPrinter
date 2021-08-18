@@ -1,18 +1,14 @@
+import com.intellij.openapi.ui.ComboBox;
 import com.intellij.ui.components.JBCheckBox;
-import com.intellij.ui.components.JBList;
 import com.intellij.util.ui.FormBuilder;
 
 import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class ErrorPrinterSettingsComponent {
     private final JPanel mainPanel;
-    private final JBList<String> printerList = new JBList<String>(PrintUtility.getPrinterServiceNameList());
+    private final JComboBox<String> printerList = new ComboBox<>(PrintUtility.getPrinterServiceNameArray());
+    //private final JBList<String> printerList = new JBList<String>(PrintUtility.getPrinterServiceNameList());
     private final JBCheckBox enablePrinterCheckBox = new JBCheckBox("Print error messages to printer");
-//    private final JButton selectPrinterButton;
 
     private boolean enabled;
     private String printerName;
@@ -28,25 +24,30 @@ public class ErrorPrinterSettingsComponent {
         this.enabled = enabled;
 
         enablePrinterCheckBox.setSelected(enabled);
+        printerList.setSelectedItem(printerName);
 
-        printerList.addListSelectionListener(new ListSelectionListener() {
+/*        printerList.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent listSelectionEvent) {
                 printerName = printerList.getSelectedValue();
                 System.out.println("selected printer: " + printerName);
             }
+        });*/
+
+        printerList.addActionListener(actionEvent -> {
+            if(printerList.getSelectedItem() != null) {
+                System.out.println(printerList.getSelectedItem().toString());
+                setPrinterName(printerList.getSelectedItem().toString());
+            }
         });
 
-        enablePrinterCheckBox.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (enablePrinterCheckBox.isSelected()) {
-                    setEnabled(true);
-                    System.out.println("Checkbox is checked.");
-                } else {
-                    setEnabled(false);
-                    System.out.println("Checkbox not checked.");
-                }
+        enablePrinterCheckBox.addActionListener(actionEvent -> {
+            if (enablePrinterCheckBox.isSelected()) {
+                setEnabled(true);
+                System.out.println("Checkbox is checked.");
+            } else {
+                setEnabled(false);
+                System.out.println("Checkbox not checked.");
             }
         });
     }
