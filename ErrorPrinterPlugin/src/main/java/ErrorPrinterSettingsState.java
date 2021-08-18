@@ -1,13 +1,18 @@
 import com.intellij.openapi.components.PersistentStateComponent;
-import com.intellij.openapi.components.ServiceManager;
 import com.intellij.openapi.components.State;
 import com.intellij.openapi.components.Storage;
 import com.intellij.util.xmlb.XmlSerializerUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import com.intellij.openapi.application.ApplicationManager;
 
+/**
+ * Supports storing the application settings in a persistent way.
+ * The {@link State} and {@link Storage} annotations define the name of the data and the file name where
+ * these persistent application settings are stored.
+ */
 @State(
-        name = "org.intellij.ErrorPrinterSettingsState",
+        name = "ErrorPrinterSettingsState",
         storages = {@Storage("SdkSettingsPlugin.xml")}
 )
 
@@ -35,7 +40,7 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
     }
 
     public static ErrorPrinterSettingsState getInstance() {
-        return ServiceManager.getService(ErrorPrinterSettingsState.class);
+        return ApplicationManager.getApplication().getService(ErrorPrinterSettingsState.class);
     }
 
     @Override

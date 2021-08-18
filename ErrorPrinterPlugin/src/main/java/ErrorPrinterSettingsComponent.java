@@ -3,8 +3,6 @@ import com.intellij.ui.components.JBList;
 import com.intellij.util.ui.FormBuilder;
 
 import javax.swing.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.event.ActionEvent;
@@ -16,15 +14,20 @@ public class ErrorPrinterSettingsComponent {
     private final JBCheckBox enablePrinterCheckBox = new JBCheckBox("Print error messages to printer");
 //    private final JButton selectPrinterButton;
 
-    private boolean enabled = false;
-    private String printerName = "None selected";
+    private boolean enabled;
+    private String printerName;
 
-    public ErrorPrinterSettingsComponent() {
+    public ErrorPrinterSettingsComponent(String selectedPrinterName, boolean enabled) {
         mainPanel = FormBuilder.createFormBuilder()
                 .addComponent(enablePrinterCheckBox, 1)
                 .addComponent(printerList, 2)
                 .addComponentFillVertically(new JPanel(), 0)
                 .getPanel();
+
+        this.printerName = selectedPrinterName;
+        this.enabled = enabled;
+
+        enablePrinterCheckBox.setSelected(enabled);
 
         printerList.addListSelectionListener(new ListSelectionListener() {
             @Override
@@ -38,10 +41,10 @@ public class ErrorPrinterSettingsComponent {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (enablePrinterCheckBox.isSelected()) {
-                    enabled = true;
+                    setEnabled(true);
                     System.out.println("Checkbox is checked.");
                 } else {
-                    enabled = false;
+                    setEnabled(false);
                     System.out.println("Checkbox not checked.");
                 }
             }

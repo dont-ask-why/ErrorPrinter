@@ -13,13 +13,14 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-        <applicationConfigurable instance="ErrorPrinterSettingsConfigurable"
-                                displayName="Real Error Printer"/>
+        <applicationService serviceImplementation="ErrorPrinterSettingsState"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="ErrorPrinterSettingsState"/>
+        <!-- Add your extensions here -->
+        <applicationConfigurable instance="ErrorPrinterSettingsConfigurable"
+                                 id="ErrorPrinterSettingsConfigurable"
+                                 displayName="Real Error Printer"/>
     </extensions>
 
     <actions>

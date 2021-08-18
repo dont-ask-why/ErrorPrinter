@@ -16,7 +16,8 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
 
     @Override
     public @Nullable JComponent createComponent() {
-        settingsComponent = new ErrorPrinterSettingsComponent();
+        ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
+        settingsComponent = new ErrorPrinterSettingsComponent(settings.getPrinterName(), settings.isPrintEnabled());
         return settingsComponent.getPanel();
     }
 

@@ -24,11 +24,14 @@
     <e n="Run">
       <i c="12" l="1627925560840" />
     </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="2" l="1628794334494" />
+    </e>
     <e n="ShowSettings">
-      <i c="36" l="1627926112921" />
+      <i c="57" l="1629309832148" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="3" l="1627922556198" />
+      <i c="4" l="1628792342714" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="1" l="1627923134425" />
@@ -37,7 +40,10 @@
       <i c="2" l="1615929432390" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
-      <i c="1" l="1627922550132" />
+      <i c="2" l="1628792169114" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1629309828382" />
     </e>
     <e n="com.intellij.openapi.projectRoots.impl.jdkDownloader.JdkUpdateNotification$InstallUpdateNotification">
       <i c="1" l="1627922669008" />

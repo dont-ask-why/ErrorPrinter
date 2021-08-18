@@ -98,6 +98,14 @@
       "url": "https://appsemble.app/api.json#/components/schemas/AppDefinition"
     },
     {
+      "name": ".appsemblerc.yaml",
+      "description": "Appsemble RC file",
+      "fileMatch": [
+        ".appsemblerc.yaml"
+      ],
+      "url": "https://json.schemastore.org/appsemblerc.json"
+    },
+    {
       "name": "appsscript.json",
       "description": "Google Apps Script manifest file",
       "fileMatch": [
@@ -186,12 +194,14 @@
       "description": "Azure IoT Edge deployment template schema",
       "fileMatch": [
         "deployment.template.json",
-        "deployment.*.template.json"
+        "deployment.debug.template.json"
       ],
-      "url": "https://json.schemastore.org/azure-iot-edge-deployment-template-2.0.json",
+      "url": "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json",
       "versions": {
         "1.0": "https://json.schemastore.org/azure-iot-edge-deployment-template-1.0.json",
-        "1.1": "https://json.schemastore.org/azure-iot-edge-deployment-template-2.0.json"
+        "1.1": "https://json.schemastore.org/azure-iot-edge-deployment-template-2.0.json",
+        "1.2": "https://json.schemastore.org/azure-iot-edge-deployment-template-3.0.json",
+        "1.3": "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json"
       }
     },
     {
@@ -659,6 +669,14 @@
       "url": "https://raw.githubusercontent.com/awslabs/goformation/v4.18.2/schema/sam.schema.json"
     },
     {
+      "name": "Citation File Format",
+      "description": "A YAML file with citation metadata for software or datasets.",
+      "fileMatch": [
+        "CITATION.cff"
+      ],
+      "url": "https://citation-file-format.github.io/1.2.0/schema.json"
+    },
+    {
       "name": "coffeelint.json",
       "description": "CoffeeLint configuration file",
       "fileMatch": [
@@ -1069,6 +1087,14 @@
         "template.json"
       ],
       "url": "https://gitlab.com/-/snippets/2062623/raw/master/foundryvtt_template_schema.json"
+    },
+    {
+      "name": "func.yaml",
+      "description": "JSON schema for Knative Func Plugin func.yaml files",
+      "fileMatch": [
+        "func.yaml"
+      ],
+      "url": "https://raw.githubusercontent.com/knative-sandbox/kn-plugin-func/main/schema/func_yaml-schema.json"
     },
     {
       "name": "function.json",
@@ -2339,6 +2365,14 @@
       "url": "https://json.schemastore.org/schema-org-thing.json"
     },
     {
+      "name": "Scoop manifest",
+      "description": "Scoop bucket app manifest",
+      "fileMatch": [
+        "bucket/**.json"
+      ],
+      "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json"
+    },
+    {
       "name": "Semgrep Rule",
       "description": "Semgrep code scanning patterns and rules",
       "fileMatch": [
@@ -3396,7 +3430,7 @@
         "skaffold.yaml",
         "skaffold.yml"
       ],
-      "url": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta19.json",
+      "url": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta21.json",
       "versions": {
         "v1alpha1": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v1alpha1.json",
         "v1alpha2": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v1alpha2.json",
@@ -3443,7 +3477,9 @@
         "v2beta16": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta16.json",
         "v2beta17": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta17.json",
         "v2beta18": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta18.json",
-        "v2beta19": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta19.json"
+        "v2beta19": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta19.json",
+        "v2beta20": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta20.json",
+        "v2beta21": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta21.json"
       }
     },
     {

@@ -16,7 +16,7 @@
         </entry>
         <entry key="E:/Projects/ErrorPrinter/TestFile">
           <value>
-            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1wBCTjBiT6dNJRF89RPggBCUIbB">
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" projectWorkspaceId="1wBCTjBiT6dNJRF89RPggBCUIbB">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-203.7148.57" />
               <option name="buildTimestamp" value="1611627847026" />
@@ -26,8 +26,33 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1wdgp8tIZV0HljbOPRsHb4wgY0R">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369738326" />
+              <frame x="232" y="333" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1628792384993" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/Desktop" />
+    <option name="groups">
+      <list>
+        <ProjectGroup>
+          <option name="bottomGroup" value="true" />
+          <option name="name" value="Eclipse Projects" />
+          <option name="projects">
+            <list>
+              <option value="/media/verobuckina/Shared-Volume/Uni/MT_Medizintechnik/20_21_WiSe/DMIP-VHB/Uebung/workspace/CONRAD" />
+            </list>
+          </option>
+        </ProjectGroup>
+      </list>
+    </option>
+    <option name="lastProjectLocation" value="/media/verobuckina/Shared-Volume/Projects/ErrorPrinter" />
   </component>
 </application>
