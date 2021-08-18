@@ -13,5 +13,5 @@ Use only if you have too much ink and paper. Well you could also just select the
 [Till](https://github.com/danpotsdam)
 
 ### Footnotes
-1: This has gotten out of hand.
-2: But who would want to do that?
+1. This has gotten out of hand.
+2. But who would want to do that?
