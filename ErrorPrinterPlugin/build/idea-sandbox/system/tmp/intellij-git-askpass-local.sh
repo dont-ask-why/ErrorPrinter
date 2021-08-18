@@ -1,0 +1,2 @@
+#!/bin/sh
+"C:/Users/Ivo Opitz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-windows-x64-b1504.13/extracted/jbr/bin/java" -cp "C:/Users/Ivo Opitz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/git4idea/lib/git4idea-rt.jar;C:/Users/Ivo Opitz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/lib/3rd-party.jar" git4idea.http.GitAskPassApp "$@"

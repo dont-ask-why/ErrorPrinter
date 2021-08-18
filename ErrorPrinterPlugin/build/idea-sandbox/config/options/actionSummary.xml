@@ -1,0 +1,109 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1629317000966" />
+    </e>
+    <e n="CWMHostShowPopupAction">
+      <i c="1" l="1629318226986" />
+    </e>
+    <e n="ChooseRunConfiguration">
+      <i c="1" l="1615320610191" />
+    </e>
+    <e n="Coverage">
+      <i c="1" l="1615320462099" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="57" l="1629318380420" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="3" l="1627922666052" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="14" l="1629318333660" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1629317236072" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1629318376493" />
+    </e>
+    <e n="EditorDelete">
+      <i c="3" l="1629318272356" />
+    </e>
+    <e n="EditorDown">
+      <i c="59" l="1629318327987" />
+    </e>
+    <e n="EditorEnter">
+      <i c="21" l="1629318377564" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1629317631847" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="1" l="1629317312123" />
+    </e>
+    <e n="EditorLeft">
+      <i c="17" l="1629318330748" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="3" l="1629318329436" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="1" l="1629317609447" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1629318377750" />
+    </e>
+    <e n="EditorRight">
+      <i c="11" l="1629318313940" />
+    </e>
+    <e n="EditorUp">
+      <i c="31" l="1629318328444" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="1" l="1629317278873" />
+    </e>
+    <e n="GetJoinLinkAction">
+      <i c="1" l="1629318227946" />
+    </e>
+    <e n="NewClass">
+      <i c="2" l="1627922644328" />
+    </e>
+    <e n="NewProject">
+      <i c="3" l="1629317258033" />
+    </e>
+    <e n="Run">
+      <i c="33" l="1629320644919" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="5" l="1629317228634" />
+    </e>
+    <e n="ShowSettings">
+      <i c="68" l="1629320246795" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="4" l="1628792342714" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1629316955539" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="2" l="1615929432390" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="2" l="1628792169114" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1629309828382" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1629316991542" />
+    </e>
+    <e n="com.intellij.openapi.projectRoots.impl.jdkDownloader.JdkUpdateNotification$InstallUpdateNotification">
+      <i c="1" l="1627922669008" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1615320466626" />
+    </e>
+  </component>
+</application>

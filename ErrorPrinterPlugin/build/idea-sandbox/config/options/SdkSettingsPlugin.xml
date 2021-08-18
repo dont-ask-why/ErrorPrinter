@@ -1,0 +1,7 @@
+<application>
+  <component name="ErrorPrinterSettingsState">
+    <option name="errEnabled" value="true" />
+    <option name="outEnabled" value="true" />
+    <option name="printerName" value="Microsoft Print to PDF" />
+  </component>
+</application>
