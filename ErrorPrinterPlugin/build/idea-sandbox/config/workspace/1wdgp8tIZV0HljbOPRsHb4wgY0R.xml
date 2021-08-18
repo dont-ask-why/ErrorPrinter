@@ -22,6 +22,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -38,7 +39,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -70,10 +70,10 @@
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
   <component name="WindowStateProjectService">
-    <state x="421" y="468" width="1022" height="737" key="SettingsEditor" timestamp="1629309838681">
+    <state x="421" y="468" width="1022" height="737" key="SettingsEditor" timestamp="1629310151224">
       <screen x="0" y="240" width="1920" height="1200" />
     </state>
-    <state x="421" y="468" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/4480.240.1920.1200/0.240.1920.1200/2263.1440.1920.1080@0.240.1920.1200" timestamp="1629309838681" />
+    <state x="421" y="468" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/4480.240.1920.1200/0.240.1920.1200/2263.1440.1920.1080@0.240.1920.1200" timestamp="1629310151224" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test.java">

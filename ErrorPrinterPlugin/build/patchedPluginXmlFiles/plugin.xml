@@ -1,23 +1,32 @@
 <idea-plugin>
-  <version>1.0-SNAPSHOT</version>
-  <change-notes>
-      Add change notes here.&lt;br&gt;
+  <version>0.1-SNAPSHOT</version>
+  <change-notes>Add change notes here.&lt;br&gt;
       &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
-  <idea-version since-build="212.4746" until-build="212.*"/>
+  <idea-version since-build="212.4746" until-build="212.*" />
   <id>de.DuckAndPlatypus.ErrorPrinterPlugin</id>
   <name>Real Error Printer</name>
   <vendor>Duck'n'Platypus</vendor>
-  <description>This is 40 something length description of our project.</description>
+  <description>
+    This a stupid plugin. Do not use. If you use it, you have been warned.
+        Everything is under your own risk.
+    <!-- [CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]> -->
+  </description>
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <applicationService serviceImplementation="ErrorPrinterSettingsState"/>
+    <applicationService serviceImplementation="ErrorPrinterSettingsState" />
   </extensions>
   <extensions defaultExtensionNs="com.intellij">
-    <applicationConfigurable instance="ErrorPrinterSettingsConfigurable" id="ErrorPrinterSettingsConfigurable" displayName="Real Error Printer"/>
+    <!-- Add your extensions here -->
+    <applicationConfigurable instance="ErrorPrinterSettingsConfigurable" id="ErrorPrinterSettingsConfigurable" displayName="Real Error Printer" />
   </extensions>
   <actions>
     <action id="ErrorPrintAction" class="ErrorPrintAction" text="ErrorPrintAction">
-      <add-to-group group-id="Runner.View.Toolbar" anchor="first"/>
+      <add-to-group group-id="Runner.View.Toolbar" anchor="first" />
     </action>
   </actions>
   <project-components>

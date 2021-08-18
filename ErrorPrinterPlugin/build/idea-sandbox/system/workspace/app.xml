@@ -12063,6 +12063,17 @@
       </BundleConfigBean>
     </bundles>
   </component>
+  <component name="shared-index-download-history">
+    <option name="entries">
+      <entry>
+        <option name="indexId" value="4e15e05f897ba705b71a1f7f400a0a96dc13fbcbdb71691b8f25c011eab58431#Amazon Corretto version 11.0.10" />
+        <option name="indexKind" value="jdk" />
+        <option name="lastDeliveredChunkUniqueId" value="11.0.11-corretto-11.0.11-854267df6c5e7786d22bac7861602dedd619641958a0038f42632fbf9130092a-68a5a4f53222" />
+        <option name="lastDownloadDate" value="2021-08-18T20:04:24.881457+02:00[Europe/Berlin]" />
+        <option name="lastDownloadSize" value="24467560" />
+      </entry>
+    </option>
+  </component>
   <component name="shared-index-jdk-hash">
     <option name="entries">
       <entry>
