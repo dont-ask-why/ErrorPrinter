@@ -2,9 +2,12 @@ import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.util.NlsContexts;
 import org.jetbrains.annotations.Nullable;
-
 import javax.swing.*;
 
+/**
+ * Configurable is used for user changeable data. Final interaction with it is on the SettingsComponent
+ * and persistent storage is via. the SettingsState class.
+ */
 public class ErrorPrinterSettingsConfigurable implements Configurable {
 
     private ErrorPrinterSettingsComponent settingsComponent;

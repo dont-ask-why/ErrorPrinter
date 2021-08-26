@@ -2,17 +2,17 @@ import com.intellij.ui.JBColor;
 
 import javax.print.PrintService;
 import javax.swing.*;
-import java.awt.*;
 import java.awt.print.PrinterJob;
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * Utility class used for some basic methods to find print services or print text.
+ * Not instantiatable as all methods are static.
+ */
 public final class PrintUtility {
 
     /**
      * Retrieve a Print Service with a name containing the specified PrinterName; will return null if not found.
-     *
-     * @return
+     * @return PrintService fitting to the given printer name. Null if none has been found.
      */
     public static PrintService findPrintService(String printerName) {
 
@@ -26,7 +26,7 @@ public final class PrintUtility {
         // Retrieve a print service from the array
         for (int index = 0; service == null && index < services.length; index++) {
 
-            if (services[index].getName().toLowerCase().indexOf(printerName) >= 0) {
+            if (services[index].getName().toLowerCase().contains(printerName)) {
                 service = services[index];
             }
         }
@@ -36,26 +36,7 @@ public final class PrintUtility {
     }
 
     /**
-     * Retrieves a List of Printer Service Names.
-     *
-     * @return List
-     */
-    public static List<String> getPrinterServiceNameList() {
-
-        // get list of all print services
-        PrintService[] services = PrinterJob.lookupPrintServices();
-        List<String> list = new ArrayList<String>();
-
-        for (int i = 0; i < services.length; i++) {
-            list.add(services[i].getName());
-        }
-
-        return list;
-    }
-
-    /**
      * Retrieves an Array of Printer Service Names.
-     *
      * @return String array with all printer names
      */
     public static String[] getPrinterServiceNameArray() {
@@ -73,7 +54,6 @@ public final class PrintUtility {
 
     /**
      * Prints the defined content to the defined printer.
-     *
      * @param content of the printed page
      * @param printerName of the printer where the content should be printed
      */

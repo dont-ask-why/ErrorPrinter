@@ -4,6 +4,10 @@ import com.intellij.util.ui.FormBuilder;
 
 import javax.swing.*;
 
+/**
+ * Class that represents the settings page.
+ */
+
 public class ErrorPrinterSettingsComponent {
     private final JPanel mainPanel;
     private final JComboBox<String> printerList = new ComboBox<>(PrintUtility.getPrinterServiceNameArray());
@@ -50,26 +54,50 @@ public class ErrorPrinterSettingsComponent {
         return mainPanel;
     }
 
+    /**
+     *
+     * @return String that represents the selected Printer.
+     */
     public String getPrinterName() {
         return this.printerName;
     }
 
+    /**
+     *
+     * @return Boolean that indicates if std.err should be printed.
+     */
     public boolean isErrEnabled() {
         return this.errEnabled;
     }
 
+    /**
+     *
+     * @return Boolean that indicates if std.out should be printed.
+     */
     public boolean isOutEnabled(){
         return this.outEnabled;
     }
 
+    /**
+     *
+     * @param outEnabled boolean to set std.out printing.
+     */
     public void setOutEnabled(boolean outEnabled){
         this.outEnabled = outEnabled;
     }
 
+    /**
+     *
+     * @param errEnabled boolean to set std.err printing.
+     */
     public void setErrEnabled(boolean errEnabled) {
         this.errEnabled = errEnabled;
     }
 
+    /**
+     *
+     * @param printerName String to set the selected Printer.
+     */
     public void setPrinterName(String printerName) {
         this.printerName = printerName;
     }

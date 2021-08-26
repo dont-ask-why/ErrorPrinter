@@ -16,37 +16,15 @@ import com.intellij.openapi.application.ApplicationManager;
         storages = {@Storage("SdkSettingsPlugin.xml")}
 )
 
+/**
+ * PersistentStateComponent stores the settings of the program after closing it. Meaning the data is written to the
+ * drive and not only accessed in ram
+ */
 public class ErrorPrinterSettingsState implements PersistentStateComponent<ErrorPrinterSettingsState> {
 
     private String printerName = "None selected";
     private boolean errEnabled = false;
     private boolean outEnabled = false;
-
-    public void setOutEnabled(boolean outEnabled){
-        this.outEnabled = outEnabled;
-    }
-
-    public void setErrEnabled(boolean errEnabled) {
-        this.errEnabled = errEnabled;
-    }
-
-    public void setPrinterName(String printerName) {
-        if(printerName != null) {
-            this.printerName = printerName;
-        }
-    }
-
-    public String getPrinterName() {
-        return printerName;
-    }
-
-    public boolean isErrEnabled() {
-        return errEnabled;
-    }
-
-    public boolean isOutEnabled(){
-        return outEnabled;
-    }
 
     public static ErrorPrinterSettingsState getInstance() {
         return ApplicationManager.getApplication().getService(ErrorPrinterSettingsState.class);
@@ -60,5 +38,55 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
     @Override
     public void loadState(@NotNull ErrorPrinterSettingsState state) {
         XmlSerializerUtil.copyBean(state, this);
+    }
+
+    /**
+     *
+     * @param outEnabled boolean to set std.out printing.
+     */
+    public void setOutEnabled(boolean outEnabled){
+        this.outEnabled = outEnabled;
+    }
+
+    /**
+     *
+     * @param errEnabled boolean to set std.err printing.
+     */
+    public void setErrEnabled(boolean errEnabled) {
+        this.errEnabled = errEnabled;
+    }
+
+    /**
+     *
+     * @param printerName String to set the selected Printer.
+     */
+    public void setPrinterName(String printerName) {
+        if(printerName != null) {
+            this.printerName = printerName;
+        }
+    }
+
+    /**
+     *
+     * @return String that represents the selected Printer.
+     */
+    public String getPrinterName() {
+        return printerName;
+    }
+
+    /**
+     *
+     * @return Boolean that indicates if std.err should be printed.
+     */
+    public boolean isErrEnabled() {
+        return errEnabled;
+    }
+
+    /**
+     *
+     * @return Boolean that indicates if std.out should be printed.
+     */
+    public boolean isOutEnabled(){
+        return outEnabled;
     }
 }
