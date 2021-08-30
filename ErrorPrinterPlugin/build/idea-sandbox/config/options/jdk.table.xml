@@ -172,8 +172,8 @@
     <jdk version="2">
       <name value="corretto-11" />
       <type value="JavaSDK" />
-      <version value="Amazon Corretto version 11.0.11" />
-      <homePath value="C:\Program Files\Amazon Corretto\jdk11.0.11_9" />
+      <version value="Amazon Corretto version 11.0.10" />
+      <homePath value="$USER_HOME$/.jdks/corretto-11.0.10" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -182,6 +182,77 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.base" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.compiler" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.datatransfer" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.desktop" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.instrument" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.logging" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.management" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.management.rmi" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.naming" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.net.http" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.prefs" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.rmi" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.scripting" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.se" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.security.jgss" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.security.sasl" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.smartcardio" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.sql" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.sql.rowset" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.transaction.xa" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.xml" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.xml.crypto" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.accessibility" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.aot" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.attach" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.charsets" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.compiler" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.dynalink" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.editpad" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.httpserver" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.le" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jartool" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.javadoc" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jcmd" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jconsole" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdeps" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdi" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jfr" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jlink" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jshell" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jsobject" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jstatd" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.localedata" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management.agent" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.ldap" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.net" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.pack" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.rmic" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.sctp" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.security.auth" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.unsupported" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.zipfs" type="simple" />
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/java.base" type="simple" />
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/java.compiler" type="simple" />
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/java.datatransfer" type="simple" />
@@ -254,77 +325,6 @@
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/jdk.unsupported.desktop" type="simple" />
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/jdk.xml.dom" type="simple" />
             <root url="jrt://C:/Program Files/Amazon Corretto/jdk11.0.11_9!/jdk.zipfs" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.base" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.compiler" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.datatransfer" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.desktop" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.instrument" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.logging" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.management" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.management.rmi" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.naming" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.net.http" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.prefs" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.rmi" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.scripting" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.se" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.security.jgss" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.security.sasl" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.smartcardio" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.sql" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.sql.rowset" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.transaction.xa" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.xml" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/java.xml.crypto" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.accessibility" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.aot" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.attach" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.charsets" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.compiler" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.crypto.ec" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.dynalink" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.editpad" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.hotspot.agent" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.httpserver" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.ed" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.jvmstat" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.le" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.opt" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.compiler" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.internal.vm.compiler.management" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jartool" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.javadoc" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jcmd" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jconsole" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdeps" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdi" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jdwp.agent" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jfr" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jlink" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jshell" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jsobject" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.jstatd" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.localedata" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management.agent" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.management.jfr" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.dns" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.ldap" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.naming.rmi" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.net" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.pack" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.rmic" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.scripting.nashorn" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.scripting.nashorn.shell" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.sctp" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.security.auth" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.security.jgss" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.unsupported" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.unsupported.desktop" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.xml.dom" type="simple" />
-            <root url="jrt:///home/verobuckina/.jdks/corretto-11.0.10!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
         <javadocPath>

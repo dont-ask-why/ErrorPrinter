@@ -10,7 +10,8 @@
         Beware, especially long stack frames could eat up several hundred of pages.
     -->
   <description>Prints any console outputs to an actual printer.</description>
-  <change-notes>Initial release of the plugin.</change-notes>
+  <change-notes>Update Plugin Icon.&lt;br/&gt;
+        Add option to save console as .txt file</change-notes>
   <version>1.0</version>
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->

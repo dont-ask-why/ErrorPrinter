@@ -25,6 +25,7 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
     private String printerName = "None selected";
     private boolean errEnabled = false;
     private boolean outEnabled = false;
+    private boolean txtEnabled = false;
 
     public static ErrorPrinterSettingsState getInstance() {
         return ApplicationManager.getApplication().getService(ErrorPrinterSettingsState.class);
@@ -54,6 +55,14 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
      */
     public void setErrEnabled(boolean errEnabled) {
         this.errEnabled = errEnabled;
+    }
+
+    /**
+     *
+     * @param txtEnabled boolean to set .txt file creation
+     */
+    public void setTxtEnabled(boolean txtEnabled) {
+        this.txtEnabled = txtEnabled;
     }
 
     /**
@@ -88,5 +97,13 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
      */
     public boolean isOutEnabled(){
         return outEnabled;
+    }
+
+    /**
+     *
+     * @return Boolean that indicates if a .txt file should be created.
+     */
+    public boolean isTxtEnabled() {
+        return this.txtEnabled;
     }
 }

@@ -21,7 +21,9 @@ intellij {
 }
 
 patchPluginXml {
-    changeNotes = """Initial release of the plugin."""
+    changeNotes = """
+        Update Plugin Icon.<br/>
+        Add option to save console as .txt file"""
 }
 
 test {

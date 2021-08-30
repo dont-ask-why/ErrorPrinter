@@ -1,3 +1,5 @@
+testfile.a6da3a5c
+desktop.c8ed7941
 testfile.1b381c57
 test2_0.434a12c
 testfile.fc591d7d

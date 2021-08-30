@@ -2227,3 +2227,164 @@ java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
 2021-08-18 23:04:05,797 [    454]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
 2021-08-18 23:04:05,883 [    540]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 540 ms
 2021-08-18 23:04:21,796 [  16453]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-08-30 21:19:57,615 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:19:57,624 [      9]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:19:57,753 [    138]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 118 ms
+2021-08-30 21:19:57,844 [    229]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:19:57,944 [    329]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 99 ms
+2021-08-30 21:19:57,944 [    329]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:19:57,983 [    368]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:19:58,096 [    481]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2021-08-30 21:19:58,098 [    483]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-08-30 21:19:58,098 [    483]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-08-30 21:19:58,101 [    486]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-08-30 21:19:58,101 [    486]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 461be27
+2021-08-30 21:19:58,106 [    491]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2021-08-30 21:19:58,175 [    560]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 15 ms
+2021-08-30 21:19:58,521 [    906]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 266 ms
+2021-08-30 21:19:58,526 [    911]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 272 ms
+2021-08-30 21:19:58,537 [    922]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: TestFile
+2021-08-30 21:19:58,872 [   1257]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 275 ms; 1 sources processed (275 ms per file)
+2021-08-30 21:19:58,873 [   1258]   INFO - s.incremental.java.JavaBuilder - javac 11.0.10 was used to compile [TestFile]
+2021-08-30 21:19:59,129 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:19:59,129 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:19:59,236 [    107]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 96 ms
+2021-08-30 21:19:59,263 [    134]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 20 ms
+2021-08-30 21:19:59,301 [    172]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:19:59,393 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 91 ms
+2021-08-30 21:19:59,393 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:19:59,440 [    311]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:19:59,524 [    395]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 396 ms
+2021-08-30 21:20:48,092 [  48963]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2021-08-30 21:20:48,341 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:20:48,342 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:20:48,450 [    109]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 98 ms
+2021-08-30 21:20:48,473 [    132]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 16 ms
+2021-08-30 21:20:48,511 [    170]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:20:48,605 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 93 ms
+2021-08-30 21:20:48,605 [    264]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:20:48,650 [    309]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:20:48,733 [    392]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 391 ms
+2021-08-30 21:20:49,743 [   1402]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2021-08-30 21:20:49,984 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:20:49,984 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:20:50,094 [    110]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 100 ms
+2021-08-30 21:20:50,133 [    149]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 22 ms
+2021-08-30 21:20:50,182 [    198]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:20:50,291 [    307]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 108 ms
+2021-08-30 21:20:50,291 [    307]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:20:50,340 [    356]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:20:50,415 [    431]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 431 ms
+2021-08-30 21:22:18,733 [  88749]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2021-08-30 21:22:18,735 [  88751]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-08-30 21:22:18,735 [  88751]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-08-30 21:22:18,738 [  88754]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-08-30 21:22:18,738 [  88754]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 744400e6
+2021-08-30 21:22:18,796 [  88812]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2021-08-30 21:22:19,123 [  89139]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 266 ms
+2021-08-30 21:22:19,134 [  89150]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 278 ms
+2021-08-30 21:22:19,150 [  89166]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: TestFile
+2021-08-30 21:22:19,423 [  89439]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2021-08-30 21:22:19,463 [  89479]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 260 ms; 1 sources processed (260 ms per file)
+2021-08-30 21:22:19,464 [  89480]   INFO - s.incremental.java.JavaBuilder - javac 11.0.10 was used to compile [TestFile]
+2021-08-30 21:22:19,729 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:22:19,729 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:22:19,848 [    119]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 105 ms
+2021-08-30 21:22:19,873 [    144]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 17 ms
+2021-08-30 21:22:19,913 [    184]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:22:20,009 [    280]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 95 ms
+2021-08-30 21:22:20,009 [    280]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:22:20,055 [    326]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:22:20,135 [    406]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 406 ms
+2021-08-30 21:22:20,444 [    715]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2021-08-30 21:22:20,723 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:22:20,723 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:22:20,842 [    119]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 107 ms
+2021-08-30 21:22:20,867 [    144]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 17 ms
+2021-08-30 21:22:20,906 [    183]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:22:21,004 [    281]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 98 ms
+2021-08-30 21:22:21,005 [    282]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:22:21,053 [    330]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:22:21,133 [    410]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 411 ms
+2021-08-30 21:22:47,978 [  27255]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-08-30 21:28:25,687 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:28:25,688 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:28:25,853 [    166]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 150 ms
+2021-08-30 21:28:25,942 [    255]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:28:26,068 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2021-08-30 21:28:26,068 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:28:26,107 [    420]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:28:31,861 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:28:31,861 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:28:31,973 [    112]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 102 ms
+2021-08-30 21:28:32,061 [    200]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:28:32,157 [    296]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 95 ms
+2021-08-30 21:28:32,157 [    296]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:28:32,192 [    331]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:28:32,299 [    438]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2021-08-30 21:28:32,300 [    439]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-08-30 21:28:32,300 [    439]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-08-30 21:28:32,303 [    442]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-08-30 21:28:32,303 [    442]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started eb6be05b
+2021-08-30 21:28:32,357 [    496]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2021-08-30 21:28:32,662 [    801]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 256 ms
+2021-08-30 21:28:32,667 [    806]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 262 ms
+2021-08-30 21:28:32,949 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:28:32,950 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:28:33,067 [    118]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 106 ms
+2021-08-30 21:28:33,091 [    142]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 17 ms
+2021-08-30 21:28:33,128 [    179]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:28:33,225 [    276]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 96 ms
+2021-08-30 21:28:33,225 [    276]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:28:33,279 [    330]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:28:33,366 [    417]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 417 ms
+2021-08-30 21:29:28,650 [  55701]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-08-30 21:30:00,526 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:30:00,527 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:30:00,684 [    158]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 146 ms
+2021-08-30 21:30:00,797 [    271]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:30:00,915 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 118 ms
+2021-08-30 21:30:00,915 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:30:00,960 [    434]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:30:04,912 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:30:04,912 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:30:05,027 [    115]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 103 ms
+2021-08-30 21:30:05,119 [    207]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:30:05,229 [    317]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 109 ms
+2021-08-30 21:30:05,229 [    317]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:30:05,265 [    353]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:30:05,369 [    457]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2021-08-30 21:30:05,370 [    458]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-08-30 21:30:05,370 [    458]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-08-30 21:30:05,373 [    461]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-08-30 21:30:05,373 [    461]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6795066d
+2021-08-30 21:30:05,426 [    514]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2021-08-30 21:30:05,752 [    840]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 273 ms
+2021-08-30 21:30:05,758 [    846]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 280 ms
+2021-08-30 21:30:06,075 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:30:06,076 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:30:06,186 [    111]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 98 ms
+2021-08-30 21:30:06,210 [    135]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 17 ms
+2021-08-30 21:30:06,251 [    176]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:30:06,350 [    275]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 98 ms
+2021-08-30 21:30:06,350 [    275]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:30:06,398 [    323]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:30:06,493 [    418]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 418 ms
+2021-08-30 21:30:30,765 [  24690]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2021-08-30 21:30:31,017 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:30:31,017 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:30:31,126 [    109]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 96 ms
+2021-08-30 21:30:31,151 [    134]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 17 ms
+2021-08-30 21:30:31,190 [    173]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:30:31,286 [    269]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 96 ms
+2021-08-30 21:30:31,286 [    269]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:30:31,331 [    314]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-08-30 21:30:31,410 [    393]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 393 ms
+2021-08-30 21:31:05,232 [  34215]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-08-30 21:33:44,930 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-08-30 21:33:44,931 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-08-30 21:33:45,058 [    128]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 111 ms
+2021-08-30 21:33:45,168 [    238]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/TestFile, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-08-30 21:33:45,276 [    346]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 108 ms
+2021-08-30 21:33:45,276 [    346]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-08-30 21:33:45,320 [    390]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680

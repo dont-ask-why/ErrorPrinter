@@ -32,10 +32,12 @@ public class ErrorStartupActivity implements StartupActivity {
              */
             @Override
             public void processTerminated(@org.jetbrains.annotations.NotNull String executorId, @org.jetbrains.annotations.NotNull ExecutionEnvironment env, @org.jetbrains.annotations.NotNull ProcessHandler handler, int exitCode) {
-                System.out.println("Stop.");
                 if(settingsState.isErrEnabled() || settingsState.isOutEnabled()) {
-                    System.out.println(errorMessages.toString());
                     PrintUtility.printString(errorMessages.toString(), settingsState.getPrinterName());
+
+                    if(settingsState.isTxtEnabled()) {
+                        PrintUtility.writeTextToFile(errorMessages.toString());
+                    }
                 }
             }
 
@@ -57,7 +59,7 @@ public class ErrorStartupActivity implements StartupActivity {
                      * @param outputType of the text written. Typical are ProcessOutputTypes.STDERR and .STDOUT
                      */
                     @Override
-                    public void onTextAvailable(ProcessEvent event, Key outputType) {
+                    public void onTextAvailable(@NotNull ProcessEvent event, @NotNull Key outputType) {
                         if (outputType == ProcessOutputTypes.STDERR && settingsState.isErrEnabled()) {
                             errorMessages.append(event.getText());
                         } else if (outputType == ProcessOutputType.STDOUT && settingsState.isOutEnabled()) {

@@ -1,14 +1,14 @@
+ErrorPrintAction.java
+ ErrorPrintAction
+ErrorPrinterSettingsState.java
+ ErrorPrinterSettingsState
+ErrorPrinterSettingsConfigurable.java
+ ErrorPrinterSettingsConfigurable
 ErrorStartupActivity.java
  ErrorStartupActivity
  ErrorStartupActivity$1
  ErrorStartupActivity$1$1
-ErrorPrintAction.java
- ErrorPrintAction
 PrintUtility.java
  PrintUtility
-ErrorPrinterSettingsConfigurable.java
- ErrorPrinterSettingsConfigurable
 ErrorPrinterSettingsComponent.java
  ErrorPrinterSettingsComponent
-ErrorPrinterSettingsState.java
- ErrorPrinterSettingsState

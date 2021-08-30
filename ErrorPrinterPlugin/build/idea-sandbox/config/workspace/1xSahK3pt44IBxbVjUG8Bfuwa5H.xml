@@ -1,0 +1,105 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Test.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestFile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035715" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info id="Space Code Reviews" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32969886" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Layout Validation" order="1" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state width="1378" height="289" key="GridCell.Tab.0.bottom" timestamp="1630351864946">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1378" height="289" key="GridCell.Tab.0.bottom/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630351864946" />
+    <state width="1378" height="289" key="GridCell.Tab.0.center" timestamp="1630351864943">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1378" height="289" key="GridCell.Tab.0.center/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630351864943" />
+    <state width="1378" height="289" key="GridCell.Tab.0.left" timestamp="1630351864942">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1378" height="289" key="GridCell.Tab.0.left/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630351864942" />
+    <state width="1378" height="289" key="GridCell.Tab.0.right" timestamp="1630351864944">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1378" height="289" key="GridCell.Tab.0.right/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630351864944" />
+    <state x="533" y="376" width="824" height="521" key="IDE.errors.dialog" timestamp="1630351281335">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="533" y="376" width="824" height="521" key="IDE.errors.dialog/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630351281335" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

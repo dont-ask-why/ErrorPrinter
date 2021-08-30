@@ -9,14 +9,17 @@
     <e n="ChooseRunConfiguration">
       <i c="1" l="1615320610191" />
     </e>
+    <e n="CompileDirty">
+      <i c="2" l="1630351338580" />
+    </e>
     <e n="Coverage">
       <i c="1" l="1615320462099" />
     </e>
     <e n="EditorBackSpace">
-      <i c="57" l="1629318380420" />
+      <i c="88" l="1630351815573" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="3" l="1627922666052" />
+      <i c="8" l="1630351330044" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="14" l="1629318333660" />
@@ -31,10 +34,10 @@
       <i c="3" l="1629318272356" />
     </e>
     <e n="EditorDown">
-      <i c="59" l="1629318327987" />
+      <i c="60" l="1630351095607" />
     </e>
     <e n="EditorEnter">
-      <i c="21" l="1629318377564" />
+      <i c="25" l="1630351324753" />
     </e>
     <e n="EditorEscape">
       <i c="1" l="1629317631847" />
@@ -55,7 +58,7 @@
       <i c="3" l="1629318377750" />
     </e>
     <e n="EditorRight">
-      <i c="11" l="1629318313940" />
+      <i c="12" l="1630351096900" />
     </e>
     <e n="EditorUp">
       <i c="31" l="1629318328444" />
@@ -67,25 +70,28 @@
       <i c="1" l="1629318227946" />
     </e>
     <e n="NewClass">
-      <i c="2" l="1627922644328" />
+      <i c="3" l="1630351067993" />
     </e>
     <e n="NewProject">
-      <i c="3" l="1629317258033" />
+      <i c="4" l="1630351037593" />
     </e>
     <e n="Run">
-      <i c="33" l="1629320644919" />
+      <i c="39" l="1630351830583" />
     </e>
     <e n="ShowProjectStructureSettings">
       <i c="5" l="1629317228634" />
     </e>
     <e n="ShowSettings">
-      <i c="69" l="1630070148774" />
+      <i c="70" l="1630350922783" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="4" l="1628792342714" />
+      <i c="5" l="1630350886032" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1629316955539" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1630351271028" />
     </e>
     <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
       <i c="2" l="1615929432390" />

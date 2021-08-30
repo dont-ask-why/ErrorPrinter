@@ -52,13 +52,37 @@
         </entry>
         <entry key="/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile">
           <value>
-            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1wdgp8tIZV0HljbOPRsHb4wgY0R">
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" projectWorkspaceId="1wdgp8tIZV0HljbOPRsHb4wgY0R">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-212.4746.92" />
               <option name="buildTimestamp" value="1627369707386" />
               <frame x="232" y="200" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1630008035305" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Desktop" projectWorkspaceId="1xSad5xGElG3BaVK7nKWDXv79iI">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369717881" />
+              <frame x="250" y="133" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1630350914136" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TestFile">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1xSahK3pt44IBxbVjUG8Bfuwa5H">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369686024" />
+              <frame x="250" y="133" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1630351063677" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -77,6 +101,6 @@
         </ProjectGroup>
       </list>
     </option>
-    <option name="lastProjectLocation" value="D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Desktop" />
   </component>
 </application>

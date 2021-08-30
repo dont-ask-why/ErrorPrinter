@@ -2,6 +2,7 @@ import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.util.NlsContexts;
 import org.jetbrains.annotations.Nullable;
+
 import javax.swing.*;
 
 /**
@@ -20,7 +21,7 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
     @Override
     public @Nullable JComponent createComponent() {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
-        settingsComponent = new ErrorPrinterSettingsComponent(settings.getPrinterName(), settings.isErrEnabled(), settings.isOutEnabled());
+        settingsComponent = new ErrorPrinterSettingsComponent(settings.getPrinterName(), settings.isErrEnabled(), settings.isOutEnabled(), settings.isTxtEnabled());
         return settingsComponent.getPanel();
     }
 
@@ -29,7 +30,8 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
         boolean modified = !settingsComponent.getPrinterName().equals(settings.getPrinterName()) ||
                 (settingsComponent.isErrEnabled() != settings.isErrEnabled()) ||
-                (settingsComponent.isOutEnabled() != settings.isOutEnabled());
+                (settingsComponent.isOutEnabled() != settings.isOutEnabled() ||
+                        (settingsComponent.isTxtEnabled() != settings.isTxtEnabled()));
         return modified;
     }
 
@@ -39,18 +41,20 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
         settings.setPrinterName(settingsComponent.getPrinterName());
         settings.setErrEnabled(settingsComponent.isErrEnabled());
         settings.setOutEnabled(settingsComponent.isOutEnabled());
+        settings.setTxtEnabled(settingsComponent.isTxtEnabled());
     }
 
     @Override
-    public void reset(){
+    public void reset() {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
         settingsComponent.setPrinterName(settings.getPrinterName());
         settingsComponent.setErrEnabled(settings.isErrEnabled());
         settingsComponent.setOutEnabled(settings.isOutEnabled());
+        settingsComponent.setTxtEnabled(settings.isTxtEnabled());
     }
 
     @Override
-    public void disposeUIResources(){
+    public void disposeUIResources() {
         settingsComponent = null;
     }
 }

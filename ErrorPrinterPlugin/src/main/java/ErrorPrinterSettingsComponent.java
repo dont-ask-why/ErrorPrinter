@@ -13,13 +13,16 @@ public class ErrorPrinterSettingsComponent {
     private final JComboBox<String> printerList = new ComboBox<>(PrintUtility.getPrinterServiceNameArray());
     private final JBCheckBox enableSysErrCheckBox = new JBCheckBox("Print everything from System.err");
     private final JBCheckBox enableSysOutCheckBox = new JBCheckBox("Print everything from System.out");
+    private final JBCheckBox enableTxtPrintCheckBox = new JBCheckBox("Save as .txt");
 
     private boolean errEnabled;
     private boolean outEnabled;
+    private boolean txtEnabled;
     private String printerName;
 
-    public ErrorPrinterSettingsComponent(String selectedPrinterName, boolean errEnabled, boolean outEnabled) {
+    public ErrorPrinterSettingsComponent(String selectedPrinterName, boolean errEnabled, boolean outEnabled, boolean txtEnabled) {
         mainPanel = FormBuilder.createFormBuilder()
+                .addComponent(enableTxtPrintCheckBox, 1)
                 .addComponent(printerList, 1)
                 .addComponent(enableSysErrCheckBox, 2)
                 .addComponent(enableSysOutCheckBox, 2)
@@ -29,10 +32,17 @@ public class ErrorPrinterSettingsComponent {
         this.printerName = selectedPrinterName;
         this.errEnabled = errEnabled;
         this.outEnabled = outEnabled;
+        this.txtEnabled = txtEnabled;
 
+        enableTxtPrintCheckBox.setSelected(txtEnabled);
         enableSysErrCheckBox.setSelected(errEnabled);
         enableSysOutCheckBox.setSelected(outEnabled);
         printerList.setSelectedItem(printerName);
+
+        enableTxtPrintCheckBox.addActionListener(actionEvent -> {
+            setTxtEnabled(enableTxtPrintCheckBox.isSelected());
+            printerList.setEnabled(!isTxtEnabled());
+        });
 
         printerList.addActionListener(actionEvent -> {
             if(printerList.getSelectedItem() != null) {
@@ -80,6 +90,14 @@ public class ErrorPrinterSettingsComponent {
 
     /**
      *
+     * @return Boolean that indicates if a .txt file should be created.
+     */
+    public boolean isTxtEnabled() {
+        return this.txtEnabled;
+    }
+
+    /**
+     *
      * @param outEnabled boolean to set std.out printing.
      */
     public void setOutEnabled(boolean outEnabled){
@@ -92,6 +110,14 @@ public class ErrorPrinterSettingsComponent {
      */
     public void setErrEnabled(boolean errEnabled) {
         this.errEnabled = errEnabled;
+    }
+
+    /**
+     *
+     * @param txtEnabled boolean to set .txt file creation
+     */
+    public void setTxtEnabled(boolean txtEnabled) {
+        this.txtEnabled = txtEnabled;
     }
 
     /**

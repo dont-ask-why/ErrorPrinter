@@ -2,7 +2,10 @@ import com.intellij.ui.JBColor;
 
 import javax.print.PrintService;
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.print.PrinterJob;
+import java.io.FileWriter;
+import java.io.IOException;
 
 /**
  * Utility class used for some basic methods to find print services or print text.
@@ -70,7 +73,31 @@ public final class PrintUtility {
         } catch (java.awt.print.PrinterException ex) {
             // do nothing
         }
+    }
 
+    /**
+     * Writes the specified String to a user chosen txt file.
+     * @param content of the file
+     */
+    public static void writeTextToFile(String content){
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setFileFilter(new FileNameExtensionFilter("", "txt"));
+        try {
+            if (fileChooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
+
+                FileWriter fileWriter;
+                if (!fileChooser.getSelectedFile().getName().contains(".txt")) {
+                    fileWriter = new FileWriter(fileChooser.getSelectedFile() + ".txt");
+                } else {
+                    fileWriter = new FileWriter(fileChooser.getSelectedFile());
+                }
+
+                fileWriter.write(content);
+                fileWriter.close();
+            }
+        } catch (IOException exception) {
+            // do nothing
+        }
     }
 
     /**
