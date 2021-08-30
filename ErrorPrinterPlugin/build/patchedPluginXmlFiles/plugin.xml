@@ -1,19 +1,17 @@
 <idea-plugin>
-  <version>0.2-SNAPSHOT</version>
-  <change-notes>Add change notes here.&lt;br&gt;
-      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
   <idea-version since-build="212.4746" until-build="212.*" />
   <id>de.DuckAndPlatypus.ErrorPrinterPlugin</id>
   <name>Real Error Printer</name>
   <vendor>Duck'n'Platypus</vendor>
-  <description>
-    This a stupid plugin. Do not use. If you use it, you have been warned.
-        Everything is under your own risk.
-    <!-- [CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
-    ]]> -->
-  </description>
+  <!--
+        This not a serious plugin, but with it you can print out your console outputs to an actual printer.
+        This gives a new meaning to "print debugging".
+        We are not responsible for any lost paper or ink.
+        Beware, especially long stack frames could eat up several hundred of pages.
+    -->
+  <description>Prints any console outputs to an actual printer.</description>
+  <change-notes>Initial release of the plugin.</change-notes>
+  <version>1.0</version>
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
@@ -29,12 +27,4 @@
       <add-to-group group-id="Runner.View.Toolbar" anchor="first" />
     </action>
   </actions>
-  <!---
-    <project-components>
-        <component>
-            <implementation-class>CodeInsights</implementation-class>
-            <loadForDefaultProject>false</loadForDefaultProject>
-        </component>
-    </project-components>
-    -->
 </idea-plugin>

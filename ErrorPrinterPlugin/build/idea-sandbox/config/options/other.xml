@@ -39,6 +39,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="IJ_BASE_PACKAGE" value="com.company" />
+    <property name="NextRunPlatformUpdateBuild" value="IC-212.5080.55/2021.2.1" />
+    <property name="NextRunPlatformUpdateVersion" value="2021.2.1" />
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
@@ -61,7 +63,7 @@
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions&#10;#com.jetbrains.rdserver.permissions" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1628792384454" />
+    <property name="packagesearch.status.updated.ts" value="1630008033441" />
     <property name="project.wizard.group" value="JAVA_MODULE" />
     <property name="registry.to.advanced.settings.migration.build" value="IC-212.4746.92" />
     <property name="seenTips" value="neue-QuickJavaDoc.html,Kotlin_Java_convert.html,neue-SmartTypeCasting.html,neue-AnnotationsAndDiffs.html,neue-NavigateBetweenErrors.html" />

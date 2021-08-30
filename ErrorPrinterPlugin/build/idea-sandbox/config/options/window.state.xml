@@ -14,7 +14,7 @@
     <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="1362" height="299" />
   </component>
   <component name="WindowManager">
-    <frame x="490" y="190" width="1400" height="1000" />
+    <frame x="232" y="200" width="1400" height="1000" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -31,10 +31,11 @@
     <state x="-1167" y="584" width="440" height="517" key="FileChooserDialogImpl/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680" timestamp="1627923138491" />
     <state x="1004" y="415" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040" timestamp="1629316967180" />
     <state x="2924" y="427" key="FileChooserDialogImpl/1920.0.2560.1440/4480.240.1920.1200/0.240.1920.1200/2263.1440.1920.1080" timestamp="1628792378686" />
-    <state x="1279" y="583" width="1067" height="700" key="WELCOME_SCREEN" timestamp="1629316941608">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3199" y="600" width="1067" height="720" key="WELCOME_SCREEN" timestamp="1630008029825">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="1279" y="583" width="1067" height="700" key="WELCOME_SCREEN/0.0.2560.1400/2560.0.1920.1040" timestamp="1629316941608" />
+    <state x="3199" y="600" width="1067" height="720" key="WELCOME_SCREEN/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173" timestamp="1630008029825" />
     <state x="960" y="740" width="800" height="600" key="WELCOME_SCREEN/1920.0.2560.1440/4480.240.1920.1200/0.240.1920.1200/2263.1440.1920.1080" timestamp="1628792340736" />
     <state x="2672" y="277" width="818" height="759" key="new project wizard" timestamp="1628792384282">
       <screen x="1920" y="0" width="2560" height="1440" />

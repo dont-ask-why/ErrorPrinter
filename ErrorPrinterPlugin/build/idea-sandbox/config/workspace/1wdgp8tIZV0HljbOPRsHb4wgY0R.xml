@@ -4,8 +4,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,16 +76,23 @@
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
   <component name="WindowStateProjectService">
-    <state x="421" y="468" width="1022" height="737" key="SettingsEditor" timestamp="1629315397164">
-      <screen x="0" y="240" width="1920" height="1200" />
+    <state x="421" y="250" width="1022" height="737" key="SettingsEditor" timestamp="1630070154832">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
+    <state x="421" y="250" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/4480.0.1920.1200/2270.1440.1920.1080/0.27.1920.1173@0.27.1920.1173" timestamp="1630070154832" />
     <state x="421" y="468" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/4480.240.1920.1200/0.240.1920.1200/2263.1440.1920.1080@0.240.1920.1200" timestamp="1629315397164" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

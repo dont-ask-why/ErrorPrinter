@@ -26,18 +26,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile">
-          <value>
-            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" projectWorkspaceId="1wdgp8tIZV0HljbOPRsHb4wgY0R">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-212.4746.92" />
-              <option name="buildTimestamp" value="1627369738326" />
-              <frame x="232" y="333" width="1400" height="1000" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1628792384993" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/source/TestFile">
           <value>
             <RecentProjectMetaInfo frameTitle="TestFile – Test.java" projectWorkspaceId="1wumhYyXZw3e4ITq8W2GSorJcX3">
@@ -52,13 +40,25 @@
         </entry>
         <entry key="D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/Test2_0">
           <value>
-            <RecentProjectMetaInfo frameTitle="Test2_0 – Main.java" opened="true" projectWorkspaceId="1wunOR4wyUAA3ye5oLVHZxbFhxz">
+            <RecentProjectMetaInfo frameTitle="Test2_0 – Main.java" projectWorkspaceId="1wunOR4wyUAA3ye5oLVHZxbFhxz">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-212.4746.92" />
               <option name="buildTimestamp" value="1627369692683" />
               <frame x="490" y="190" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1629317309543" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1wdgp8tIZV0HljbOPRsHb4wgY0R">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369707386" />
+              <frame x="232" y="200" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1630008035305" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

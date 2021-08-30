@@ -79,7 +79,7 @@
       <i c="5" l="1629317228634" />
     </e>
     <e n="ShowSettings">
-      <i c="68" l="1629320246795" />
+      <i c="69" l="1630070148774" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="4" l="1628792342714" />
@@ -91,7 +91,7 @@
       <i c="2" l="1615929432390" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
-      <i c="2" l="1628792169114" />
+      <i c="3" l="1630008033136" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
       <i c="2" l="1629309828382" />

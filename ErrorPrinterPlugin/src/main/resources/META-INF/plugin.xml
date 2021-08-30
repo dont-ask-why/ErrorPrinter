@@ -3,11 +3,17 @@
     <name>Real Error Printer</name>
     <vendor>Duck'n'Platypus</vendor>
 
-    <description>This a stupid plugin. Do not use. If you use it, you have been warned.
-        Everything is under your own risk.<!-- [CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
-    ]]> --></description>
+    <!--
+        This not a serious plugin, but with it you can print out your console outputs to an actual printer.
+        This gives a new meaning to "print debugging".
+        We are not responsible for any lost paper or ink.
+        Beware, especially long stack frames could eat up several hundred of pages.
+    -->
+    <description>Prints any console outputs to an actual printer.</description>
+
+    <change-notes>Initial release of the plugin.</change-notes>
+
+    <version>1.0.0</version>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
