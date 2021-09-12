@@ -19,6 +19,7 @@ public final class PrintUtility {
 
     /**
      * Retrieve a Print Service with a name containing the specified PrinterName; will return null if not found.
+     *
      * @return PrintService fitting to the given printer name. Null if none has been found.
      */
     public static PrintService findPrintService(String printerName) {
@@ -44,16 +45,17 @@ public final class PrintUtility {
 
     /**
      * Retrieves an Array of Printer Service Names.
+     *
      * @return String array with all printer names
      */
     public static String[] getPrinterServiceNameArray() {
 
         // get list of all print services
         PrintService[] services = PrinterJob.lookupPrintServices();
-        String[] list = new String[services.length];
-
+        String[] list = new String[services.length + 1];
+        list[0] = "Not selected";
         for (int i = 0; i < services.length; i++) {
-            list[i] = services[i].getName();
+            list[i + 1] = services[i].getName();
         }
 
         return list;
@@ -61,10 +63,11 @@ public final class PrintUtility {
 
     /**
      * Prints the defined content to the defined printer.
-     * @param content of the printed page
+     *
+     * @param content     of the printed page
      * @param printerName of the printer where the content should be printed
      */
-    public static void printString(String content, String printerName){
+    public static void printString(String content, String printerName) {
         PrintService printService = findPrintService(printerName);
 
         JTextPane jtp = new JTextPane();
@@ -81,9 +84,10 @@ public final class PrintUtility {
 
     /**
      * Writes the specified String to a user chosen txt file.
+     *
      * @param content of the file
      */
-    public static void writeTextToFile(String content){
+    public static void writeTextToFile(String content) {
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setFileFilter(new FileNameExtensionFilter("", "txt"));
         try {
@@ -107,7 +111,8 @@ public final class PrintUtility {
     /**
      * Utility class; no construction!
      */
-    private PrintUtility() {}
+    private PrintUtility() {
+    }
 
     public static void printUnformatted(String content, String printerName) {
         try {
@@ -116,14 +121,14 @@ public final class PrintUtility {
             // Open the image file
             String testData = content + "\f";
             InputStream is = new ByteArrayInputStream(testData.getBytes());
-            DocFlavor flavor =  DocFlavor.INPUT_STREAM.AUTOSENSE   ;
+            DocFlavor flavor = DocFlavor.INPUT_STREAM.AUTOSENSE;
 
             // Find the default service
             PrintService service = mPrinter;
 
             // Create the print job
             DocPrintJob job = service.createPrintJob();
-            Doc doc= new SimpleDoc(is, flavor, null);
+            Doc doc = new SimpleDoc(is, flavor, null);
 
             // Monitor print job events; for the implementation of PrintJobWatcher,
             PrintJobWatcher pjDone = new PrintJobWatcher(job);
@@ -153,15 +158,19 @@ public final class PrintUtility {
                 public void printJobCanceled(PrintJobEvent pje) {
                     allDone();
                 }
+
                 public void printJobCompleted(PrintJobEvent pje) {
                     allDone();
                 }
+
                 public void printJobFailed(PrintJobEvent pje) {
                     allDone();
                 }
+
                 public void printJobNoMoreEvents(PrintJobEvent pje) {
                     allDone();
                 }
+
                 void allDone() {
                     synchronized (PrintJobWatcher.this) {
                         done = true;
@@ -170,6 +179,7 @@ public final class PrintUtility {
                 }
             });
         }
+
         public synchronized void waitForDone() {
             try {
                 while (!done) {

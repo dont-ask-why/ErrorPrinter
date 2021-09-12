@@ -9,17 +9,20 @@
     <e n="ChooseRunConfiguration">
       <i c="1" l="1615320610191" />
     </e>
+    <e n="CodeCompletion">
+      <i c="1" l="1631477163715" />
+    </e>
     <e n="CompileDirty">
-      <i c="3" l="1630497663622" />
+      <i c="4" l="1631475347173" />
     </e>
     <e n="Coverage">
       <i c="1" l="1615320462099" />
     </e>
     <e n="EditorBackSpace">
-      <i c="89" l="1630496998140" />
+      <i c="92" l="1631476873395" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="9" l="1630496982762" />
+      <i c="12" l="1631476836578" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="14" l="1629318333660" />
@@ -37,7 +40,7 @@
       <i c="60" l="1630351095607" />
     </e>
     <e n="EditorEnter">
-      <i c="26" l="1630496981484" />
+      <i c="27" l="1631476829240" />
     </e>
     <e n="EditorEscape">
       <i c="1" l="1629317631847" />
@@ -58,7 +61,10 @@
       <i c="3" l="1629318377750" />
     </e>
     <e n="EditorRight">
-      <i c="12" l="1630351096900" />
+      <i c="14" l="1631476842560" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="1" l="1631476841559" />
     </e>
     <e n="EditorUp">
       <i c="31" l="1629318328444" />
@@ -76,7 +82,7 @@
       <i c="4" l="1630351037593" />
     </e>
     <e n="Run">
-      <i c="61" l="1630505503926" />
+      <i c="62" l="1631476860958" />
     </e>
     <e n="SaveAll">
       <i c="1" l="1630497005290" />
@@ -85,10 +91,10 @@
       <i c="7" l="1630497063889" />
     </e>
     <e n="ShowSettings">
-      <i c="95" l="1630505213490" />
+      <i c="140" l="1631477939258" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="6" l="1630496958676" />
+      <i c="7" l="1631470373779" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1629316955539" />

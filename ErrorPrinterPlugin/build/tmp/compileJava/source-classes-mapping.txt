@@ -2,15 +2,15 @@ ErrorPrinterSettingsState.java
  ErrorPrinterSettingsState
 ErrorPrintAction.java
  ErrorPrintAction
-ErrorPrinterSettingsConfigurable.java
- ErrorPrinterSettingsConfigurable
-ErrorStartupActivity.java
- ErrorStartupActivity
- ErrorStartupActivity$1
- ErrorStartupActivity$1$1
 PrintUtility.java
  PrintUtility
  PrintUtility$PrintJobWatcher
  PrintUtility$PrintJobWatcher$1
+ErrorStartupActivity.java
+ ErrorStartupActivity
+ ErrorStartupActivity$1
+ ErrorStartupActivity$1$1
+ErrorPrinterSettingsConfigurable.java
+ ErrorPrinterSettingsConfigurable
 ErrorPrinterSettingsComponent.java
  ErrorPrinterSettingsComponent

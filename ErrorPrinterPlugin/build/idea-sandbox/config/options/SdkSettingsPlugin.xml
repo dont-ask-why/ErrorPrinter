@@ -1,8 +1,7 @@
 <application>
   <component name="ErrorPrinterSettingsState">
-    <option name="errEnabled" value="true" />
     <option name="outEnabled" value="true" />
     <option name="printerName" value="Microsoft Print to PDF" />
-    <option name="unformatedEnabled" value="true" />
+    <option name="txtEnabled" value="true" />
   </component>
 </application>

@@ -54,6 +54,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1y3BStYngFbQc4QZA0emqesZELJ">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -67,7 +72,7 @@
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop&#10;D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/Test2_0&#10;D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/source/TestFile&#10;/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile&#10;E:/Projects/ErrorPrinter/TestFile&#10;E:/Projects/ErrorPrinter&#10;C:/Users/bucki/Desktop" />
-    <property name="file.gist.reindex.count" value="59" />
+    <property name="file.gist.reindex.count" value="65" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.fileTypes.profiler.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
@@ -83,7 +88,7 @@
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions&#10;#com.jetbrains.rdserver.permissions" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1630008033441" />
+    <property name="packagesearch.status.updated.ts" value="1631470394176" />
     <property name="project.wizard.group" value="JAVA_MODULE" />
     <property name="registry.to.advanced.settings.migration.build" value="IC-212.4746.92" />
     <property name="seenTips" value="neue-QuickJavaDoc.html,Kotlin_Java_convert.html,neue-SmartTypeCasting.html,neue-AnnotationsAndDiffs.html,neue-NavigateBetweenErrors.html" />

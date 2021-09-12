@@ -14,6 +14,7 @@ import org.jetbrains.annotations.NotNull;
 public class ErrorStartupActivity implements StartupActivity {
     /**
      * Method is called on project start to add a Listener to the project.
+     *
      * @param project which has been interacted with.
      */
     @Override
@@ -32,11 +33,14 @@ public class ErrorStartupActivity implements StartupActivity {
              */
             @Override
             public void processTerminated(@org.jetbrains.annotations.NotNull String executorId, @org.jetbrains.annotations.NotNull ExecutionEnvironment env, @org.jetbrains.annotations.NotNull ProcessHandler handler, int exitCode) {
-                if(settingsState.isErrEnabled() || settingsState.isOutEnabled()) {
-                    if(settingsState.isTxtEnabled()) {
+                if ((settingsState.isErrEnabled() || settingsState.isOutEnabled())
+                        && (settingsState.isTxtEnabled() || settingsState.getPrinterName().equals("Not selected"))) {
+                    if (settingsState.isTxtEnabled()) {
                         PrintUtility.writeTextToFile(errorMessages.toString());
-                    } else {
-                        if(settingsState.isUnformatedEnabled()){
+                    }
+
+                    if (!settingsState.getPrinterName().equals("Not selected")) {
+                        if (settingsState.isUnformatedEnabled()) {
                             PrintUtility.printUnformatted(errorMessages.toString(), settingsState.getPrinterName());
                         } else {
                             PrintUtility.printString(errorMessages.toString(), settingsState.getPrinterName());
