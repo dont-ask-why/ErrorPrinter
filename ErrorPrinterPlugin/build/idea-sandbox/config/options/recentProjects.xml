@@ -76,13 +76,25 @@
         </entry>
         <entry key="$USER_HOME$/Desktop/TestFile">
           <value>
-            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" opened="true" projectWorkspaceId="1xSahK3pt44IBxbVjUG8Bfuwa5H">
+            <RecentProjectMetaInfo frameTitle="TestFile – Test.java" projectWorkspaceId="1xSahK3pt44IBxbVjUG8Bfuwa5H">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-212.4746.92" />
               <option name="buildTimestamp" value="1627369686024" />
               <frame x="250" y="133" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1630351063677" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/untitled">
+          <value>
+            <RecentProjectMetaInfo frameTitle="untitled – Test.java" opened="true" projectWorkspaceId="1xXMQtmK9iVOrLTEB6tqNmzYF9V">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369680265" />
+              <frame x="-1928" y="232" width="1936" height="1176" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1630496967534" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

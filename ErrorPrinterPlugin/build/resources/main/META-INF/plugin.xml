@@ -12,7 +12,7 @@
   <description>Prints any console outputs to an actual printer.</description>
   <change-notes>Update Plugin Icon.&lt;br/&gt;
         Add option to save console as .txt file</change-notes>
-  <version>1.0</version>
+  <version>1.1.0</version>
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
   <depends>com.intellij.modules.platform</depends>

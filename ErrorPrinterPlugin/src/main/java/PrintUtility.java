@@ -1,11 +1,15 @@
 import com.intellij.ui.JBColor;
 
-import javax.print.PrintService;
+import javax.print.*;
+import javax.print.event.PrintJobAdapter;
+import javax.print.event.PrintJobEvent;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.print.PrinterJob;
+import java.io.ByteArrayInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Utility class used for some basic methods to find print services or print text.
@@ -104,4 +108,75 @@ public final class PrintUtility {
      * Utility class; no construction!
      */
     private PrintUtility() {}
+
+    public static void printUnformatted(String content, String printerName) {
+        try {
+            PrintService mPrinter = findPrintService(printerName);
+
+            // Open the image file
+            String testData = content + "\f";
+            InputStream is = new ByteArrayInputStream(testData.getBytes());
+            DocFlavor flavor =  DocFlavor.INPUT_STREAM.AUTOSENSE   ;
+
+            // Find the default service
+            PrintService service = mPrinter;
+
+            // Create the print job
+            DocPrintJob job = service.createPrintJob();
+            Doc doc= new SimpleDoc(is, flavor, null);
+
+            // Monitor print job events; for the implementation of PrintJobWatcher,
+            PrintJobWatcher pjDone = new PrintJobWatcher(job);
+
+            // Print it
+            job.print(doc, null);
+
+            // Wait for the print job to be done
+            pjDone.waitForDone();
+
+            // It is now safe to close the input stream
+            is.close();
+        } catch (PrintException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static class PrintJobWatcher {
+        // true iff it is safe to close the print job's input stream
+        boolean done = false;
+
+        PrintJobWatcher(DocPrintJob job) {
+            // Add a listener to the print job
+            job.addPrintJobListener(new PrintJobAdapter() {
+                public void printJobCanceled(PrintJobEvent pje) {
+                    allDone();
+                }
+                public void printJobCompleted(PrintJobEvent pje) {
+                    allDone();
+                }
+                public void printJobFailed(PrintJobEvent pje) {
+                    allDone();
+                }
+                public void printJobNoMoreEvents(PrintJobEvent pje) {
+                    allDone();
+                }
+                void allDone() {
+                    synchronized (PrintJobWatcher.this) {
+                        done = true;
+                        PrintJobWatcher.this.notify();
+                    }
+                }
+            });
+        }
+        public synchronized void waitForDone() {
+            try {
+                while (!done) {
+                    wait();
+                }
+            } catch (InterruptedException e) {
+            }
+        }
+    }
 }

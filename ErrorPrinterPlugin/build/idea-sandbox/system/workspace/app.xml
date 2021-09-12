@@ -12063,17 +12063,6 @@
       </BundleConfigBean>
     </bundles>
   </component>
-  <component name="shared-index-download-history">
-    <option name="entries">
-      <entry>
-        <option name="indexId" value="4e15e05f897ba705b71a1f7f400a0a96dc13fbcbdb71691b8f25c011eab58431#Amazon Corretto version 11.0.10" />
-        <option name="indexKind" value="jdk" />
-        <option name="lastDeliveredChunkUniqueId" value="11.0.11-corretto-11.0.11-854267df6c5e7786d22bac7861602dedd619641958a0038f42632fbf9130092a-68a5a4f53222" />
-        <option name="lastDownloadDate" value="2021-08-30T21:20:05.13693+02:00[Europe/Berlin]" />
-        <option name="lastDownloadSize" value="24467560" />
-      </entry>
-    </option>
-  </component>
   <component name="shared-index-jdk-hash">
     <option name="entries">
       <entry>
@@ -12099,6 +12088,31 @@
         <option name="hash" value="e2efa0e2db705d0c776a357acffde85e4f49d806" />
         <option name="name" value="corretto-11" />
         <option name="snapshotHash" value="87b66f8e2fc513f3dba408c39574801d728e78c104726b089e4d08cf194c6743" />
+      </entry>
+      <entry>
+        <option name="aliases">
+          <list>
+            <option value="corretto-11.0.10" />
+            <option value="corretto-11" />
+            <option value="11.0.10" />
+            <option value="11" />
+          </list>
+        </option>
+        <option name="hash" value="41975349aba1c2ee3d169c8975a26f7172bb7d74" />
+        <option name="name" value="corretto-11" />
+        <option name="snapshotHash" value="15be2642ad6551baba2d68574660d5496eb8b7b5347dabbd0b667a08d3d0e2ae" />
+      </entry>
+      <entry>
+        <option name="aliases">
+          <list>
+            <option value="openjdk-16.0.2" />
+            <option value="openjdk-16" />
+            <option value="16.0.2" />
+            <option value="16" />
+          </list>
+        </option>
+        <option name="name" value="openjdk-16" />
+        <option name="snapshotHash" value="a06fd37fade09403082592c8fa5383c59f28902dba15580dd50ad84081177a77" />
       </entry>
     </option>
   </component>

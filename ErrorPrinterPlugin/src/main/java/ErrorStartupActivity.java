@@ -33,10 +33,14 @@ public class ErrorStartupActivity implements StartupActivity {
             @Override
             public void processTerminated(@org.jetbrains.annotations.NotNull String executorId, @org.jetbrains.annotations.NotNull ExecutionEnvironment env, @org.jetbrains.annotations.NotNull ProcessHandler handler, int exitCode) {
                 if(settingsState.isErrEnabled() || settingsState.isOutEnabled()) {
-                    PrintUtility.printString(errorMessages.toString(), settingsState.getPrinterName());
-
                     if(settingsState.isTxtEnabled()) {
                         PrintUtility.writeTextToFile(errorMessages.toString());
+                    } else {
+                        if(settingsState.isUnformatedEnabled()){
+                            PrintUtility.printUnformatted(errorMessages.toString(), settingsState.getPrinterName());
+                        } else {
+                            PrintUtility.printString(errorMessages.toString(), settingsState.getPrinterName());
+                        }
                     }
                 }
             }

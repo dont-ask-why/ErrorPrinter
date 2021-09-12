@@ -2,12 +2,12 @@
   <component name="JdkInstallerHistory">
     <option name="installedItems">
       <installed-jdk>
-        <option name="fullText" value="Amazon Corretto 11.0.12" />
-        <option name="installDir" value="C:\Users\bucki\.jdks\corretto-11.0.12" />
-        <option name="javaHomeDir" value="C:\Users\bucki\.jdks\corretto-11.0.12" />
-        <option name="sha256" value="1b9703355042cf6f6e7e288f448ba512d4ad3cc69a1e4355424f6e51988590df" />
-        <option name="url" value="https://corretto.aws/downloads/resources/11.0.12.7.1/amazon-corretto-11.0.12.7.1-windows-x64-jdk.zip" />
-        <option name="versionText" value="11.0.12" />
+        <option name="fullText" value="Oracle OpenJDK 16.0.2" />
+        <option name="installDir" value="C:\Users\bucki\.jdks\openjdk-16.0.2" />
+        <option name="javaHomeDir" value="C:\Users\bucki\.jdks\openjdk-16.0.2" />
+        <option name="sha256" value="9df98be05fe674066cc39144467c47b1503cfa3de059c09cc4ccc3da9c253b9a" />
+        <option name="url" value="https://download.java.net/java/GA/jdk16.0.2/d4a915d82b4c4fbb9bde534da945d746/7/GPL/openjdk-16.0.2_windows-x64_bin.zip" />
+        <option name="versionText" value="16.0.2" />
       </installed-jdk>
     </option>
   </component>
@@ -49,6 +49,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1xXMQtmK9iVOrLTEB6tqNmzYF9V">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -62,7 +67,7 @@
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop&#10;D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/Test2_0&#10;D:/03_Daten/01_Kreatives/04_Programmieren/ErrorPrinterPlugin/source/TestFile&#10;/media/verobuckina/Shared-Volume/Projects/ErrorPrinter/TestFile&#10;E:/Projects/ErrorPrinter/TestFile&#10;E:/Projects/ErrorPrinter&#10;C:/Users/bucki/Desktop" />
-    <property name="file.gist.reindex.count" value="38" />
+    <property name="file.gist.reindex.count" value="59" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.fileTypes.profiler.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />

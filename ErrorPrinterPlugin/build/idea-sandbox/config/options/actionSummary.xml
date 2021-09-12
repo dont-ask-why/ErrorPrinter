@@ -10,16 +10,16 @@
       <i c="1" l="1615320610191" />
     </e>
     <e n="CompileDirty">
-      <i c="2" l="1630351338580" />
+      <i c="3" l="1630497663622" />
     </e>
     <e n="Coverage">
       <i c="1" l="1615320462099" />
     </e>
     <e n="EditorBackSpace">
-      <i c="88" l="1630351815573" />
+      <i c="89" l="1630496998140" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="8" l="1630351330044" />
+      <i c="9" l="1630496982762" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="14" l="1629318333660" />
@@ -37,7 +37,7 @@
       <i c="60" l="1630351095607" />
     </e>
     <e n="EditorEnter">
-      <i c="25" l="1630351324753" />
+      <i c="26" l="1630496981484" />
     </e>
     <e n="EditorEscape">
       <i c="1" l="1629317631847" />
@@ -70,22 +70,25 @@
       <i c="1" l="1629318227946" />
     </e>
     <e n="NewClass">
-      <i c="3" l="1630351067993" />
+      <i c="4" l="1630496973903" />
     </e>
     <e n="NewProject">
       <i c="4" l="1630351037593" />
     </e>
     <e n="Run">
-      <i c="39" l="1630351830583" />
+      <i c="61" l="1630505503926" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1630497005290" />
     </e>
     <e n="ShowProjectStructureSettings">
-      <i c="5" l="1629317228634" />
+      <i c="7" l="1630497063889" />
     </e>
     <e n="ShowSettings">
-      <i c="70" l="1630350922783" />
+      <i c="95" l="1630505213490" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="5" l="1630350886032" />
+      <i c="6" l="1630496958676" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1629316955539" />
@@ -97,7 +100,7 @@
       <i c="2" l="1615929432390" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
-      <i c="3" l="1630008033136" />
+      <i c="5" l="1630496918174" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
       <i c="2" l="1629309828382" />

@@ -21,7 +21,7 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
     @Override
     public @Nullable JComponent createComponent() {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
-        settingsComponent = new ErrorPrinterSettingsComponent(settings.getPrinterName(), settings.isErrEnabled(), settings.isOutEnabled(), settings.isTxtEnabled());
+        settingsComponent = new ErrorPrinterSettingsComponent(settings.getPrinterName(), settings.isErrEnabled(), settings.isOutEnabled(), settings.isTxtEnabled(), settings.isUnformatedEnabled());
         return settingsComponent.getPanel();
     }
 
@@ -30,8 +30,9 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
         ErrorPrinterSettingsState settings = ErrorPrinterSettingsState.getInstance();
         boolean modified = !settingsComponent.getPrinterName().equals(settings.getPrinterName()) ||
                 (settingsComponent.isErrEnabled() != settings.isErrEnabled()) ||
-                (settingsComponent.isOutEnabled() != settings.isOutEnabled() ||
-                        (settingsComponent.isTxtEnabled() != settings.isTxtEnabled()));
+                (settingsComponent.isOutEnabled() != settings.isOutEnabled()) ||
+                (settingsComponent.isTxtEnabled() != settings.isTxtEnabled()) ||
+                (settingsComponent.isUnformatedEnabled() != settings.isUnformatedEnabled());
         return modified;
     }
 
@@ -42,6 +43,7 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
         settings.setErrEnabled(settingsComponent.isErrEnabled());
         settings.setOutEnabled(settingsComponent.isOutEnabled());
         settings.setTxtEnabled(settingsComponent.isTxtEnabled());
+        settings.setUnformatedEnabled(settingsComponent.isUnformatedEnabled());
     }
 
     @Override
@@ -51,6 +53,7 @@ public class ErrorPrinterSettingsConfigurable implements Configurable {
         settingsComponent.setErrEnabled(settings.isErrEnabled());
         settingsComponent.setOutEnabled(settings.isOutEnabled());
         settingsComponent.setTxtEnabled(settings.isTxtEnabled());
+        settingsComponent.setUnformatedEnabled(settings.isUnformatedEnabled());
     }
 
     @Override

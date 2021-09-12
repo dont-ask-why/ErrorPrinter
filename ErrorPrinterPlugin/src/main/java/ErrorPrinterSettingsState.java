@@ -26,6 +26,7 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
     private boolean errEnabled = false;
     private boolean outEnabled = false;
     private boolean txtEnabled = false;
+    private boolean unformatedEnabled = false;
 
     public static ErrorPrinterSettingsState getInstance() {
         return ApplicationManager.getApplication().getService(ErrorPrinterSettingsState.class);
@@ -63,6 +64,10 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
      */
     public void setTxtEnabled(boolean txtEnabled) {
         this.txtEnabled = txtEnabled;
+    }
+
+    public void setUnformatedEnabled(boolean unformatedEnabled) {
+        this.unformatedEnabled = unformatedEnabled;
     }
 
     /**
@@ -105,5 +110,9 @@ public class ErrorPrinterSettingsState implements PersistentStateComponent<Error
      */
     public boolean isTxtEnabled() {
         return this.txtEnabled;
+    }
+
+    public boolean isUnformatedEnabled() {
+        return this.unformatedEnabled;
     }
 }

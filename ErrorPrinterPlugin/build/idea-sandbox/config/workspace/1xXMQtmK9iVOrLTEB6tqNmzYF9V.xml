@@ -1,0 +1,137 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Test.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1350859" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info id="Space Code Reviews" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3297414" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Layout Validation" order="1" />
+    </layout>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom" timestamp="1630505509857">
+      <screen x="-1920" y="240" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@-1920.240.1920.1160" timestamp="1630505509857" />
+    <state width="1899" height="354" key="GridCell.Tab.0.center" timestamp="1630505509857">
+      <screen x="-1920" y="240" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.center/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@-1920.240.1920.1160" timestamp="1630505509857" />
+    <state width="1899" height="354" key="GridCell.Tab.0.left" timestamp="1630505509857">
+      <screen x="-1920" y="240" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.left/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@-1920.240.1920.1160" timestamp="1630505509857" />
+    <state width="1899" height="354" key="GridCell.Tab.0.right" timestamp="1630505509857">
+      <screen x="-1920" y="240" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.right/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@-1920.240.1920.1160" timestamp="1630505509857" />
+    <state x="-1459" y="460" width="916" height="708" key="SettingsEditor" timestamp="1630505219738">
+      <screen x="-1920" y="240" width="1920" height="1160" />
+    </state>
+    <state x="-1459" y="460" width="916" height="708" key="SettingsEditor/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@-1920.240.1920.1160" timestamp="1630505219738" />
+    <state x="615" y="266" key="SettingsEditor/-1920.240.1920.1160/2560.240.1920.1160/0.0.2560.1400/280.1440.1280.680@0.0.2560.1400" timestamp="1630502266141" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

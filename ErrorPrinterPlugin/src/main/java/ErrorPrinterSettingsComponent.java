@@ -14,14 +14,17 @@ public class ErrorPrinterSettingsComponent {
     private final JBCheckBox enableSysErrCheckBox = new JBCheckBox("Print everything from System.err");
     private final JBCheckBox enableSysOutCheckBox = new JBCheckBox("Print everything from System.out");
     private final JBCheckBox enableTxtPrintCheckBox = new JBCheckBox("Save as .txt");
+    private final JBCheckBox enableUnformatedCheckBox = new JBCheckBox("Legacy option.");
 
     private boolean errEnabled;
     private boolean outEnabled;
     private boolean txtEnabled;
+    private boolean unformatedEnabled;
     private String printerName;
 
-    public ErrorPrinterSettingsComponent(String selectedPrinterName, boolean errEnabled, boolean outEnabled, boolean txtEnabled) {
+    public ErrorPrinterSettingsComponent(String selectedPrinterName, boolean errEnabled, boolean outEnabled, boolean txtEnabled, boolean unformatedEnabled) {
         mainPanel = FormBuilder.createFormBuilder()
+                .addComponent(enableUnformatedCheckBox, 1)
                 .addComponent(enableTxtPrintCheckBox, 1)
                 .addComponent(printerList, 1)
                 .addComponent(enableSysErrCheckBox, 2)
@@ -33,11 +36,17 @@ public class ErrorPrinterSettingsComponent {
         this.errEnabled = errEnabled;
         this.outEnabled = outEnabled;
         this.txtEnabled = txtEnabled;
+        this.unformatedEnabled = unformatedEnabled;
 
         enableTxtPrintCheckBox.setSelected(txtEnabled);
         enableSysErrCheckBox.setSelected(errEnabled);
         enableSysOutCheckBox.setSelected(outEnabled);
+        enableUnformatedCheckBox.setSelected(unformatedEnabled);
         printerList.setSelectedItem(printerName);
+
+        enableUnformatedCheckBox.addActionListener(actionEvent -> {
+            setUnformatedEnabled(enableUnformatedCheckBox.isSelected());
+        });
 
         enableTxtPrintCheckBox.addActionListener(actionEvent -> {
             setTxtEnabled(enableTxtPrintCheckBox.isSelected());
@@ -96,6 +105,10 @@ public class ErrorPrinterSettingsComponent {
         return this.txtEnabled;
     }
 
+    public boolean isUnformatedEnabled() {
+        return this.unformatedEnabled;
+    }
+
     /**
      *
      * @param outEnabled boolean to set std.out printing.
@@ -118,6 +131,10 @@ public class ErrorPrinterSettingsComponent {
      */
     public void setTxtEnabled(boolean txtEnabled) {
         this.txtEnabled = txtEnabled;
+    }
+
+    public void setUnformatedEnabled(boolean unformatedEnabled) {
+        this.unformatedEnabled = unformatedEnabled;
     }
 
     /**
