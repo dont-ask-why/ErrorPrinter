@@ -71,6 +71,7 @@ public final class PrintUtility {
         PrintService printService = findPrintService(printerName);
 
         JTextPane jtp = new JTextPane();
+        jtp.setContentType("text/html");
         jtp.setBackground(JBColor.WHITE);
         jtp.setForeground(JBColor.BLACK);
         jtp.setText(content);

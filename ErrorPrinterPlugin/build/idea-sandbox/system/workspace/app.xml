@@ -12063,17 +12063,6 @@
       </BundleConfigBean>
     </bundles>
   </component>
-  <component name="shared-index-download-history">
-    <option name="entries">
-      <entry>
-        <option name="indexId" value="4e15e05f897ba705b71a1f7f400a0a96dc13fbcbdb71691b8f25c011eab58431#Amazon Corretto version 11.0.10" />
-        <option name="indexKind" value="jdk" />
-        <option name="lastDeliveredChunkUniqueId" value="11.0.11-corretto-11.0.11-854267df6c5e7786d22bac7861602dedd619641958a0038f42632fbf9130092a-68a5a4f53222" />
-        <option name="lastDownloadDate" value="2021-09-12T20:13:20.44489+02:00[Europe/Berlin]" />
-        <option name="lastDownloadSize" value="24467560" />
-      </entry>
-    </option>
-  </component>
   <component name="shared-index-jdk-hash">
     <option name="entries">
       <entry>
@@ -12124,6 +12113,28 @@
         </option>
         <option name="name" value="openjdk-16" />
         <option name="snapshotHash" value="a06fd37fade09403082592c8fa5383c59f28902dba15580dd50ad84081177a77" />
+      </entry>
+      <entry>
+        <option name="aliases">
+          <list>
+            <option value="corretto-11.0.15" />
+            <option value="corretto-11" />
+            <option value="11.0.15" />
+            <option value="11" />
+          </list>
+        </option>
+        <option name="name" value="corretto-11" />
+        <option name="snapshotHash" value="bb856acc1954e0051e2019b2a6281034da06168bf2f5e693597f6ce9bc5483b9" />
+      </entry>
+      <entry>
+        <option name="aliases">
+          <list>
+            <option value="11" />
+          </list>
+        </option>
+        <option name="hash" value="c47d456b11ae17dbea7d3718494dfda0d534fe65" />
+        <option name="name" value="corretto-11" />
+        <option name="snapshotHash" value="a0c0d626b579958b9cc2ed7303f469db0f13a9e418201db2a5e8556920cbf369" />
       </entry>
     </option>
   </component>

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'de.example'
-version '1.1.0'
+version '1.2.0'
 
 repositories {
     mavenCentral()
@@ -22,8 +22,8 @@ intellij {
 
 patchPluginXml {
     changeNotes = """
-        Update Plugin Icon.<br/>
-        Add option to save console as .txt file"""
+        Add simplified print option.<br/>
+        Clean up settings menu"""
 }
 
 test {

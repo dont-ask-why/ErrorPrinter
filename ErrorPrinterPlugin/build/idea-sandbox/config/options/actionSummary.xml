@@ -19,10 +19,10 @@
       <i c="1" l="1615320462099" />
     </e>
     <e n="EditorBackSpace">
-      <i c="92" l="1631476873395" />
+      <i c="122" l="1650911011378" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="12" l="1631476836578" />
+      <i c="14" l="1650910990202" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="14" l="1629318333660" />
@@ -40,13 +40,13 @@
       <i c="60" l="1630351095607" />
     </e>
     <e n="EditorEnter">
-      <i c="27" l="1631476829240" />
+      <i c="28" l="1650910982796" />
     </e>
     <e n="EditorEscape">
       <i c="1" l="1629317631847" />
     </e>
     <e n="EditorIndentSelection">
-      <i c="1" l="1629317312123" />
+      <i c="2" l="1650911013369" />
     </e>
     <e n="EditorLeft">
       <i c="17" l="1629318330748" />
@@ -81,8 +81,11 @@
     <e n="NewProject">
       <i c="4" l="1630351037593" />
     </e>
+    <e n="OpenFile">
+      <i c="1" l="1650911098631" />
+    </e>
     <e n="Run">
-      <i c="62" l="1631476860958" />
+      <i c="86" l="1650913772764" />
     </e>
     <e n="SaveAll">
       <i c="1" l="1630497005290" />
@@ -91,16 +94,16 @@
       <i c="7" l="1630497063889" />
     </e>
     <e n="ShowSettings">
-      <i c="140" l="1631477939258" />
+      <i c="147" l="1650912661985" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="7" l="1631470373779" />
+      <i c="8" l="1650910744622" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1629316955539" />
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
-      <i c="1" l="1630351271028" />
+      <i c="2" l="1650911003373" />
     </e>
     <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
       <i c="2" l="1615929432390" />

@@ -1,0 +1,14 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea\misc.xml" t="1650910930" />
+    <f p="./.idea\modules.xml" t="1650910770" />
+    <f p="./.idea\workspace.xml" t="1650913773" />
+    <f p="./.idea\project-template.xml" t="1650910767" />
+    <f p="./.idea\runConfigurations.xml" t="1650910770" />
+    <f p="./test.iml" t="1650910770" />
+    <f p="./.idea\encodings.xml" t="1650910770" />
+  </project-files>
+</conversion>

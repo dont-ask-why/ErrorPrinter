@@ -22,6 +22,7 @@ public class ErrorStartupActivity implements StartupActivity {
         project.getMessageBus().connect().subscribe(ExecutionManager.EXECUTION_TOPIC, new ExecutionListener() {
             private ErrorPrinterSettingsState settingsState = ErrorPrinterSettingsState.getInstance();
             private StringBuilder errorMessages = new StringBuilder();
+            private StringBuilder errorMessagesFormated = new StringBuilder();
 
             /**
              * This method is called on termination of the project process.
@@ -34,7 +35,7 @@ public class ErrorStartupActivity implements StartupActivity {
             @Override
             public void processTerminated(@org.jetbrains.annotations.NotNull String executorId, @org.jetbrains.annotations.NotNull ExecutionEnvironment env, @org.jetbrains.annotations.NotNull ProcessHandler handler, int exitCode) {
                 if ((settingsState.isErrEnabled() || settingsState.isOutEnabled())
-                        && (settingsState.isTxtEnabled() || settingsState.getPrinterName().equals("Not selected"))) {
+                        && (settingsState.isTxtEnabled() || !settingsState.getPrinterName().equals("Not selected"))) {
                     if (settingsState.isTxtEnabled()) {
                         PrintUtility.writeTextToFile(errorMessages.toString());
                     }
@@ -43,7 +44,7 @@ public class ErrorStartupActivity implements StartupActivity {
                         if (settingsState.isUnformatedEnabled()) {
                             PrintUtility.printUnformatted(errorMessages.toString(), settingsState.getPrinterName());
                         } else {
-                            PrintUtility.printString(errorMessages.toString(), settingsState.getPrinterName());
+                            PrintUtility.printString(errorMessagesFormated.toString(), settingsState.getPrinterName());
                         }
                     }
                 }
@@ -58,6 +59,7 @@ public class ErrorStartupActivity implements StartupActivity {
              */
             @Override
             public void processStarted(@org.jetbrains.annotations.NotNull String executorId, @org.jetbrains.annotations.NotNull ExecutionEnvironment env, @org.jetbrains.annotations.NotNull ProcessHandler handler) {
+                errorMessagesFormated = new StringBuilder();
                 errorMessages = new StringBuilder();
                 handler.addProcessListener(new ProcessAdapter() {
                     /**
@@ -70,8 +72,14 @@ public class ErrorStartupActivity implements StartupActivity {
                     public void onTextAvailable(@NotNull ProcessEvent event, @NotNull Key outputType) {
                         if (outputType == ProcessOutputTypes.STDERR && settingsState.isErrEnabled()) {
                             errorMessages.append(event.getText());
+                            errorMessagesFormated.append("<br><span style=\"color:#B5114C; font-family:monospace; font-weight:bold\">");
+                            errorMessagesFormated.append(event.getText());
+                            errorMessagesFormated.append("</font></span>");
                         } else if (outputType == ProcessOutputType.STDOUT && settingsState.isOutEnabled()) {
                             errorMessages.append(event.getText());
+                            errorMessagesFormated.append("<br><span style=\"color:#2B2F62; font-family:monospace; font-weight:bold\">");
+                            errorMessagesFormated.append(event.getText());
+                            errorMessagesFormated.append("</font></span>");
                         }
                     }
                 });

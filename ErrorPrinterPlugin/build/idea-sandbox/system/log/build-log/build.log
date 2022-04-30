@@ -3662,3 +3662,600 @@ java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
 2021-09-12 22:18:58,764 [    388]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 132 ms
 2021-09-12 22:18:58,764 [    388]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
 2021-09-12 22:18:58,818 [    442]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2021-09-12 22:28:35,302 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-09-12 22:28:35,302 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/verobuckina/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2021-09-12 22:28:35,468 [    166]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 154 ms
+2021-09-12 22:28:35,588 [    286]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/verobuckina/Desktop/test, global options path = /media/verobuckina/Shared-Volume/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2021-09-12 22:28:35,701 [    399]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 113 ms
+2021-09-12 22:28:35,701 [    399]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2021-09-12 22:28:35,741 [    439]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:23:38,096 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:23:38,101 [      5]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:23:38,387 [    291]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 272 ms
+2022-04-25 20:23:38,492 [    396]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:23:38,628 [    532]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 135 ms
+2022-04-25 20:23:38,628 [    532]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:23:38,681 [    585]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:23:38,828 [    732]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2022-04-25 20:23:38,829 [    733]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:23:38,829 [    733]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:23:38,832 [    736]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:23:38,832 [    736]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 8f8024ae
+2022-04-25 20:23:38,839 [    743]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-04-25 20:23:38,968 [    872]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 28 ms
+2022-04-25 20:23:39,394 [   1298]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 309 ms
+2022-04-25 20:23:39,400 [   1304]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 316 ms
+2022-04-25 20:23:39,415 [   1319]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: test
+2022-04-25 20:23:39,884 [   1788]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 347 ms; 1 sources processed (347 ms per file)
+2022-04-25 20:23:39,885 [   1789]   INFO - s.incremental.java.JavaBuilder - javac 11 was used to compile [test]
+2022-04-25 20:23:40,305 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:23:40,305 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:23:40,643 [    338]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 325 ms
+2022-04-25 20:23:40,665 [    360]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:23:40,686 [    381]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:23:40,813 [    508]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 126 ms
+2022-04-25 20:23:40,813 [    508]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:23:40,868 [    563]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:23:41,055 [    750]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 751 ms
+2022-04-25 20:23:41,110 [    805]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:24:07,074 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:24:07,074 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:24:07,360 [    286]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 272 ms
+2022-04-25 20:24:07,474 [    400]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:24:07,605 [    531]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 130 ms
+2022-04-25 20:24:07,605 [    531]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:24:07,655 [    581]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:24:07,817 [    743]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:24:07,818 [    744]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:24:07,818 [    744]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:24:07,821 [    747]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:24:07,821 [    747]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 49d881f6
+2022-04-25 20:24:07,934 [    860]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:24:08,444 [   1370]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 310 ms
+2022-04-25 20:24:08,452 [   1378]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 320 ms
+2022-04-25 20:24:08,891 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:24:08,891 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:24:09,200 [    309]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 295 ms
+2022-04-25 20:24:09,224 [    333]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:24:09,247 [    356]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:24:09,373 [    482]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 125 ms
+2022-04-25 20:24:09,373 [    482]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:24:09,429 [    538]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:24:09,558 [    667]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 667 ms
+2022-04-25 20:24:48,115 [  39224]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:24:48,498 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:24:48,498 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:24:48,780 [    282]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 270 ms
+2022-04-25 20:24:48,802 [    304]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:24:48,821 [    323]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:24:48,950 [    452]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2022-04-25 20:24:48,950 [    452]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:24:49,007 [    509]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:24:49,140 [    642]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 642 ms
+2022-04-25 20:24:54,013 [   5515]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:24:54,378 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:24:54,378 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:24:54,662 [    284]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 272 ms
+2022-04-25 20:24:54,685 [    307]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:24:54,705 [    327]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:24:54,826 [    448]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 120 ms
+2022-04-25 20:24:54,826 [    448]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:24:54,880 [    502]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:24:55,010 [    632]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 632 ms
+2022-04-25 20:25:12,611 [  18233]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:25:12,979 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:25:12,979 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:25:13,277 [    298]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 284 ms
+2022-04-25 20:25:13,299 [    320]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:25:13,319 [    340]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:25:13,443 [    464]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 123 ms
+2022-04-25 20:25:13,443 [    464]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:25:13,497 [    518]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:25:13,620 [    641]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 640 ms
+2022-04-25 20:25:52,987 [  40008]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:25:53,349 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:25:53,349 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:25:53,632 [    283]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 269 ms
+2022-04-25 20:25:53,654 [    305]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:25:53,674 [    325]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:25:53,797 [    448]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 122 ms
+2022-04-25 20:25:53,797 [    448]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:25:53,853 [    504]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:25:53,979 [    630]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 629 ms
+2022-04-25 20:26:42,521 [  49172]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:29:38,367 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:29:38,368 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:29:38,719 [    352]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 337 ms
+2022-04-25 20:29:38,857 [    490]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:29:39,002 [    635]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 143 ms
+2022-04-25 20:29:39,002 [    635]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:29:39,054 [    687]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:29:59,989 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:29:59,990 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:30:00,308 [    319]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 304 ms
+2022-04-25 20:30:00,448 [    459]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:30:00,593 [    604]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 145 ms
+2022-04-25 20:30:00,594 [    605]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:30:00,648 [    659]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:30:00,827 [    838]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:30:00,829 [    840]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:30:00,829 [    840]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:30:00,833 [    844]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:30:00,833 [    844]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 681376de
+2022-04-25 20:30:00,951 [    962]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:30:01,369 [   1380]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 330 ms
+2022-04-25 20:30:01,376 [   1387]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 339 ms
+2022-04-25 20:30:01,824 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:30:01,824 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:30:02,129 [    305]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 290 ms
+2022-04-25 20:30:02,152 [    328]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:30:02,173 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:30:02,310 [    486]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 136 ms
+2022-04-25 20:30:02,310 [    486]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:30:02,366 [    542]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:30:02,493 [    669]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 670 ms
+2022-04-25 20:30:54,631 [  52807]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:33:56,017 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:33:56,018 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:33:56,366 [    349]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 334 ms
+2022-04-25 20:33:56,494 [    477]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:33:56,643 [    626]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 149 ms
+2022-04-25 20:33:56,643 [    626]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:33:56,700 [    683]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:34:01,777 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:34:01,778 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:34:02,091 [    314]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 299 ms
+2022-04-25 20:34:02,223 [    446]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:34:02,370 [    593]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 147 ms
+2022-04-25 20:34:02,370 [    593]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:34:02,424 [    647]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:34:02,600 [    823]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:34:02,602 [    825]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:34:02,602 [    825]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:34:02,607 [    830]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:34:02,607 [    830]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started ed5c764e
+2022-04-25 20:34:02,725 [    948]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:34:03,186 [   1409]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 358 ms
+2022-04-25 20:34:03,194 [   1417]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 368 ms
+2022-04-25 20:34:03,851 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:34:03,851 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:34:04,180 [    329]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 313 ms
+2022-04-25 20:34:04,202 [    351]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:34:04,223 [    372]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:34:04,352 [    501]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2022-04-25 20:34:04,352 [    501]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:34:04,411 [    560]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:34:04,539 [    688]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 688 ms
+2022-04-25 20:34:51,990 [  48139]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:36:23,312 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:36:23,312 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:36:23,653 [    341]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 325 ms
+2022-04-25 20:36:23,791 [    479]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:36:23,945 [    633]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 154 ms
+2022-04-25 20:36:23,945 [    633]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:36:24,006 [    694]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:36:25,149 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:36:25,149 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:36:25,477 [    328]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 315 ms
+2022-04-25 20:36:25,606 [    457]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:36:25,736 [    587]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 131 ms
+2022-04-25 20:36:25,736 [    587]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:36:25,793 [    644]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:36:25,959 [    810]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:36:25,960 [    811]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:36:25,960 [    811]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:36:25,963 [    814]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:36:25,963 [    814]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started f3113352
+2022-04-25 20:36:26,063 [    914]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:36:26,697 [   1548]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 370 ms
+2022-04-25 20:36:26,707 [   1558]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 381 ms
+2022-04-25 20:36:27,620 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:36:27,621 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:36:28,091 [    471]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 454 ms
+2022-04-25 20:36:28,116 [    496]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:36:28,143 [    523]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:36:28,308 [    688]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 165 ms
+2022-04-25 20:36:28,308 [    688]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:36:28,371 [    751]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:36:28,519 [    899]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 898 ms
+2022-04-25 20:37:32,766 [  65146]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:37:44,913 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:37:44,913 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:37:45,262 [    349]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 332 ms
+2022-04-25 20:37:45,385 [    472]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:37:45,526 [    613]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 141 ms
+2022-04-25 20:37:45,526 [    613]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:37:45,581 [    668]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:38:02,274 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:38:02,275 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:38:02,558 [    284]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 270 ms
+2022-04-25 20:38:02,676 [    402]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:38:03,011 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:38:03,011 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:38:03,318 [    307]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 292 ms
+2022-04-25 20:38:03,341 [    330]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:38:03,360 [    349]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:38:03,483 [    472]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 123 ms
+2022-04-25 20:38:03,483 [    472]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:38:03,540 [    529]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:38:03,661 [    650]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 650 ms
+2022-04-25 20:38:33,173 [  30162]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:44:50,341 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:44:50,341 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:44:50,690 [    349]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 333 ms
+2022-04-25 20:44:50,811 [    470]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:44:50,962 [    621]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 149 ms
+2022-04-25 20:44:50,962 [    621]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:44:51,014 [    673]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:44:52,150 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:44:52,151 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:44:52,477 [    327]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 312 ms
+2022-04-25 20:44:52,603 [    453]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:44:52,967 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:44:52,967 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:44:53,260 [    293]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 279 ms
+2022-04-25 20:44:53,283 [    316]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:44:53,301 [    334]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:44:53,433 [    466]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 131 ms
+2022-04-25 20:44:53,433 [    466]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:44:53,497 [    530]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:44:53,631 [    664]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 665 ms
+2022-04-25 20:48:30,870 [ 217903]   WARN - channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:620)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-25 20:48:42,111 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:48:42,112 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:48:42,400 [    289]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 274 ms
+2022-04-25 20:48:42,509 [    398]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:48:42,643 [    532]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2022-04-25 20:48:42,643 [    532]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:48:42,697 [    586]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:48:44,251 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:48:44,252 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:48:44,597 [    346]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 331 ms
+2022-04-25 20:48:44,724 [    473]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:48:45,086 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:48:45,086 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:48:45,379 [    293]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 280 ms
+2022-04-25 20:48:45,402 [    316]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:48:45,423 [    337]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:48:45,562 [    476]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 138 ms
+2022-04-25 20:48:45,562 [    476]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:48:45,623 [    537]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:48:45,758 [    672]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 673 ms
+2022-04-25 20:48:58,783 [  13697]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:48:58,786 [  13700]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:48:58,786 [  13700]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:48:58,789 [  13703]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:48:58,790 [  13704]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 198e924
+2022-04-25 20:48:58,914 [  13828]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:48:59,487 [  14401]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 341 ms
+2022-04-25 20:48:59,494 [  14408]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 349 ms
+2022-04-25 20:49:00,643 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:49:00,643 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:49:00,991 [    348]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 332 ms
+2022-04-25 20:49:01,021 [    378]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:49:01,049 [    406]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:49:01,212 [    569]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 162 ms
+2022-04-25 20:49:01,212 [    569]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:49:01,282 [    639]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:49:01,462 [    819]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 820 ms
+2022-04-25 20:49:10,200 [   9557]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:49:10,595 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:49:10,596 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:49:10,889 [    294]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 280 ms
+2022-04-25 20:49:10,912 [    317]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:49:10,932 [    337]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:49:11,055 [    460]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 123 ms
+2022-04-25 20:49:11,055 [    460]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:49:11,110 [    515]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:49:11,234 [    639]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 638 ms
+2022-04-25 20:49:39,470 [  28875]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:50:12,216 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:50:12,217 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:50:12,561 [    345]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 329 ms
+2022-04-25 20:50:12,681 [    465]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:50:12,854 [    638]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 171 ms
+2022-04-25 20:50:12,854 [    638]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:50:12,914 [    698]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:50:13,700 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:50:13,700 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:50:14,056 [    356]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 341 ms
+2022-04-25 20:50:14,184 [    484]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:50:14,563 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:50:14,564 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:50:14,855 [    292]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 278 ms
+2022-04-25 20:50:14,877 [    314]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:50:14,897 [    334]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:50:15,025 [    462]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 128 ms
+2022-04-25 20:50:15,025 [    462]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:50:15,084 [    521]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:50:15,223 [    660]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 660 ms
+2022-04-25 20:52:50,688 [ 156125]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:54:06,412 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:54:06,412 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:54:06,723 [    311]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 298 ms
+2022-04-25 20:54:06,858 [    446]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:54:07,009 [    597]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 151 ms
+2022-04-25 20:54:07,009 [    597]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:54:07,074 [    662]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:54:07,692 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:54:07,693 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:54:07,990 [    298]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 284 ms
+2022-04-25 20:54:08,139 [    447]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:54:08,276 [    584]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 136 ms
+2022-04-25 20:54:08,276 [    584]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:54:08,328 [    636]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:54:08,501 [    809]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 20:54:08,502 [    810]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 20:54:08,502 [    810]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 20:54:08,505 [    813]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 20:54:08,505 [    813]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started dd09ae9d
+2022-04-25 20:54:08,611 [    919]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 20:54:09,026 [   1334]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 328 ms
+2022-04-25 20:54:09,035 [   1343]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 339 ms
+2022-04-25 20:54:09,625 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:54:09,625 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:54:10,036 [    411]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 389 ms
+2022-04-25 20:54:10,060 [    435]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:54:10,089 [    464]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:54:10,287 [    662]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 198 ms
+2022-04-25 20:54:10,288 [    663]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:54:10,362 [    737]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:54:10,541 [    916]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 917 ms
+2022-04-25 20:55:17,533 [  67908]   WARN - channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:620)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-25 20:55:28,155 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:55:28,156 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:55:28,513 [    358]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 340 ms
+2022-04-25 20:55:28,640 [    485]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:55:28,791 [    636]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 151 ms
+2022-04-25 20:55:28,791 [    636]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:55:28,855 [    700]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:55:30,547 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:55:30,548 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:55:30,843 [    296]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 282 ms
+2022-04-25 20:55:31,004 [    457]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:55:31,442 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:55:31,443 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:55:31,845 [    403]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 382 ms
+2022-04-25 20:55:31,877 [    435]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:55:31,905 [    463]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:55:32,065 [    623]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 159 ms
+2022-04-25 20:55:32,065 [    623]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:55:32,141 [    699]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:55:32,331 [    889]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 889 ms
+2022-04-25 20:55:53,648 [  22206]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:55:54,042 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:55:54,042 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:55:54,339 [    297]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 283 ms
+2022-04-25 20:55:54,362 [    320]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:55:54,382 [    340]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:55:54,515 [    473]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 133 ms
+2022-04-25 20:55:54,515 [    473]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:55:54,575 [    533]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:55:54,710 [    668]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 668 ms
+2022-04-25 20:59:13,981 [ 199939]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 20:59:25,392 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:59:25,393 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:59:25,721 [    329]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 314 ms
+2022-04-25 20:59:25,832 [    440]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:59:25,966 [    574]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2022-04-25 20:59:25,967 [    575]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:59:26,020 [    628]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:59:28,563 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:59:28,564 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:59:28,976 [    413]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 399 ms
+2022-04-25 20:59:29,207 [    644]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:59:29,643 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:59:29,643 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:59:29,988 [    345]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 330 ms
+2022-04-25 20:59:30,028 [    385]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:59:30,068 [    425]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:59:30,259 [    616]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 190 ms
+2022-04-25 20:59:30,259 [    616]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:59:30,372 [    729]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:59:30,637 [    994]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 995 ms
+2022-04-25 20:59:43,559 [  13916]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 20:59:44,238 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 20:59:44,238 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 20:59:44,536 [    298]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 285 ms
+2022-04-25 20:59:44,560 [    322]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 20:59:44,582 [    344]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 20:59:44,718 [    480]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 135 ms
+2022-04-25 20:59:44,719 [    481]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 20:59:44,775 [    537]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 20:59:44,902 [    664]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 664 ms
+2022-04-25 21:01:57,934 [ 133696]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:02:09,765 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:02:09,766 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:02:10,070 [    305]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 290 ms
+2022-04-25 21:02:10,196 [    431]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:02:10,338 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 142 ms
+2022-04-25 21:02:10,338 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:02:10,399 [    634]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:02:11,144 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:02:11,144 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:02:11,476 [    332]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 315 ms
+2022-04-25 21:02:11,598 [    454]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 21:02:11,955 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:02:11,955 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:02:12,259 [    304]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 288 ms
+2022-04-25 21:02:12,282 [    327]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:02:12,303 [    348]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:02:12,427 [    472]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 124 ms
+2022-04-25 21:02:12,427 [    472]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:02:12,486 [    531]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:02:12,631 [    676]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 677 ms
+2022-04-25 21:02:41,896 [  29941]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:03:33,512 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:03:33,512 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:03:33,830 [    318]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 303 ms
+2022-04-25 21:03:33,951 [    439]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:03:34,090 [    578]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 138 ms
+2022-04-25 21:03:34,090 [    578]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:03:34,144 [    632]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:03:35,084 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:03:35,085 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:03:35,413 [    329]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 316 ms
+2022-04-25 21:03:35,538 [    454]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 21:03:35,925 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:03:35,926 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:03:36,221 [    296]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 282 ms
+2022-04-25 21:03:36,245 [    320]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:03:36,264 [    339]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:03:36,398 [    473]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 133 ms
+2022-04-25 21:03:36,398 [    473]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:03:36,460 [    535]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:03:36,615 [    690]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 688 ms
+2022-04-25 21:03:55,114 [  19189]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:04:05,030 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:04:05,031 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:04:05,357 [    327]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 309 ms
+2022-04-25 21:04:05,474 [    444]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:04:05,606 [    576]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 132 ms
+2022-04-25 21:04:05,606 [    576]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:04:05,662 [    632]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:04:09,327 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:04:09,327 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:04:09,737 [    410]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 392 ms
+2022-04-25 21:04:09,874 [    547]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:04:10,058 [    731]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 184 ms
+2022-04-25 21:04:10,059 [    732]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:04:10,129 [    802]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:04:10,334 [   1007]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 21:04:10,335 [   1008]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 21:04:10,335 [   1008]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 21:04:10,339 [   1012]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 21:04:10,340 [   1013]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 14e0f6a
+2022-04-25 21:04:10,458 [   1131]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 21:04:10,963 [   1636]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 348 ms
+2022-04-25 21:04:10,971 [   1644]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 358 ms
+2022-04-25 21:04:11,446 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:04:11,446 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:04:11,807 [    362]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 344 ms
+2022-04-25 21:04:11,831 [    386]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:04:11,852 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:04:11,999 [    554]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 147 ms
+2022-04-25 21:04:11,999 [    554]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:04:12,070 [    625]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:04:12,232 [    787]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 786 ms
+2022-04-25 21:04:42,786 [  31341]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:04:53,772 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:04:53,773 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:04:54,083 [    311]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 294 ms
+2022-04-25 21:04:54,202 [    430]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:04:54,346 [    574]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 143 ms
+2022-04-25 21:04:54,346 [    574]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:04:54,400 [    628]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:04:59,170 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:04:59,171 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:04:59,477 [    307]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 293 ms
+2022-04-25 21:04:59,618 [    448]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2022-04-25 21:05:00,031 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:05:00,031 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:05:00,392 [    361]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 344 ms
+2022-04-25 21:05:00,421 [    390]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:05:00,445 [    414]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:05:00,607 [    576]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 162 ms
+2022-04-25 21:05:00,607 [    576]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:05:00,669 [    638]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:05:00,822 [    791]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 791 ms
+2022-04-25 21:05:42,781 [  42750]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:05:52,828 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:05:52,828 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:05:53,166 [    338]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 319 ms
+2022-04-25 21:05:53,278 [    450]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:05:53,416 [    588]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 138 ms
+2022-04-25 21:05:53,416 [    588]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:05:53,472 [    644]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:05:54,188 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:05:54,188 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:05:54,505 [    317]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 302 ms
+2022-04-25 21:05:54,631 [    443]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:05:54,761 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 129 ms
+2022-04-25 21:05:54,761 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:05:54,815 [    627]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:05:54,984 [    796]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 21:05:54,985 [    797]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 21:05:54,985 [    797]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 21:05:54,988 [    800]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 21:05:54,988 [    800]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 1114bee6
+2022-04-25 21:05:55,092 [    904]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 0 ms
+2022-04-25 21:05:55,603 [   1415]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 351 ms
+2022-04-25 21:05:55,611 [   1423]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 360 ms
+2022-04-25 21:05:56,518 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:05:56,519 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:05:56,899 [    381]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 365 ms
+2022-04-25 21:05:56,924 [    406]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:05:56,954 [    436]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:05:57,129 [    611]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 174 ms
+2022-04-25 21:05:57,129 [    611]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:05:57,196 [    678]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:05:57,368 [    850]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 850 ms
+2022-04-25 21:07:35,395 [  98877]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-04-25 21:09:07,080 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:09:07,081 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:09:07,441 [    361]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 341 ms
+2022-04-25 21:09:07,570 [    490]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:09:07,704 [    624]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 134 ms
+2022-04-25 21:09:07,704 [    624]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:09:07,758 [    678]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:09:33,572 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:09:33,572 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:09:33,856 [    284]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 270 ms
+2022-04-25 21:09:33,975 [    403]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:09:34,102 [    530]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 127 ms
+2022-04-25 21:09:34,102 [    530]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:09:34,156 [    584]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:09:34,318 [    746]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2022-04-25 21:09:34,320 [    748]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-04-25 21:09:34,320 [    748]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-04-25 21:09:34,323 [    751]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-04-25 21:09:34,323 [    751]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 19402c04
+2022-04-25 21:09:34,424 [    852]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1 ms
+2022-04-25 21:09:34,817 [   1245]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 306 ms
+2022-04-25 21:09:34,824 [   1252]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 315 ms
+2022-04-25 21:09:35,468 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-04-25 21:09:35,468 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Users/bucki/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/java/lib/jps-launcher.jar
+2022-04-25 21:09:35,759 [    291]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 278 ms
+2022-04-25 21:09:35,781 [    313]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-04-25 21:09:35,801 [    333]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/bucki/Desktop/test, global options path = G:/Projects/ErrorPrinter/ErrorPrinterPlugin/build/idea-sandbox/config/options
+2022-04-25 21:09:35,929 [    461]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 128 ms
+2022-04-25 21:09:35,929 [    461]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-04-25 21:09:35,991 [    523]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-04-25 21:09:36,125 [    657]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 657 ms
+2022-04-25 21:10:58,060 [  82592]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.

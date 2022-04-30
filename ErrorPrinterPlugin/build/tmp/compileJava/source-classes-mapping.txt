@@ -6,11 +6,11 @@ PrintUtility.java
  PrintUtility
  PrintUtility$PrintJobWatcher
  PrintUtility$PrintJobWatcher$1
-ErrorStartupActivity.java
- ErrorStartupActivity
- ErrorStartupActivity$1
- ErrorStartupActivity$1$1
 ErrorPrinterSettingsConfigurable.java
  ErrorPrinterSettingsConfigurable
 ErrorPrinterSettingsComponent.java
  ErrorPrinterSettingsComponent
+ErrorStartupActivity.java
+ ErrorStartupActivity
+ ErrorStartupActivity$1
+ ErrorStartupActivity$1$1
